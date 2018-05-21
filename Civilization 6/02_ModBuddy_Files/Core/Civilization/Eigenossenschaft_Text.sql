@@ -26,9 +26,9 @@ VALUES
 -----------------------------------------------
 -- UI
 -----------------------------------------------
-	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_NAME",	"en_US",	"Käserei"	),
+	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_NAME",	"en_US",	"Kaeserei"	),
 	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_DESCRIPTION",	"en_US",
-	"Ein Ort an dem gekäst wird."	),
+	"Ein Ort an dem gekaest wird."	),
 
 -----------------------------------------------
 -- UU
@@ -42,7 +42,7 @@ VALUES
 -----------------------------------------------
 -- Cities
 -----------------------------------------------
-	('LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1', 'en_US', 'Schwyz'),
+	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1", "en_US", "Schwyz"),
 	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "en_US", "Altdorf"),
 	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_3", "en_US", "Sarnen"),
 	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_4", "en_US", "Andermatt"),
