@@ -13,44 +13,31 @@ VALUES
 -- Civilization
 -----------------------------------------------
 	("LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_NAME",			"en_US",	"Schweiz"			),
-	("LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_NAME",			"de_DE",	"Schweiz"			),
 	("LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_DESCRIPTION",	"en_US",	"Schweizer Eidgenossenschaft"	),
-	("LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_DESCRIPTION",	"de_DE",	"Schweizer Eidgenossenschaft"	),
 	("LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_ADJECTIVE",  	"en_US",	"schweizer"			),
-	("LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_ADJECTIVE",  	"de_DE",	"schweizer"			),
 
 -----------------------------------------------
 -- UA
 -----------------------------------------------
 	("LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UA_NAME",  "en_US",	"Unique Ability"	),
-	("LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UA_NAME",  "de_DE",	"Unique Ability"	),
 	("LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UA_DESCRIPTION",	"en_US",
-	"Plaecholder."	),
-	("LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UA_DESCRIPTION",	"de_DE",
 	"Plaecholder."	),
 
 -----------------------------------------------
 -- UI
 -----------------------------------------------
-	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_NAME",	"en_US",	"Kuserei"	),
-	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_NAME",	"de_DE",	"Keserei"	),
+	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_NAME",	"en_US",	"Käserei"	),
 	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_DESCRIPTION",	"en_US",
-	"Plaecholder."	),
-	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_DESCRIPTION",	"de_DE",
-	"Plaecholder."	),
+	"Ein Ort an dem gekäst wird."	),
 
 -----------------------------------------------
 -- UU
 -----------------------------------------------
 	("LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_NAME",	"en_US",	"Hellebardier"	),
-	("LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_NAME",	"de_DE",	"Hellebardier"	),
 	("LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_DESCRIPTION",	"en_US",
-	"Plaecholder."),
-	("LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_DESCRIPTION",	"de_DE",
 	"Plaecholder."),
 
 	("LOC_MODIFIER_TROS_EIDGENOSSENSCHAFT_UU_ADJUST_STRENGTH_DESCRIPTION",	"en_US",	"Plaecholder."	),
-	("LOC_MODIFIER_TROS_EIDGENOSSENSCHAFT_UU_ADJUST_STRENGTH_DESCRIPTION",	"de_DE",	"Plaecholder."	),
 
 -----------------------------------------------
 -- Cities
@@ -94,46 +81,6 @@ VALUES
 	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_37", "en_US", "Plaecholder"),
 	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_38", "en_US", "Plaecholder"),
 	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_39", "en_US", "Plaecholder"),
-
-	('LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1', 'de_DE', 'Schwyz'),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "de_DE", "Altdorf"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_3", "de_DE", "Sarnen"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_4", "de_DE", "Andermatt"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_5", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_6", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_7", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_8", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_9", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_10", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_11", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_12", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_13", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_14", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_15", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_16", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_17", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_18", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_19", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_20", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_21", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_22", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_23", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_24", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_25", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_26", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_27", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_28", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_29", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_30", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_31", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_32", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_33", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_34", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_35", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_36", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_37", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_38", "de_DE", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_39", "de_DE", "Plaecholder"),
 
 -----------------------------------------------
 -- Citizens

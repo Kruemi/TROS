@@ -12,19 +12,14 @@ VALUES
 -----------------------------------------------
 -- Leader
 -----------------------------------------------
-	('LOC_LEADER_TROS_STAUFFACHER_NAME',  'en_US',	'Werner Stauffacher'),
-	('LOC_LEADER_TROS_STAUFFACHER_NAME',  'de_DE',	'Werner Stauffacher'),
+	("LOC_LEADER_TROS_STAUFFACHER_NAME",  "en_US",	"Werner Stauffacher"),
 
 
 -----------------------------------------------
 -- UA
 -----------------------------------------------
 	("LOC_TRAIT_LEADER_TROS_STAUFFACHER_UA_NAME",  "en_US",	"Leader Ability"	),
-	("LOC_TRAIT_LEADER_TROS_STAUFFACHER_UA_NAME",  "de_DE",	"Leader Ability"	),
-	("LOC_TRAIT_LEADER_TROS_STAUFFACHER_UA_DESCRIPTION",	"en_US",
-	"Placeholder."),
-	("LOC_TRAIT_LEADER_TROS_STAUFFACHER_UA_DESCRIPTION",	"de_DE",
-	"Placeholder."),
+	("LOC_TRAIT_LEADER_TROS_STAUFFACHER_UA_DESCRIPTION",	"en_US",	"Placeholder."),
 
 -----------------------------------------------
 -- Agenda
