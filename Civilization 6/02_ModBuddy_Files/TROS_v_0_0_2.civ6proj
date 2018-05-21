@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>TROS_v_0_0_2</Name>
+    <Guid>6605538d-f9d8-419a-9713-1cf485e25e09</Guid>
+    <ProjectGuid>06ffd583-bfe5-45b2-bf83-5db0b463f120</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>The Rise of Switzerland</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>Michael Weber</Authors>
+    <SpecialThanks>Kruemi</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Keniisu's Rise and Fall Civ Template</AssemblyName>
+    <RootNamespace>Keniisu's Rise and Fall Civ Template</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization/Eigenossenschaft_Civilization.sql</File><File>Core/Civilization/Eigenossenschaft_UA.sql</File><File>Core/Civilization/Eigenossenschaft_UU.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File></UpdateText><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_UA.sql</File><File>Core/Leader/Stauffacher_Leader.sql</File><File>Core/Leader/Stauffacher_Agenda.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File><File>Core/Leader/Stauffacher_Text.sql</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core" />
+    <Folder Include="Core\Civilization" />
+    <Folder Include="Core\Leader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Core\Civilization\Eigenossenschaft_Civilization.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization\Eigenossenschaft_Text.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization\Eigenossenschaft_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization\Eigenossenschaft_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Stauffacher_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Stauffacher_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Stauffacher_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Stauffacher_Text.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Stauffacher_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
