@@ -42,7 +42,7 @@ VALUES
 -----------------------------------------------
 -- Cities
 -----------------------------------------------
-	("LOC_CITY_NAME_TROS_ZURICH_1", "en_US", "Zürich"),
+	("LOC_CITY_NAME_TROS_ZURICH_1", "en_US", "Zuerich"),
 	("LOC_CITY_NAME_TROS_ZURICH_2", "en_US", "Rapperswil"),
 	("LOC_CITY_NAME_TROS_ZURICH_3", "en_US", "Plaecholder"),
 	("LOC_CITY_NAME_TROS_ZURICH_4", "en_US", "Plaecholder"),
