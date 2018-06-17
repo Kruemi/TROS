@@ -16,8 +16,8 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>Keniisu's Rise and Fall Civ Template</AssemblyName>
     <RootNamespace>Keniisu's Rise and Fall Civ Template</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization/Eigenossenschaft_Civilization.sql</File><File>Core/Civilization/Eigenossenschaft_UA.sql</File><File>Core/Civilization/Eigenossenschaft_UU.sql</File><File>Core/Civilization/Habsburg_Civilization.sql</File><File>Core/Civilization/Habsburg_UA.sql</File><File>Core/Civilization/Habsburg_UU.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File><File>Core/Leader/Stauffacher_Text.sql</File><File>Core/Civilization/Habsburg_Text.sql</File><File>Core/Leader/Rudolf_Text.sql</File></UpdateText><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_UA.sql</File><File>Core/Leader/Stauffacher_Leader.sql</File><File>Core/Leader/Stauffacher_Agenda.sql</File><File>Core/Leader/Rudolf_UA.sql</File><File>Core/Leader/Rudolf_Leader.sql</File><File>Core/Leader/Rudolf_Agenda.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_Config.sql</File><File>Core/Leader/Rudolf_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File><File>Core/Leader/Stauffacher_Text.sql</File><File>Core/Civilization/Habsburg_Text.sql</File><File>Core/Leader/Rudolf_Text.sql</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization/Eigenossenschaft_Civilization.sql</File><File>Core/Civilization/Eigenossenschaft_UA.sql</File><File>Core/Civilization/Eigenossenschaft_UU.sql</File><File>Core/Civilization/Habsburg_Civilization.sql</File><File>Core/Civilization/Habsburg_UA.sql</File><File>Core/Civilization/Habsburg_UU.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File><File>Core/Leader/Stauffacher_Text.sql</File><File>Core/Civilization/Habsburg_Text.sql</File><File>Core/Leader/Rudolf_Text.sql</File></UpdateText><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_UA.sql</File><File>Core/Leader/Stauffacher_Leader.sql</File><File>Core/Leader/Stauffacher_Agenda.sql</File><File>Core/Leader/Rudolf_UA.sql</File><File>Core/Leader/Rudolf_Leader.sql</File><File>Core/Leader/Rudolf_Agenda.sql</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Eidgenossenschaft_Icons.xml</File></UpdateIcons><ImportFiles id="NewAction"><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.tex</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_Config.sql</File><File>Core/Leader/Rudolf_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File><File>Core/Leader/Stauffacher_Text.sql</File><File>Core/Civilization/Habsburg_Text.sql</File><File>Core/Leader/Rudolf_Text.sql</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Eidgenossenschaft_Icons.xml</File></UpdateIcons><ImportFiles id="NewAction"><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -29,6 +29,8 @@
     <Folder Include="Core" />
     <Folder Include="Core\Civilization" />
     <Folder Include="Core\Leader" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Core\Civilization\Eigenossenschaft_Civilization.sql">
@@ -53,6 +55,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Civilization\Habsburg_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Eidgenossenschaft_Icons.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Leader\Rudolf_Agenda.sql">
@@ -83,6 +88,75 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Leader\Stauffacher_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
