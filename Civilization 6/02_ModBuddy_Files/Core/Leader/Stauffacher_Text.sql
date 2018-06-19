@@ -41,12 +41,13 @@ VALUES
 
 -- DOM
 	("LOC_LOADING_INFO_LEADER_TROS_STAUFFACHER",  "en_US",
-	"PlaceholderPlaecholder."  	),
+	"Mitteleuropa befindet sich im Umbruch: Reiche der Zähringer und Kyburger sind zerfallen und sind auf der Suche nach neuen Herrn. Die Talschaften von Uri, Schwyz und Unterwalden haben ihren Bund erneuert und bestehen auf ihrer Reichsunmittelbarkeit mit Gewalt. Derweil strebt das Hause Habsburg nach Einfluss und dem Königsthron. Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung. Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
+	Das öffentliche Ansehen und Wohl erfordert, dass Friedensordnungen dauernde Geltung gegeben werde. Darum haben alle Leute der Talschaft Uri, die Gesamtheit des Tales Schwyz und die Gemeinde der Leute der unteren Talschaft von Unterwalden im Hinblick auf die Arglist der Zeit zu ihrem besseren Schutz und zu ihrer Erhaltung einander Beistand, Rat und Förderung mit Leib und Gut innerhalb ihrer Täler und ausserhalb nach ihrem ganzen Vermögen zugesagt gegen alle und jeden, die ihnen oder jemand aus ihnen Gewalt oder Unrecht an Leib oder Gut antun. Geschehen im Jahre des Herrn 1291 zu Anfang des Monats August."  	),
 
 -- FIRST MEET
 	-- First AI Line
 	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_STAUFFACHER_ANY",	"en_US",
-	"Plaecholder.Plaecholder." ),
+	"Grüezi. Wollen Sie von unserem Bergkäse probieren?" ),
 
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TROS_STAUFFACHER_ANY",	"en_US",
@@ -146,11 +147,11 @@ VALUES
 
 	-- From Human
 	("LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TROS_STAUFFACHER_ANY",	"en_US",
-	"Plaecholder"	),
+	"Aso jetzt isch gnueg Heu dune!"	),
 
 	-- From AI
 	("LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TROS_STAUFFACHER_ANY",	"en_US",
-	"Plaecholder"	),
+	"Aso jetzt isch gnueg Heu dune!"	),
 
 -- DOW
 

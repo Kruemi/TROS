@@ -11,10 +11,10 @@ VALUES	(
 		'Players:Expansion1_Players', -- Domain
 		'CIVILIZATION_TROS_HABSBURG', -- CivilizationType
 		'LOC_CIVILIZATION_TROS_HABSBURG_NAME', -- CivilizationName
-		'ICON_CIVILIZATION_TROS_HABSBURG_RUDOLF', -- CivilizationIcon
+		'ICON_CIVILIZATION_TROS_HABSBURG', -- CivilizationIcon
 		'LOC_TRAIT_CIVILIZATION_TROS_HABSBURG_UA_NAME', -- CivilizationAbilityName
 		'LOC_TRAIT_CIVILIZATION_TROS_HABSBURG_UA_DESCRIPTION', -- CivilizationAbilityDescription
-		'ICON_CIVILIZATION_TROS_HABSBURG_RUDOLF', -- CivilizationAbilityIcon
+		'ICON_CIVILIZATION_TROS_HABSBURG', -- CivilizationAbilityIcon
 		
 		-- Leader
 		'LEADER_TROS_RUDOLF', -- LeaderType
