@@ -13,7 +13,7 @@ VALUES
 -- Civilization
 -----------------------------------------------
 	("LOC_CIVILIZATION_TROS_GRAUBUNDEN_NAME",			"en_US",	"Graubünden"			),
-	("LOC_CIVILIZATION_TROS_GRAUBUNDEN_DESCRIPTION",	"en_US",	"Herrschaft der Drei Bünde"	),
+	("LOC_CIVILIZATION_TROS_GRAUBUNDEN_DESCRIPTION",	"en_US",	"Herrschaft der Drei Buende"	),
 	("LOC_CIVILIZATION_TROS_GRAUBUNDEN_ADJECTIVE",  	"en_US",	"bündnerisch"			),
 
 -----------------------------------------------

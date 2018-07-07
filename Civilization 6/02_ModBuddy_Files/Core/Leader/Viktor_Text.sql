@@ -52,11 +52,11 @@ VALUES
 -- FIRST MEET
 	-- First AI Line
 	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_VIKTOR_ANY",	"en_US",
-	"Plaecholder.Plaecholder." ),
+	"Buongiorno! Ravi de vous rencontrer." ),
 
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TROS_VIKTOR_ANY",	"en_US",
-	"Plaecholder."	),
+	"Je vous invite à notre capitale. Pouvons-nous vous saluer?"	),
 
 	-- AI accepts human invitation
 	("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TROS_VIKTOR_ANY",	"en_US",
@@ -203,7 +203,7 @@ VALUES
 	"VIKTOR"),
 
 	("LOC_PEDIA_LEADERS_PAGE_TROS_VIKTOR_SUBTITLE",	"en_US",
-	"Viktor Amadeus II., Herzog von Savoyen"	),
+	"Viktor Amadeus II., König von Sardinien, Herzog von Savoyen"	),
 
 	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_VIKTOR_CHAPTER_CAPSULE_BODY",	"en_US",
 	"If there is a lesson to be learned or indeed taught, VIKTOR's SAVOYEN excels at both."),

@@ -12,7 +12,7 @@ VALUES
 -----------------------------------------------
 -- Leader
 -----------------------------------------------
-	("LOC_LEADER_TROS_JENATSCH_NAME",  "en_US",	"Jörg Jenatsch"),
+	("LOC_LEADER_TROS_JENATSCH_NAME",  "en_US",	"Joerg Jenatsch"),
 
 
 -----------------------------------------------
@@ -53,7 +53,7 @@ VALUES
 
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TROS_JENATSCH_ANY",	"en_US",
-	"Plaecholder."	),
+	"Khunsch uf Khur obanaba? Mir ladend di ii!."	),
 
 	-- AI accepts human invitation
 	("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TROS_JENATSCH_ANY",	"en_US",
@@ -65,7 +65,7 @@ VALUES
 
 -- GREETINGS
 	("LOC_DIPLO_GREETING_LEADER_TROS_JENATSCH_ANY",	"en_US",
-	"Plaecholder."	),
+	"PlaecholderGREETINGS."	),
 
 -- DELEGATION
 	-- AI Accepts
