@@ -12,7 +12,7 @@ VALUES
 -----------------------------------------------
 -- Civilization
 -----------------------------------------------
-	("LOC_CIVILIZATION_TROS_ZURICH_NAME",			"en_US",	"Zürich"			),
+	("LOC_CIVILIZATION_TROS_ZURICH_NAME",			"en_US",	"Zuerich"			),
 	("LOC_CIVILIZATION_TROS_ZURICH_DESCRIPTION",	"en_US",	"Zürich"	),
 	("LOC_CIVILIZATION_TROS_ZURICH_ADJECTIVE",  	"en_US",	"zürcherisch"			),
 

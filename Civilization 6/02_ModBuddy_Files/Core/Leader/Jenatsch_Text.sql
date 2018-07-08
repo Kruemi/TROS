@@ -49,7 +49,7 @@ VALUES
 -- FIRST MEET
 	-- First AI Line
 	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_JENATSCH_ANY",	"en_US",
-	"Grüazi. Hend Sie scho von üsaram Bergkhäs probiart?" ),
+	"Grüazi. Hend Sie scho von üsaram Bergkhaes probiart?" ),
 
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TROS_JENATSCH_ANY",	"en_US",
@@ -61,7 +61,7 @@ VALUES
 
 	-- AI invitation to exchange Capital Information
 	("LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TROS_JENATSCH_ANY",	"en_US",
-	"Plaecholder."	),
+	"Plaecholder AI invitation to exchange Capital Information"	),
 
 -- GREETINGS
 	("LOC_DIPLO_GREETING_LEADER_TROS_JENATSCH_ANY",	"en_US",

@@ -14,7 +14,6 @@ VALUES
 -----------------------------------------------
 	("LOC_LEADER_TROS_JAKOB_NAME",  "en_US",	"Jakob von Wattenwyl"),
 
-
 -----------------------------------------------
 -- UA
 -----------------------------------------------
@@ -53,11 +52,13 @@ VALUES
 -- FIRST MEET
 	-- First AI Line
 	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Grüässech. Weud ehr üsä Bärgchääs probiere?" ),
+	"Grüessech. Wollt Ihr von unserem Bergkaese kosten?" ),
+	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_JAKOB_ANY",	"de_DE",
+	"Grüässech. Weud ehr vo üserem Bergchääs probiäre?" ),
 
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	"Plaecholder.AI invitation to visit nearby City"	),
 
 	-- AI accepts human invitation
 	("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TROS_JAKOB_ANY",	"en_US",

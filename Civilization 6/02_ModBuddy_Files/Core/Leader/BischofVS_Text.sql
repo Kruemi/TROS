@@ -40,19 +40,18 @@ VALUES
 
 -- DOM
 	("LOC_LOADING_INFO_LEADER_TROS_BISCHOFVS",  "en_US",
-	"Wir schreiben das Jahr 1291 nach Christus. Mitteleuropa befindet sich im Umbruch: Reiche der Zaehringer und Kyburger sind zerfallen und sind auf der Suche nach neuen Herrn. Die Talschaften von Uri, Schwyz und Unterwalden haben ihren Bund erneuert und bestehen auf ihrer Reichsunmittelbarkeit mit Gewalt.
-	Derweil strebt das Hause Habsburg nach Einfluss und dem Königsthron. Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung. Durch den Ausbau der Alpenpässe wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
+	"Wir schreiben das Jahr 1291 nach Christus. Mitteleuropa befindet sich im Umbruch: Reiche der Zaehringer und Kyburger sind zerfallen und sind auf der Suche nach neuen Herrn. Die Talschaften von Uri, Schwyz und Unterwalden haben ihren Bund erneuert und bestehen auf ihrer Reichsunmittelbarkeit mit Gewalt. Derweil strebt das Hause Habsburg nach Einfluss und dem Königsthron. Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung. Durch den Ausbau der Alpenpässe wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
 	
-	Bischof von Sitten, wisst diese Umstände zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."),
+	Bischof von Sitten, wisst diese Umstaende zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."),
 
 -- FIRST MEET
 	-- First AI Line
 	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_BISCHOFVS_ANY",	"en_US",
-	"Plaecholder First AI Line" ),
+	"Gesegnet seid ihr im Angesicht unseres Herrn Jesus Christus." ),
 
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TROS_BISCHOFVS_ANY",	"en_US",
-	"Plaecholder AI invitation to visit nearby City"	),
+	"Wir lieben unsere Nächsten. Wollt ihr uns besuchen kommen in unserem Bischofssitz?"	),
 
 	-- AI accepts human invitation
 	("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TROS_BISCHOFVS_ANY",	"en_US",
