@@ -41,22 +41,22 @@ VALUES
 -- DOM
 	("LOC_LOADING_INFO_LEADER_TROS_ALFRED",  "en_US",
 	"Wir schreiben das Jahr 1291 nach Christus. Mitteleuropa befindet sich im Umbruch:
-	Reiche der Zähringer und Kyburger sind zerfallen und sind auf der Suche nach neuen Herrn.
-	Die Talschaften von Uri, Schwyz und Unterwalden haben ihren Bund erneuert und bestehen auf ihrer Reichsunmittelbarkeit mit Gewalt.
-	Derweil strebt das Hause Habsburg nach Einfluss und dem Königsthron.
-	Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung.
-	Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
+Reiche der Zähringer und Kyburger sind zerfallen und sind auf der Suche nach neuen Herrn.
+Die Talschaften von Uri, Schwyz und Unterwalden haben ihren Bund erneuert und bestehen auf ihrer Reichsunmittelbarkeit mit Gewalt.
+Derweil strebt das Hause Habsburg nach Einfluss und dem Königsthron.
+Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung.
+Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
 	
 	Johann Heinrich Alfred Escher, wisst diese Umstände zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."  	),
 
 -- FIRST MEET
 	-- First AI Line
 	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder.Plaecholder." ),
+	"Guten Tag, wir sind Zürcher und sind allen anderen überlegen." ),
 
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	"Ich lade Euch gerne ans Sechseläuten nach Zürich ein. Werdet Ihr erscheinen?"	),
 
 	-- AI accepts human invitation
 	("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TROS_ALFRED_ANY",	"en_US",

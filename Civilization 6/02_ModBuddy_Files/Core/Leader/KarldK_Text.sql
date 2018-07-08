@@ -12,7 +12,7 @@ VALUES
 -----------------------------------------------
 -- Leader
 -----------------------------------------------
-	("LOC_LEADER_TROS_KARLDK_NAME",  "en_US",	"Karl der Kühne"),
+	("LOC_LEADER_TROS_KARLDK_NAME",  "en_US",	"Karl der Kuehne"),
 
 -----------------------------------------------
 -- UA
@@ -47,16 +47,16 @@ VALUES
 	Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung.
 	Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
 	
-	Karl der Kühne, wisst diese Umstände zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."  	),
+	Karl der Kühne, wisst diese Umstaende zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."  	),
 
 -- FIRST MEET
 	-- First AI Line
 	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_KARLDK_ANY",	"en_US",
-	"Plaecholder.Plaecholder." ),
+	"Bonjour, je m'appelle Charles Ier le Téméraire." ),
 
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TROS_KARLDK_ANY",	"en_US",
-	"Plaecholder."	),
+	"Etes bienvenue à Dijon, notre capitale."	),
 
 	-- AI accepts human invitation
 	("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TROS_KARLDK_ANY",	"en_US",

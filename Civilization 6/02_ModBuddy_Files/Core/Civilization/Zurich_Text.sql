@@ -12,7 +12,7 @@ VALUES
 -----------------------------------------------
 -- Civilization
 -----------------------------------------------
-	("LOC_CIVILIZATION_TROS_ZURICH_NAME",			"en_US",	"Zürich"			),
+	("LOC_CIVILIZATION_TROS_ZURICH_NAME",			"en_US",	"Zuerich"			),
 	("LOC_CIVILIZATION_TROS_ZURICH_DESCRIPTION",	"en_US",	"Zürich"	),
 	("LOC_CIVILIZATION_TROS_ZURICH_ADJECTIVE",  	"en_US",	"zürcherisch"			),
 
@@ -87,8 +87,8 @@ VALUES
 -----------------------------------------------
 	("LOC_CITIZEN_TROS_ZURICH_MALE_1",		"en_US",	"Fredi"		),
 	("LOC_CITIZEN_TROS_ZURICH_MALE_2",		"en_US",	"Hans"		),
-	("LOC_CITIZEN_TROS_ZURICH_MALE_3",		"en_US",	"Placeholder"	),
-	("LOC_CITIZEN_TROS_ZURICH_MALE_4",		"en_US",	"Placeholder"	),
+	("LOC_CITIZEN_TROS_ZURICH_MALE_3",		"en_US",	"Felix"	),
+	("LOC_CITIZEN_TROS_ZURICH_MALE_4",		"en_US",	"Exuperantius"	),
 	("LOC_CITIZEN_TROS_ZURICH_MALE_5",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_ZURICH_MALE_6",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_ZURICH_MALE_7",		"en_US",	"Placeholder"	),
@@ -96,7 +96,7 @@ VALUES
 	("LOC_CITIZEN_TROS_ZURICH_MALE_9",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_ZURICH_MALE_10",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_ZURICH_FEMALE_1",		"en_US",	"Lydia"	),
-	("LOC_CITIZEN_TROS_ZURICH_FEMALE_2",		"en_US",	"Placeholder"	),
+	("LOC_CITIZEN_TROS_ZURICH_FEMALE_2",		"en_US",	"Regula"	),
 	("LOC_CITIZEN_TROS_ZURICH_FEMALE_3",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_ZURICH_FEMALE_4",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_ZURICH_FEMALE_5",		"en_US",	"Placeholder"	),

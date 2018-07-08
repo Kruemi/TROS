@@ -2,28 +2,19 @@
 	Localisation
 */
 
------------------------------------------------
 -- Types
------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
 		(Tag,	Language,	Text)
 VALUES
 
------------------------------------------------
 -- Leader
------------------------------------------------
 	("LOC_LEADER_TROS_STAUFFACHER_NAME",  "en_US",	"Werner Stauffacher"),
 
-
------------------------------------------------
 -- UA
------------------------------------------------
 	("LOC_TRAIT_LEADER_TROS_STAUFFACHER_UA_NAME",  "en_US",	"Leader Ability"	),
 	("LOC_TRAIT_LEADER_TROS_STAUFFACHER_UA_DESCRIPTION",	"en_US",	"Placeholder."),
 
------------------------------------------------
 -- Agenda
------------------------------------------------
 	("LOC_AGENDA_TROS_STAUFFACHER_NAME",	"en_US",	"Ulama"	),
 	("LOC_AGENDA_TROS_STAUFFACHER_DESCRIPTION", "en_US",	"Placeholder"	),
 	("LOC_DIPLO_KUDO_LEADER_TROS_STAUFFACHER_REASON_ANY",	"en_US",
@@ -36,7 +27,7 @@ VALUES
 	"STAUFFACHER is unhappy that you have neglected education"	),
 
 -----------------------------------------------
--- Diplos
+-- Diplomatie
 -----------------------------------------------
 
 -- DOM
@@ -45,8 +36,8 @@ VALUES
 	Das öffentliche Ansehen und Wohl erfordert, dass Friedensordnungen dauernde Geltung gegeben werde. Darum haben alle Leute der Talschaft Uri, die Gesamtheit des Tales Schwyz und die Gemeinde der Leute der unteren Talschaft von Unterwalden im Hinblick auf die Arglist der Zeit zu ihrem besseren Schutz und zu ihrer Erhaltung einander Beistand, Rat und Förderung mit Leib und Gut innerhalb ihrer Täler und ausserhalb nach ihrem ganzen Vermögen zugesagt gegen alle und jeden, die ihnen oder jemand aus ihnen Gewalt oder Unrecht an Leib oder Gut antun. Geschehen im Jahre des Herrn 1291 zu Anfang des Monats August."  	),
 
 -- FIRST MEET
-	-- First AI Line
-	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_STAUFFACHER_ANY",	"en_US",
+	-- First AI Line -- Versuch: in en_US funzt das ä nicht. Geht es auf de_DE?
+	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_STAUFFACHER_ANY",	"de_DE",
 	"Grüezi. Wollen Sie von unserem Bergkäse probieren?" ),
 
 	-- AI invitation to visit nearby City
