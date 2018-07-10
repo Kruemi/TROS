@@ -549,6 +549,10 @@
 				<Element text="Icons_Zurich"/>
 				<Element text="Icons_Habsburg"/>
 				<Element text="Icons_Burgund"/>
+				<Element text="Icons_Bern"/>
+				<Element text="Icons_Graubunden"/>
+				<Element text="Icons_Savoyen"/>
+				<Element text="Icons_Wallis"/>
 				<Element text="UILeaders"/>
 			</relativePackagePaths>
 		</Element>

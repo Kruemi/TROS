@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Graubunden_Icons -->
+<!-- Author: Kruemi -->
+<GameData>
+	<IconTextureAtlases>
+		<!--CIV Icons-->
+
+		<!--<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_22.dds"/>
+		<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_30.dds"/>
+		<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_36.dds"/>
+		<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_44.dds"/>
+		<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_48.dds"/>
+		<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_50.dds"/>
+		<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_64.dds"/>
+		<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_80.dds"/>
+		<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_200.dds"/>-->
+		<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_256.dds"/>
+		<!--<Row Name="ICON_ATLAS_TROS_GRAUBUNDEN" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_TROS_GRAUBUNDEN_COLOR_45.dds"/>-->
+
+
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!--Leader Icons-->
+		<!--<Row Name="ICON_LEADER_JRA_LEADER_CUSTOM" Atlas="ICON_ATLAS_LEADER_CUSTOM" Index="0"/>-->
+
+		<!--Civilization Icons-->
+		<Row Name="ICON_CIVILIZATION_TROS_GRAUBUNDEN" Atlas="ICON_ATLAS_TROS_GRAUBUNDEN" Index="0"/>
+
+
+		<!--Building Icons-->
+		<!--<Row Name="ICON_BUILDING_JRA_CUSTOM" Atlas="ICON_ATLAS_CIVICS" Index="29"/>-->
+
+	</IconDefinitions>
+</GameData>
