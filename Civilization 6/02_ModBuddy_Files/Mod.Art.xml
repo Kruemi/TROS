@@ -545,7 +545,10 @@
 		<Element>
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
-				<Element text="Icons"/>
+				<Element text="Icons_Eidgenossenschaft"/>
+				<Element text="Icons_Zurich"/>
+				<Element text="Icons_Habsburg"/>
+				<Element text="Icons_Burgund"/>
 				<Element text="UILeaders"/>
 			</relativePackagePaths>
 		</Element>
