@@ -85,3 +85,20 @@ VALUES
 	("LOC_CITY_NAME_BREMEN", "de_DE", "Donaueschingen"),
 	("LOC_CITY_NAME_AUGSBURG", "de_DE", "Freiburg im Breisgau");
 	-- wenn neue Städte hier ändern / hinzufügen: nicht vergessen die auch in TROSGeneral_Civilizatio.sql neu zu laden.
+
+	
+-----------------------------------------------
+-- City-States
+-----------------------------------------------
+
+INSERT OR REPLACE INTO BaseGameText	(Tag, Text)
+VALUES
+
+-- LI (Trial)
+	("LOC_CIVILIZATION_CVS_SWITZERLAND_CS_NAME",			"Liechtenstein"					),
+	("LOC_CIVILIZATION_CVS_SWITZERLAND_CS_DESCRIPTION",		"Liechtenstein city-state"		),
+	("LOC_CIVILIZATION_CVS_SWITZERLAND_CS_ADJECTIVE",		"Liechtenstein"					),
+	("LOC_LEADER_CVS_SWITZERLAND_CS_UA_NAME",  				"Liechtenstein Suzerain Bonus"	),
+	("LOC_CITY_NAME_LIECHTENSTEIN",							"Liechtenstein"					),
+	("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_GENEVA_CHAPTER_HISTORY_PARA_1",		
+	"Plaecholder");
