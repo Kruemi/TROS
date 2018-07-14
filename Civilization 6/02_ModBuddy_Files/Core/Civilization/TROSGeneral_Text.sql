@@ -94,11 +94,59 @@ VALUES
 INSERT OR REPLACE INTO BaseGameText	(Tag, Text)
 VALUES
 
--- LI (Trial)
-	("LOC_CIVILIZATION_CVS_SWITZERLAND_CS_NAME",			"Liechtenstein"					),
-	("LOC_CIVILIZATION_CVS_SWITZERLAND_CS_DESCRIPTION",		"Liechtenstein city-state"		),
-	("LOC_CIVILIZATION_CVS_SWITZERLAND_CS_ADJECTIVE",		"Liechtenstein"					),
-	("LOC_LEADER_CVS_SWITZERLAND_CS_UA_NAME",  				"Liechtenstein Suzerain Bonus"	),
-	("LOC_CITY_NAME_LIECHTENSTEIN",							"Liechtenstein"					),
-	("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_GENEVA_CHAPTER_HISTORY_PARA_1",		
-	"Plaecholder");
+-- CS1 Basel (AMSTERDAM)
+	("LOC_CIVILIZATION_TROS_CS1_NAME",			"Basel"					),
+	("LOC_CIVILIZATION_TROS_CS1_DESCRIPTION",	"Stadt Basel"			),
+	("LOC_CIVILIZATION_TROS_CS1_ADJECTIVE",		"baslerisch"			),
+	("LOC_LEADER_TROS_CS1_UA_NAME",  			"Basel Suzerain Bonus"	),
+	("LOC_CITY_NAME_BASEL",						"Basel"					),
+	--("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_GENEVA_CHAPTER_HISTORY_PARA_1",	"Plaecholder")
+
+-- CS2 Luzern (BANDAR_BRUNEI)
+	("LOC_CIVILIZATION_TROS_CS2_NAME",			"Luzern"				),
+	("LOC_CIVILIZATION_TROS_CS2_DESCRIPTION",	"Kanton Luzern"			),
+	("LOC_CIVILIZATION_TROS_CS2_ADJECTIVE",		"luzernisch"			),
+	("LOC_LEADER_TROS_CS2_UA_NAME",  			"Luzern Suzerain Bonus"	),
+	("LOC_CITY_NAME_LUZERN",					"Luzern"				),
+
+-- CS3 Glarus (BRUSSELS)
+	("LOC_CIVILIZATION_TROS_CS3_NAME",			"Glarus"				),
+	("LOC_CIVILIZATION_TROS_CS3_DESCRIPTION",	"Kanton Glarus"			),
+	("LOC_CIVILIZATION_TROS_CS3_ADJECTIVE",		"glarnerisch"			),
+	("LOC_LEADER_TROS_CS3_UA_NAME",  			"Glarus Suzerain Bonus"	),
+	("LOC_CITY_NAME_GLARUS",					"Glarus"				),
+
+-- CS4 Schaffhausen (BUENOS_AIRES)
+	("LOC_CIVILIZATION_TROS_CS4_NAME",			"Schaffhausen"			),
+	("LOC_CIVILIZATION_TROS_CS4_DESCRIPTION",	"Kanton Schaffhausen"	),
+	("LOC_CIVILIZATION_TROS_CS4_ADJECTIVE",		"schaffhausisch"			),
+	("LOC_LEADER_TROS_CS4_UA_NAME",  			"Schaffhausen Suzerain Bonus"	),
+	("LOC_CITY_NAME_SCHAFFHAUSEN",				"Schaffhausen"				),
+
+--CS5 Solothurn (CARTHAGE)
+	("LOC_CIVILIZATION_TROS_CS5_NAME",			"Solothurn"			),
+	("LOC_CIVILIZATION_TROS_CS5_DESCRIPTION",	"Kanton Solothurn"	),
+	("LOC_CIVILIZATION_TROS_CS5_ADJECTIVE",		"solothurnisch"			),
+	("LOC_LEADER_TROS_CS5_UA_NAME",  			"Solothurn Suzerain Bonus"	),
+	("LOC_CITY_NAME_SOLOTHURN",					"Solothurn"				),
+
+--CS7 Sankt Gallen (HATTUSA)
+	("LOC_CIVILIZATION_TROS_CS7_NAME",			"St. Gallen"			),
+	("LOC_CIVILIZATION_TROS_CS7_DESCRIPTION",	"Kanton Sankt Gallen"	),
+	("LOC_CIVILIZATION_TROS_CS7_ADJECTIVE",		"sankt gallisch"			),
+	("LOC_LEADER_TROS_CS7_UA_NAME",  			"St. Gallen Suzerain Bonus"	),
+	("LOC_CITY_NAME_SANKT_GALLEN",					"St. Gallen"				),
+
+--CS8 Lausanne (HONG_KONG)
+	("LOC_CIVILIZATION_TROS_CS8_NAME",			"Waadt"			),
+	("LOC_CIVILIZATION_TROS_CS8_DESCRIPTION",	"Kanton Waadt"	),
+	("LOC_CIVILIZATION_TROS_CS8_ADJECTIVE",		"vaudois"			),
+	("LOC_LEADER_TROS_CS8_UA_NAME",  			"Waadt Suzerain Bonus"	),
+	("LOC_CITY_NAME_LAUSANNE",					"Lausanne"				),
+
+--CS9 Liestal (JAKARTA)
+	("LOC_CIVILIZATION_TROS_CS9_NAME",			"Baselland"			),
+	("LOC_CIVILIZATION_TROS_CS9_DESCRIPTION",	"Kanton Baselland"	),
+	("LOC_CIVILIZATION_TROS_CS9_ADJECTIVE",		"basellandschaftlich"	),
+	("LOC_LEADER_TROS_CS9_UA_NAME",  			"Baselland Suzerain Bonus"	),
+	("LOC_CITY_NAME_LIESTAL",					"Liestal"				);
