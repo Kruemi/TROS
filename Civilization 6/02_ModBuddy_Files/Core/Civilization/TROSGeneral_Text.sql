@@ -149,4 +149,95 @@ VALUES
 	("LOC_CIVILIZATION_TROS_CS9_DESCRIPTION",	"Kanton Baselland"	),
 	("LOC_CIVILIZATION_TROS_CS9_ADJECTIVE",		"basellandschaftlich"	),
 	("LOC_LEADER_TROS_CS9_UA_NAME",  			"Baselland Suzerain Bonus"	),
-	("LOC_CITY_NAME_LIESTAL",					"Liestal"				);
+	("LOC_CITY_NAME_LIESTAL",					"Liestal"				),
+
+--CS10 Freiburg (JERUSALEM)
+	("LOC_CIVILIZATION_TROS_CS10_NAME",			"Freiburg"			),
+	("LOC_CIVILIZATION_TROS_CS10_DESCRIPTION",	"Kanton Freiburg"	),
+	("LOC_CIVILIZATION_TROS_CS10_ADJECTIVE",	"freiburgisch"	),
+	("LOC_LEADER_TROS_CS10_UA_NAME",  			"Freiburg Suzerain Bonus"	),
+	("LOC_CITY_NAME_FREIBURG",					"Freiburg"				),
+
+--CS11 Neuenburg (KABUL)
+	("LOC_CIVILIZATION_TROS_CS11_NAME",			"Neuenburg"			),
+	("LOC_CIVILIZATION_TROS_CS11_DESCRIPTION",	"Canton de Neuchâtel"	),
+	("LOC_CIVILIZATION_TROS_CS11_ADJECTIVE",	"neuchâtelois"	),
+	("LOC_LEADER_TROS_CS11_UA_NAME",  			"Neuenburg Suzerain Bonus"	),
+	("LOC_CITY_NAME_NEUENBURG",					"Neuenburg"				),
+
+--CS12 Delémont (KANDY)
+	("LOC_CIVILIZATION_TROS_CS12_NAME",			"Delémont"			),
+	("LOC_CIVILIZATION_TROS_CS12_DESCRIPTION",	"Canton de Jura"	),
+	("LOC_CIVILIZATION_TROS_CS12_ADJECTIVE",	"jurassien"	),
+	("LOC_LEADER_TROS_CS12_UA_NAME",  			"Jura Suzerain Bonus"	),
+	("LOC_CITY_NAME_DELEMONT",					"Delémont"				),
+
+--CS13 Locarno (KUMASI)
+	("LOC_CIVILIZATION_TROS_CS13_NAME",			"Locarno"			),
+	("LOC_CIVILIZATION_TROS_CS13_DESCRIPTION",	"Citta di Locarno"	),
+	("LOC_CIVILIZATION_TROS_CS13_ADJECTIVE",	"ticinese"	),
+	("LOC_LEADER_TROS_CS13_UA_NAME",  			"Locarno Suzerain Bonus"	),
+	("LOC_CITY_NAME_LOCARNO",					"Locarno"				),
+
+--CS14 Lugano (LA_VENTA)
+	("LOC_CIVILIZATION_TROS_CS14_NAME",			"Lugano"			),
+	("LOC_CIVILIZATION_TROS_CS14_DESCRIPTION",	"Citta di Lugano"	),
+	("LOC_CIVILIZATION_TROS_CS14_ADJECTIVE",	"ticinesi"	),
+	("LOC_LEADER_TROS_CS14_UA_NAME",  			"Lugano Suzerain Bonus"	),
+	("LOC_CITY_NAME_LUGANO",					"Lugano"				),
+
+--CS15 Vaduz (LISBON)
+	("LOC_CIVILIZATION_TROS_CS15_NAME",			"Vaduz"			),
+	("LOC_CIVILIZATION_TROS_CS15_DESCRIPTION",	"Fürstentum Liechtenstein"	),
+	("LOC_CIVILIZATION_TROS_CS15_ADJECTIVE",	"liechtensteinisch"	),
+	("LOC_LEADER_TROS_CS15_UA_NAME",  			"Liechtenstein Suzerän Bonus"	),
+	("LOC_CITY_NAME_VADUZ",						"Vaduz"				),
+
+--CS16 Biel (MOHENJO_DARO)
+	("LOC_CIVILIZATION_TROS_CS16_NAME",			"Biel"			),
+	("LOC_CIVILIZATION_TROS_CS16_DESCRIPTION",	"Stadt Biel/Bienne"	),
+	("LOC_CIVILIZATION_TROS_CS16_ADJECTIVE",	"bieler"	),
+	("LOC_LEADER_TROS_CS16_UA_NAME",  			"Biel Suzerain Bonus"	),
+	("LOC_CITY_NAME_BIEL",						"Biel"				),
+
+--CS17 Besançon (PRESLAV)
+	("LOC_CIVILIZATION_TROS_CS17_NAME",			"Besançon"			),
+	("LOC_CIVILIZATION_TROS_CS17_DESCRIPTION",	"Cité de Besançon"	),
+	("LOC_CIVILIZATION_TROS_CS17_ADJECTIVE",	"bisontin"	),
+	("LOC_LEADER_TROS_CS17_UA_NAME",  			"Besançon Suzerain Bonus"	),
+	("LOC_CITY_NAME_BESANCON",					"Besançon"				),
+
+--CS18 Rottweil (NAN_MADOL)
+	("LOC_CIVILIZATION_TROS_CS18_NAME",			"Rottweil"			),
+	("LOC_CIVILIZATION_TROS_CS18_DESCRIPTION",	"Stadt Rottweil"	),
+	("LOC_CIVILIZATION_TROS_CS18_ADJECTIVE",	"rottweilisch"	),
+	("LOC_LEADER_TROS_CS18_UA_NAME",  			"Rottweil Suzerain Bonus"	),
+	("LOC_CITY_NAME_ROTTWEIL",					"Rottweil"				),
+
+--CS19 Mülhausen (SEOUL)
+	("LOC_CIVILIZATION_TROS_CS19_NAME",			"Mülhausen"			),
+	("LOC_CIVILIZATION_TROS_CS19_DESCRIPTION",	"Mulhouse"	),
+	("LOC_CIVILIZATION_TROS_CS19_ADJECTIVE",	"mülhausisch"	),
+	("LOC_LEADER_TROS_CS19_UA_NAME",  			"Mülhausen Suzerain Bonus"	),
+	("LOC_CITY_NAME_MULHAUSEN",					"Mülhausen"				),
+
+--CS20 Pfullendorf (STOCKHOLM)
+	("LOC_CIVILIZATION_TROS_CS20_NAME",			"Pfullendorf"			),
+	("LOC_CIVILIZATION_TROS_CS20_DESCRIPTION",	"Stadt Pfullendorf"	),
+	("LOC_CIVILIZATION_TROS_CS20_ADJECTIVE",	"pfullendorfer"	),
+	("LOC_LEADER_TROS_CS20_UA_NAME",  			"Pfullendorf Suzerain Bonus"	),
+	("LOC_CITY_NAME_PFULLENDORF",				"Pfullendorf"				),
+
+--CS21 Kempten (TORONTO)
+	("LOC_CIVILIZATION_TROS_CS21_NAME",			"Kempten"			),
+	("LOC_CIVILIZATION_TROS_CS21_DESCRIPTION",	"Allgäu"	),
+	("LOC_CIVILIZATION_TROS_CS21_ADJECTIVE",	"allgäuisch"	),
+	("LOC_LEADER_TROS_CS21_UA_NAME",  			"Allgäu Suzerain Bonus"	),
+	("LOC_CITY_NAME_KEMPTEN",					"Kempten"				),
+
+--CS22 Buron (VALLETTA)
+	("LOC_CIVILIZATION_TROS_CS22_NAME",			"Buron"			),
+	("LOC_CIVILIZATION_TROS_CS22_DESCRIPTION",	"Kaufbeuren"	),
+	("LOC_CIVILIZATION_TROS_CS22_ADJECTIVE",	"beirisch"	),
+	("LOC_LEADER_TROS_CS22_UA_NAME",  			"Buron Suzerain Bonus"	),
+	("LOC_CITY_NAME_BURON",						"Buron"				);
