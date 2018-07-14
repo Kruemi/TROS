@@ -40,27 +40,20 @@ VALUES
 
 -- DOM
 	("LOC_LOADING_INFO_LEADER_TROS_ALFRED",  "en_US",
-	"Wir schreiben das Jahr 1291 nach Christus. Mitteleuropa befindet sich im Umbruch:
-Reiche der Zähringer und Kyburger sind zerfallen und sind auf der Suche nach neuen Herrn.
-Die Talschaften von Uri, Schwyz und Unterwalden haben ihren Bund erneuert und bestehen auf ihrer Reichsunmittelbarkeit mit Gewalt.
-Derweil strebt das Hause Habsburg nach Einfluss und dem Königsthron.
-Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung.
-Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
-	
-	Johann Heinrich Alfred Escher, wisst diese Umstände zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."  	),
+	"Wir schreiben das Jahr 1291 nach Christus. Mitteleuropa befindet sich im Umbruch: Reiche der Zaehringer und Kyburger sind zerfallen und sind auf der Suche nach neuen Herrn. Die Talschaften von Uri, Schwyz und Unterwalden haben ihren Bund erneuert und bestehen auf ihrer Reichsunmittelbarkeit mit Gewalt. Derweil strebt das Hause Habsburg nach Einfluss und dem Königsthron. Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung. Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie. Johann Heinrich Alfred Escher vom Glas, wisst diese Umstände zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."  	),
 
 -- FIRST MEET
 	-- First AI Line
 	("LOC_DIPLO_FIRST_MEET_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Guten Tag, wir sind Zürcher und sind allen anderen überlegen." ),
+	"Guten Tag, findet Ihr nicht auch wir Zürcher sind allen anderen überlegen?" ),
 
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Ich lade Euch gerne ans Sechseläuten nach Zürich ein. Werdet Ihr erscheinen?"	),
+	"Ich lade Euch gerne ans Sechselaeuten nach Zürich ein!"	),
 
 	-- AI accepts human invitation
 	("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	"Unsere Delegation kommt gerne vorbei."	),
 
 	-- AI invitation to exchange Capital Information
 	("LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TROS_ALFRED_ANY",	"en_US",
@@ -213,24 +206,6 @@ Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so e
 	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_1",	"en_US",
 	"Plaecholder."),
 	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_2",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_3",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_4",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_5",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_6",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_7",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_8",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_9",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_10",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_11",	"en_US",
 	"Plaecholder."),
 
 	("LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TROS_ALFRED_UI_CHAPTER_HISTORY_PARA_1",	"en_US",
