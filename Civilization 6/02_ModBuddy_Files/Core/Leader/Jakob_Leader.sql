@@ -42,7 +42,7 @@ VALUES	('LEADER_TROS_JAKOB',	'LEADER_TROS_JAKOB_NEUTRAL',	'LEADER_TROS_JAKOB_BAC
 -----------------------------------------------
 INSERT INTO FavoredReligions
 		(LeaderType,			ReligionType		)
-VALUES	('LEADER_TROS_JAKOB',	'RELIGION_ISLAM'	);
+VALUES	('LEADER_TROS_JAKOB',	'RELIGION_PROTESTANTISM'	);
 
 -----------------------------------------------
 -- Colors

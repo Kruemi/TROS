@@ -42,7 +42,7 @@ VALUES	('LEADER_TROS_ALFRED',	'LEADER_TROS_ALFRED_NEUTRAL',	'LEADER_TROS_ALFRED_
 -----------------------------------------------
 INSERT INTO FavoredReligions
 		(LeaderType,			ReligionType		)
-VALUES	('LEADER_TROS_ALFRED',	'RELIGION_ISLAM'	);
+VALUES	('LEADER_TROS_ALFRED',	'RELIGION_PROTESTANTISM'	);
 
 -----------------------------------------------
 -- Colors
