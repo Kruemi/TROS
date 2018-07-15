@@ -201,11 +201,11 @@ VALUES
 	("LOC_CITY_NAME_BIEL",						"Biel"				),
 
 --CS17 Besançon (PRESLAV)
-	("LOC_CIVILIZATION_TROS_CS17_NAME",			"Besançon"			),
+	("LOC_CIVILIZATION_TROS_CS17_NAME",			"Besancon"			),
 	("LOC_CIVILIZATION_TROS_CS17_DESCRIPTION",	"Cité de Besançon"	),
 	("LOC_CIVILIZATION_TROS_CS17_ADJECTIVE",	"bisontin"	),
 	("LOC_LEADER_TROS_CS17_UA_NAME",  			"Besançon Suzerain Bonus"	),
-	("LOC_CITY_NAME_BESANCON",					"Besançon"				),
+	("LOC_CITY_NAME_BESANCON",					"Besancon"				),
 
 --CS18 Rottweil (NAN_MADOL)
 	("LOC_CIVILIZATION_TROS_CS18_NAME",			"Rottweil"			),
