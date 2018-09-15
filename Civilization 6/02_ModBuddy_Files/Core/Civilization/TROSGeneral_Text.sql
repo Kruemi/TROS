@@ -241,3 +241,22 @@ VALUES
 	("LOC_CIVILIZATION_TROS_CS22_ADJECTIVE",	"beirisch"	),
 	("LOC_LEADER_TROS_CS22_UA_NAME",  			"Buron Suzerain Bonus"	),
 	("LOC_CITY_NAME_BURON",						"Buron"				);
+
+-----------------------------------------------
+-- Other
+-----------------------------------------------
+
+INSERT OR REPLACE INTO LocalizedText
+		(Tag,	Language,	Text)
+VALUES
+-- Eiger, Mönch & Jungfrau
+	("LOC_FEATURE_EVEREST_NAME",	"en_US",	"Eiger, Mönch und Jungfrau"	),
+	("LOC_FEATURE_EVEREST_NAME",	"de_DE",	"Eiger, Mönch und Jungfrau"	);
+
+-- Mont Blanc
+	("LOC_FEATURE_KILIMANJARO_NAME",	"en_US",	"Mont Blanc"	),
+	("LOC_FEATURE_KILIMANJARO_NAME",	"de_DE",	"Mont Blanc"	);
+
+-- Aprikosen
+	("LOC_RESOURCE_CITRUS_NAME",	"en_US",	"Aprikosen"	),
+	("LOC_RESOURCE_CITRUS_NAME",	"de_DE",	"Aprikosen"	);
