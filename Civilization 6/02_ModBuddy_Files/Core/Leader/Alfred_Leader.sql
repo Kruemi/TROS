@@ -49,7 +49,7 @@ VALUES	('LEADER_TROS_ALFRED',	'ART_LEADER_TROS_ALFRED'	);
 -----------------------------------------------
 INSERT INTO FavoredReligions
 		(LeaderType,			ReligionType		)
-VALUES	('LEADER_TROS_ALFRED',	'RELIGION_ISLAM'	);
+VALUES	('LEADER_TROS_ALFRED',	'RELIGION_PROTESTANTISM'	);
 
 -----------------------------------------------
 -- Colors

@@ -42,7 +42,7 @@ VALUES	('LEADER_TROS_RUDOLF',	'LEADER_TROS_RUDOLF_NEUTRAL',	'LEADER_TROS_RUDOLF_
 -----------------------------------------------
 INSERT INTO FavoredReligions
 		(LeaderType,			ReligionType		)
-VALUES	('LEADER_TROS_RUDOLF',	'RELIGION_ISLAM'	);
+VALUES	('LEADER_TROS_RUDOLF',	'RELIGION_CATHOLICISM'	);
 
 -----------------------------------------------
 -- Colors
