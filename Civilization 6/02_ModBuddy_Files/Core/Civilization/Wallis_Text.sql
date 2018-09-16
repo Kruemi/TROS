@@ -80,7 +80,6 @@ VALUES
 	("LOC_CITY_NAME_TROS_WALLIS_36", "en_US", "Plaecholder"),
 	("LOC_CITY_NAME_TROS_WALLIS_37", "en_US", "Plaecholder"),
 	("LOC_CITY_NAME_TROS_WALLIS_38", "en_US", "Plaecholder"),
-	("LOC_CITY_NAME_TROS_WALLIS_39", "en_US", "Plaecholder"),
 
 -----------------------------------------------
 -- Citizens
