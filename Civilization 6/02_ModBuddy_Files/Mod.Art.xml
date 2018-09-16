@@ -298,6 +298,7 @@
 		<Element>
 			<consumerName text="LeaderLighting"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderLighting"/>
@@ -308,15 +309,32 @@
 		<Element>
 			<consumerName text="Leaders"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
 				<Element text="LeaderLighting"/>
 				<Element text="ColorKey"/>
 			</libraryDependencies>
+			<PackageDependencies>
+				<!--<Element text="LEADER_TROS_ALFRED.blp"/> -->
+			</PackageDependencies>
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
+			<consumerName text="LeaderFallback"/>
+			<relativeArtDefPaths>
+				<Element text="FallbackLeaders.artdef"/>
+			</relativeArtDefPaths>
+			<libraryDependencies>
+				<Element text="LeaderFallback"/>
+			</libraryDependencies>
+			<PackageDependencies>
+				<!-- <Element text="LeaderFallbacks.blp"/> -->
+			</PackageDependencies>
+			<loadsLibraries>true</loadsLibraries>
+		</Element>
+		<!-- <Element>
 			<consumerName text="LeaderFallback"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
@@ -324,7 +342,7 @@
 				<Element text="LeaderFallback"/>
 			</libraryDependencies>
 			<loadsLibraries>true</loadsLibraries>
-		</Element>
+		</Element> -->
 		<Element>
 			<consumerName text="Lenses"/>
 			<relativeArtDefPaths>
@@ -450,11 +468,14 @@
 		<Element>
 			<libraryName text="Leader"/>
 			<relativePackagePaths>
+				<Element text="LEADER_TROS_ALFRED"/>
+				<!--<Element text="Leader_Alfred"/>-->
 			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="LeaderFallback"/>
 			<relativePackagePaths>
+				<Element text="LeaderFallbacks"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -554,6 +575,9 @@
 				<Element text="Icons_Savoyen"/>
 				<Element text="Icons_Wallis"/>
 				<Element text="UILeaders"/>
+				<Element text="LeaderBackgrounds"/>
+				<Element text="LEADER_TROS_ALFRED"/>
+				<!-- <Element text="LeaderFallbacks"/> -->
 			</relativePackagePaths>
 		</Element>
 		<Element>
