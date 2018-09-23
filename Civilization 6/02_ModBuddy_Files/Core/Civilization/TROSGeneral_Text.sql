@@ -257,6 +257,10 @@ VALUES
 	("LOC_FEATURE_KILIMANJARO_NAME",	"en_US",	"Mont Blanc"	),
 	("LOC_FEATURE_KILIMANJARO_NAME",	"de_DE",	"Mont Blanc"	);
 
+-- Creux du Van
+	("LOC_FEATURE_PIOPIOTAHI_NAME",	"en_US",	"Creux du Van"	),
+	("LOC_FEATURE_PIOPIOTAHI_NAME",	"de_DE",	"Creux du Van"	);
+
 -- Aprikosen
 	("LOC_RESOURCE_CITRUS_NAME",	"en_US",	"Aprikosen"	),
 	("LOC_RESOURCE_CITRUS_NAME",	"de_DE",	"Aprikosen"	);
