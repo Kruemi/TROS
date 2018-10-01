@@ -3,18 +3,25 @@
 */
 
 -----------------------------------------------
--- Types
+-- Types (Base\Assets\Gameplay\Civilizations.xml)
 -----------------------------------------------
 INSERT INTO	Types
 		(Type,							Kind				)
 VALUES	('CIVILIZATION_TROS_EIDGENOSSENSCHAFT',	'KIND_CIVILIZATION'	);
 
 -----------------------------------------------
--- Civilizations
+-- Civilizations (Base\Assets\Gameplay\Civilizations.xml)
 -----------------------------------------------
 INSERT INTO	Civilizations
-		(CivilizationType,				Name,									Description,								Adjective,									StartingCivilizationLevelType,	RandomCityNameDepth,	Ethnicity				)
-VALUES	('CIVILIZATION_TROS_EIDGENOSSENSCHAFT',	'LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_NAME',	'LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_DESCRIPTION',	'LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	10,						'ETHNICITY_AFRICAN' 	);
+		(CivilizationType, Name, Description, Adjective, StartingCivilizationLevelType, RandomCityNameDepth, Ethnicity)
+VALUES	(
+		'CIVILIZATION_TROS_EIDGENOSSENSCHAFT', -- CivilizationType
+		'LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_NAME', -- Name
+		'LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_DESCRIPTION', -- Description
+		'LOC_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_ADJECTIVE', -- Adjective
+		'CIVILIZATION_LEVEL_FULL_CIV', -- StartingCivilizationLevelType
+		10, -- RandomCityNameDepth
+		'ETHNICITY_AFRICAN'); -- Ethnicity
 
 -----------------------------------------------
 -- CityNames

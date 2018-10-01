@@ -3,7 +3,7 @@
 */
 
 -----------------------------------------------
--- Players
+-- Players (Base\Assets\Configuration\Players.xml)
 -----------------------------------------------
 INSERT INTO Players (Domain, CivilizationType, CivilizationName, CivilizationIcon, CivilizationAbilityName, CivilizationAbilityDescription, CivilizationAbilityIcon, LeaderType, LeaderName, LeaderIcon, LeaderAbilityName, LeaderAbilityDescription, LeaderAbilityIcon)
 VALUES	(
@@ -26,9 +26,29 @@ VALUES	(
 		);
 
 -----------------------------------------------
--- PlayerItems
+-- PlayerItems (Base\Assets\Configuration\Players.xml)
 -----------------------------------------------
 INSERT INTO PlayerItems
-		(Domain, 						CivilizationType, 			LeaderType, 			Type, 						Icon, 								Name, 									Description, 								SortIndex	)
-VALUES 	('Players:Expansion1_Players',	'CIVILIZATION_TROS_EIDGENOSSENSCHAFT',	'LEADER_TROS_STAUFFACHER',	'UNIT_TROS_EIDGENOSSENSCHAFT_UU',		'ICON_UNIT_TROS_EIDGENOSSENSCHAFT_UU',			'LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_NAME',			'LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_DESCRIPTION',		10			),
-		('Players:Expansion1_Players',	'CIVILIZATION_TROS_EIDGENOSSENSCHAFT', 'LEADER_TROS_STAUFFACHER', 	'DISTRICT_TROS_EIDGENOSSENSCHAFT_UI',	'ICON_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI',		'LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_NAME', 	'LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_DESCRIPTION', 	20			);
+		(Domain, CivilizationType, LeaderType, Type, Icon, Name, Description, SortIndex)
+VALUES 	(
+		-- Unique Unit
+		'Players:Expansion1_Players', -- Domain	
+		'CIVILIZATION_TROS_EIDGENOSSENSCHAFT',	-- CivilizationType
+		'LEADER_TROS_STAUFFACHER',	-- LeaderType
+		'UNIT_TROS_EIDGENOSSENSCHAFT_UU', -- Type
+		'ICON_UNIT_TROS_EIDGENOSSENSCHAFT_UU', -- Icon
+		'LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_NAME', -- Name
+		'LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_DESCRIPTION', -- Description
+		10 -- SortIndex
+		),
+		(
+		-- Unique Infrastructure
+		'Players:Expansion1_Players', -- Domain
+		'CIVILIZATION_TROS_EIDGENOSSENSCHAFT', -- CivilizationType
+		'LEADER_TROS_STAUFFACHER', -- LeaderType
+		'BUILDING_TROS_EIDGENOSSENSCHAFT_UI', -- Type
+		'ICON_BUILDING_TROS_EIDGENOSSENSCHAFT_UI', -- Icon
+		'LOC_BUILDING_TROS_EIDGENOSSENSCHAFT_UI_NAME', -- Name
+		'LOC_BUILDING_TROS_EIDGENOSSENSCHAFT_UI_DESCRIPTION', -- Description
+		20 -- SortIndex
+		);

@@ -22,22 +22,53 @@ VALUES
 	("LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UA_NAME",  "en_US",	"Unique Ability"	),
 	("LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UA_DESCRIPTION",	"en_US",
 	"Plaecholder."	),
-
+	
 -----------------------------------------------
--- UI
+-- Unique Infrastructure
 -----------------------------------------------
-	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_NAME",	"en_US",	"Kaeserei"	),
-	("LOC_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_DESCRIPTION",	"en_US",
-	"Ein Ort an dem gekaest wird."	),
-
------------------------------------------------
--- UU
------------------------------------------------
-	("LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_NAME",	"en_US",	"Hellebardier"	),
-	("LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_DESCRIPTION",	"en_US",
+-- Assets/Text/en_US/Types_Text.xml
+	("LOC_BUILDING_TROS_EIDGENOSSENSCHAFT_UI_NAME",
+	"en_US",
+	"Kaeserei"),
+-- Assets/Text/en_US/Buildings_Text.xml
+	("LOC_BUILDING_TROS_EIDGENOSSENSCHAFT_UI_DESCRIPTION",
+	"en_US",
+	"Einzigartiges Gebäude der Schweiz. Ein Ort an dem gekaest wird."),
+-- Assets/Text/en_US/Civilizations_Text.xml
+	("LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UI_NAME",
+	"en_US",
+	"Schweizerisches einzigartiges Gebaeude: Kaeserei"),
+-- Civilopedia (Assets/Text/en_US/Civilopedia_Buildings_Text.xml)
+	("LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TROS_EIDGENOSSENSCHAFT_UI_CHAPTER_HISTORY_PARA_1",
+	"en_US",
+	"Plaecholder."),
+	("LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TROS_EIDGENOSSENSCHAFT_UI_CHAPTER_HISTORY_PARA_2",
+	"en_US",
 	"Plaecholder."),
 
-	("LOC_MODIFIER_TROS_EIDGENOSSENSCHAFT_UU_ADJUST_STRENGTH_DESCRIPTION",	"en_US",	"Plaecholder."	),
+-----------------------------------------------
+-- Unique Unit
+-----------------------------------------------
+-- Assets/Text/en_US/Types_Text.xml
+	("LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_NAME",
+	"en_US",
+	"Hellebardier"),
+-- Assets/Text/en_US/Units_Text.xml
+	("LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_DESCRIPTION",
+	"en_US",
+	"Einzigartige Einheit der Schweiz. Plaecholder."),
+-- Assets/Text/en_US/Civilizations_Text.xml
+	("LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UU_NAME",
+	"en_US",
+	"Schweizerische einzigartige Einheit: Hellebardier"),
+-- Civilopedia (Assets/Text/en_US/Civilopedia_Units_Text.xml)
+	("LOC_PEDIA_UNITS_PAGE_UNIT_TROS_EIDGENOSSENSCHAFT_UU_CHAPTER_HISTORY_PARA_1",
+	"en_US",
+	"Hellebardier-Placeholder."),
+-- Civilopedia (Assets/Text/en_US/Civilopedia_Units_Text.xml)
+--	("LOC_MODIFIER_TROS_EIDGENOSSENSCHAFT_UU_ADJUST_STRENGTH_DESCRIPTION",
+--	"en_US",
+--	"Plaecholder."	),
 
 -----------------------------------------------
 -- Cities
@@ -132,12 +163,4 @@ VALUES
 	("LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_CHAPTER_HISTORY_PARA_7",	"en_US",
 	"Plaecholder."),
 	("LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_CHAPTER_HISTORY_PARA_8",	"en_US",
-	"Plaecholder."),
-
-	("LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_CHAPTER_HISTORY_PARA_1",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_TROS_EIDGENOSSENSCHAFT_UI_CHAPTER_HISTORY_PARA_2",	"en_US",
-	"Plaecholder."),
-
-	("LOC_PEDIA_UNITS_PAGE_UNIT_TROS_EIDGENOSSENSCHAFT_UU_CHAPTER_HISTORY_PARA_1",  "en_US",
 	"Plaecholder.");
