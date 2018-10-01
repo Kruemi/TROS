@@ -32,7 +32,7 @@ VALUES	('UNIT_TROS_ZURICH_UU',		'CLASS_TROS_ZURICH_UU'	),
 INSERT INTO TypeTags (Type,		Tag)
 SELECT 	'UNIT_TROS_ZURICH_UU',	Tag
 FROM 	TypeTags
-WHERE 	Type = 'UNIT_KNIGHT';
+WHERE 	Type = 'UNIT_BUILDER';
 
 -----------------------------------------------
 -- Traits
@@ -90,7 +90,7 @@ SELECT	'UNIT_TROS_ZURICH_UU',	-- UnitType
 		PrereqTech,
 		PrereqCivic
 FROM	Units
-WHERE	UnitType = 'UNIT_KNIGHT';
+WHERE	UnitType = 'UNIT_BUILDER';
 
 -----------------------------------------------
 -- UnitUpgrades
@@ -98,7 +98,7 @@ WHERE	UnitType = 'UNIT_KNIGHT';
 INSERT INTO UnitUpgrades (Unit,	UpgradeUnit)
 SELECT 	'UNIT_TROS_ZURICH_UU',	UpgradeUnit
 FROM 	UnitUpgrades
-WHERE	Unit = 'UNIT_KNIGHT';
+WHERE	Unit = 'UNIT_BUILDER';
 
 -----------------------------------------------
 -- UnitAiInfos
@@ -106,14 +106,14 @@ WHERE	Unit = 'UNIT_KNIGHT';
 INSERT INTO UnitAiInfos (UnitType,	AiType)
 SELECT 	'UNIT_TROS_ZURICH_UU',		AiType
 FROM 	UnitAiInfos
-WHERE 	UnitType = 'UNIT_KNIGHT';
+WHERE 	UnitType = 'UNIT_BUILDER';
 		
 -----------------------------------------------
 -- UnitReplaces
 -----------------------------------------------
 INSERT INTO UnitReplaces
 		(CivUniqueUnitType,		ReplacesUnitType	)
-VALUES	('UNIT_TROS_ZURICH_UU',	'UNIT_KNIGHT'		);
+VALUES	('UNIT_TROS_ZURICH_UU',	'UNIT_BUILDER'		);
 
 -----------------------------------------------
 -- UnitAbilities
