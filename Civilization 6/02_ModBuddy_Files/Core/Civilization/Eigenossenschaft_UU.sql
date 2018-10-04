@@ -69,13 +69,13 @@ INSERT INTO Units
 		TraitType)
 VALUES	(
 		'UNIT_TROS_EIDGENOSSENSCHAFT_UU', -- UnitType
-		'200', -- Cost
+		'180', -- Cost
 		'3', -- Maintenance
-		'2', -- BaseMoves
+		'3', -- BaseMoves
 		'2', -- BaseSightRange
 		1, -- ZoneOfControl
 		'DOMAIN_LAND', -- Domain
-		'46', -- Combat
+		'48', -- Combat
 		'FORMATION_CLASS_LAND_COMBAT', -- FormationClass
 		'PROMOTION_CLASS_ANTI_CAVALRY', -- PromotionClass
 		'ADVISOR_CONQUEST', -- AdvisorType
