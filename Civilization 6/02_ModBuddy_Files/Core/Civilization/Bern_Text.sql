@@ -33,7 +33,7 @@ VALUES
 -----------------------------------------------
 -- UU
 -----------------------------------------------
-	("LOC_UNIT_TROS_BERN_UU_NAME",	"en_US",	"Hellebardier"	),
+	("LOC_UNIT_TROS_BERN_UU_NAME",	"en_US",	"Hellebardier (Bern)"	),
 	("LOC_UNIT_TROS_BERN_UU_DESCRIPTION",	"en_US",
 	"Plaecholder."),
 
