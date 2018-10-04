@@ -18,6 +18,6 @@ VALUES	('RESOURCE_WINE', 'TERRAIN_GRASS_HILLS');
 -----------------------------------------------
 -- Renaissance Era: 1291
 -----------------------------------------------
-UPDATE	Eras
+UPDATE	StartEras
 SET		Year = '1291'
 WHERE	EraType = 'ERA_RENAISSANCE';
