@@ -13,8 +13,8 @@ VALUES	('CIVILIZATION_TROS_SAVOYEN',	'KIND_CIVILIZATION'	);
 -- Civilizations
 -----------------------------------------------
 INSERT INTO	Civilizations
-		(CivilizationType,				Name,									Description,								Adjective,									StartingCivilizationLevelType,	RandomCityNameDepth,	Ethnicity				)
-VALUES	('CIVILIZATION_TROS_SAVOYEN',	'LOC_CIVILIZATION_TROS_SAVOYEN_NAME',	'LOC_CIVILIZATION_TROS_SAVOYEN_DESCRIPTION',	'LOC_CIVILIZATION_TROS_SAVOYEN_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	10,						'ETHNICITY_AFRICAN' 	);
+		(CivilizationType,				Name,									Description,								Adjective,									StartingCivilizationLevelType,	RandomCityNameDepth,	Ethnicity			)
+VALUES	('CIVILIZATION_TROS_SAVOYEN',	'LOC_CIVILIZATION_TROS_SAVOYEN_NAME',	'LOC_CIVILIZATION_TROS_SAVOYEN_DESCRIPTION',	'LOC_CIVILIZATION_TROS_SAVOYEN_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	10,					'ETHNICITY_EURO' 	);
 
 -----------------------------------------------
 -- CityNames
