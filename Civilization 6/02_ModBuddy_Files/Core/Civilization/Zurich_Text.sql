@@ -12,9 +12,9 @@ VALUES
 -----------------------------------------------
 -- Civilization
 -----------------------------------------------
-	("LOC_CIVILIZATION_TROS_ZURICH_NAME",			"en_US",	"Zuerich"			),
-	("LOC_CIVILIZATION_TROS_ZURICH_DESCRIPTION",	"en_US",	"Zürich"	),
-	("LOC_CIVILIZATION_TROS_ZURICH_ADJECTIVE",  	"en_US",	"zürcherisch"			),
+	("LOC_CIVILIZATION_TROS_ZURICH_NAME",			"en_US",	"ZÃ¼rich"			),
+	("LOC_CIVILIZATION_TROS_ZURICH_DESCRIPTION",	"en_US",	"ZÃ¼rich"	),
+	("LOC_CIVILIZATION_TROS_ZURICH_ADJECTIVE",  	"en_US",	"zÃ¼rcherisch"			),
 
 -----------------------------------------------
 -- UA
@@ -28,21 +28,21 @@ VALUES
 -----------------------------------------------
 	("LOC_DISTRICT_TROS_ZURICH_UI_NAME",	"en_US",	"Grossbank"	),
 	("LOC_DISTRICT_TROS_ZURICH_UI_DESCRIPTION",	"en_US",
-	"Eine Bank mit mehr Umsatz und mehr Gewinn als üblich."	),
+	"Eine Bank mit mehr Umsatz und mehr Gewinn als Ã¼blich."	),
 
 -----------------------------------------------
 -- UU
 -----------------------------------------------
 	("LOC_UNIT_TROS_ZURICH_UU_NAME",	"en_US",	"Tiefbauamt"	),
 	("LOC_UNIT_TROS_ZURICH_UU_DESCRIPTION",	"en_US",
-	"Eine Werkbehörde die Bauvorhaben schneller fertig stellt."),
+	"Eine WerkbehÃ¶rde die Bauvorhaben schneller fertig stellt."),
 
 	("LOC_MODIFIER_TROS_ZURICH_UU_ADJUST_STRENGTH_DESCRIPTION",	"en_US",	"Plaecholder."	),
 
 -----------------------------------------------
 -- Cities
 -----------------------------------------------
-	("LOC_CITY_NAME_TROS_ZURICH_1", "en_US", "Zuerich"),
+	("LOC_CITY_NAME_TROS_ZURICH_1", "en_US", "ZÃ¼rich"),
 	("LOC_CITY_NAME_TROS_ZURICH_2", "en_US", "Rapperswil"),
 	("LOC_CITY_NAME_TROS_ZURICH_3", "en_US", "Plaecholder"),
 
@@ -76,7 +76,7 @@ VALUES
 	("LOC_CIVINFO_TROS_ZURICH_LOCATION",		"en_US",	"Europe"	),
 	("LOC_CIVINFO_TROS_ZURICH_SIZE",			"en_US",	"1'728.95 km2"	),
 	("LOC_CIVINFO_TROS_ZURICH_POPULATION",		"en_US",	"1'500'000"	),
-	("LOC_CIVINFO_TROS_ZURICH_CAPITAL",			"en_US",	"Zürich"	),
+	("LOC_CIVINFO_TROS_ZURICH_CAPITAL",			"en_US",	"ZÃ¼rich"	),
 
 -----------------------------------------------
 -- Pedia
