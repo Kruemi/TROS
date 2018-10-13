@@ -13,8 +13,8 @@ VALUES	('CIVILIZATION_TROS_HABSBURG',	'KIND_CIVILIZATION'	);
 -- Civilizations
 -----------------------------------------------
 INSERT INTO	Civilizations
-		(CivilizationType,				Name,									Description,								Adjective,									StartingCivilizationLevelType,	RandomCityNameDepth,	Ethnicity				)
-VALUES	('CIVILIZATION_TROS_HABSBURG',	'LOC_CIVILIZATION_TROS_HABSBURG_NAME',	'LOC_CIVILIZATION_TROS_HABSBURG_DESCRIPTION',	'LOC_CIVILIZATION_TROS_HABSBURG_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	10,						'ETHNICITY_AFRICAN' 	);
+		(CivilizationType,				Name,									Description,								Adjective,									StartingCivilizationLevelType,	RandomCityNameDepth,	Ethnicity			)
+VALUES	('CIVILIZATION_TROS_HABSBURG',	'LOC_CIVILIZATION_TROS_HABSBURG_NAME',	'LOC_CIVILIZATION_TROS_HABSBURG_DESCRIPTION',	'LOC_CIVILIZATION_TROS_HABSBURG_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	10,					'ETHNICITY_EURO' 	);
 
 -----------------------------------------------
 -- CityNames
