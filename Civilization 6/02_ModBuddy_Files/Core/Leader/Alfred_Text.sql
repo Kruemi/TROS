@@ -56,157 +56,121 @@ VALUES
 	"Unsere Delegation kommt gerne vorbei."	),
 
 	-- AI invitation to exchange Capital Information
-	("LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TROS_ALFRED_ANY",	"en_US", "Plaecholder."	),
 
 -- GREETINGS
-	("LOC_DIPLO_GREETING_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_GREETING_LEADER_TROS_ALFRED_ANY",	"en_US", "Plaecholder."	),
 
 -- DELEGATION
 	-- AI Accepts
-	("LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	-- ("LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US", "Plaecholder."	),
 
 	-- AI Rejects
-	("LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder."	),
 
 	-- AI Requests
-	("LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder."	),
 
 -- OPEN BORDERS
 	-- AI accepts from human
-	("LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder."	),
 
 	-- AI rejects from human
-	("LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",  "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",  "en_US","Plaecholder."	),
 
 	-- AI requests from human
-	("LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TROS_ALFRED_ANY",      "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TROS_ALFRED_ANY",      "en_US","Plaecholder."	),
 
 -- DECLARE FRIENDSHIP
 
 	-- AI accepts from human
-	("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",   "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",   "en_US","Plaecholder."	),
 
 	-- AI rejects from human
-	("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",   "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",   "en_US","Plaecholder."	),
 
 	-- AI Requests friendship from human
-	("LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TROS_ALFRED_ANY",     "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TROS_ALFRED_ANY",     "en_US","Plaecholder."	),
 
 	-- Human accepts AI requests, AI responds
-	("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TROS_ALFRED_ANY",   "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TROS_ALFRED_ANY",   "en_US","Plaecholder."	),
 
 	-- Human rejects AI requests, AI responds
-	("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TROS_ALFRED_ANY",   "en_US",
-	"Dänn halt nöd. Schafseckel."	),
+	("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TROS_ALFRED_ANY",   "en_US","Dänn halt nöd. Schafseckel."	),
 
 -- ALLIANCE
 
 	-- AI Requests an alliance from human
-	("LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Jetzt simmer Kollege."	),
+	("LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US","Jetzt simmer Kollege."	),
 
 -- KUDOS & WARNINGS
 
 	-- AI Kudos
-	("LOC_DIPLO_KUDO_EXIT_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_KUDO_EXIT_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder"	),
 
 	-- AI Warnings
-	("LOC_DIPLO_WARNING_EXIT_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_WARNING_EXIT_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder"	),
 
 	-- AI warns player for border troops
-	("LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Mach kei Stress. Chasch grad wider abfahre mit dine Truppe!"	),
+	("LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TROS_ALFRED_ANY",	"en_US","Mach kei Stress. Chasch grad wider abfahre mit dine Truppe!"	),
 
 -- TRADE
 
 	-- AI Accepts Deal
-	("LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Guet."	),
+	("LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US","Guet."	),
 
 	-- AI Rejects Deal
-	("LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Kä Luscht."	),
+	("LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US","Kä Luscht."	),
 
 -- DENOUNCE
 
 	-- From Human
-	("LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder"	),
 
 	-- From AI
-	("LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder"	),
 
 -- DOW
 
 	-- Human Declares War
-	("LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder"	),
 
 	-- AI Declares War
-	("LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder"	),
 
 -- MAKE PEACE
 
 	-- AI accepts from human
-	("LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder."	),
 
 	-- AI refuses human
-	("LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder."	),
 
 	-- AI requests from human
-	("LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder."	),
 
 -- DEFEAT
 
 	-- AI is Defeated
-	("LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder."	),
 
 	-- Human is Defeated (will see this in hotseat)
-	("LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TROS_ALFRED_ANY",	"en_US","Plaecholder."	),
 
 --------------------------------------------------------------------
 -- Quote and Pedia
 --------------------------------------------------------------------
 
-	("LOC_PEDIA_LEADERS_PAGE_TROS_ALFRED_QUOTE",	"en_US",
-	"A sword should never be allowed to rust."  	),
+	--("LOC_PEDIA_LEADERS_PAGE_TROS_ALFRED_QUOTE",	"en_US","A sword should never be allowed to rust."  	),
 
-	("LOC_PEDIA_LEADERS_PAGE_TROS_ALFRED_TITLE",	"en_US",
-	"ALFRED"),
+	("LOC_PEDIA_LEADERS_PAGE_TROS_ALFRED_TITLE",	"en_US","ALFRED"),
 
-	("LOC_PEDIA_LEADERS_PAGE_TROS_ALFRED_SUBTITLE",	"en_US",
-	"ALFRED the Great, King of The ZURICH"	),
+	("LOC_PEDIA_LEADERS_PAGE_TROS_ALFRED_SUBTITLE",	"en_US","ALFRED Escher, Leader of ZURICH"	),
 
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_CAPSULE_BODY",	"en_US",
-	"If there is a lesson to be learned or indeed taught, ALFRED's ZURICH excels at both."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_DETAILED_BODY",	"en_US",
-	"Placeholder."	),
+	--("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_CAPSULE_BODY",	"en_US", "If there is a lesson to be learned or indeed taught, ALFRED's ZURICH excels at both."),
+	--("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_DETAILED_BODY",	"en_US","Placeholder."	),
 
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_1",	"en_US",
-	"Plaecholder."),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_2",	"en_US",
-	"Plaecholder."),
+	--("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_1",	"en_US","Plaecholder."),
+	--("LOC_PEDIA_LEADERS_PAGE_LEADER_TROS_ALFRED_CHAPTER_HISTORY_PARA_2",	"en_US","Plaecholder."),
 
-	("LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TROS_ALFRED_UI_CHAPTER_HISTORY_PARA_1",	"en_US",
-	"Plaecholder."	);
+	("LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TROS_ALFRED_UI_CHAPTER_HISTORY_PARA_1",	"en_US","Plaecholder."	);
