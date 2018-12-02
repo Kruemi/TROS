@@ -30,10 +30,18 @@ UPDATE	StartEras
 SET		StartingPopulationOtherCities = '1'
 WHERE	EraType = 'ERA_RENAISSANCE';
 
-UPDATE	StartingBuildings
-DELETE	Building = 'BUILDING_WALLS'
-WHERE	Era = 'ERA_RENAISSANCE';
+--UPDATE	StartingBuildings
+--DELETE	Building = 'BUILDING_GRANARY'
+--WHERE	Era = 'ERA_RENAISSANCE';
 
-/* UPDATE	StartingBuildings
+--UPDATE	StartingBuildings
+--DELETE	Building = 'BUILDING_WALLS'
+--WHERE	Era = 'ERA_RENAISSANCE';
+
+--UPDATE	StartingBuildings
+--SET		Building = 'BUILDING_STAR_FORT'
+--WHERE	Era = 'ERA_RENAISSANCE';
+
+UPDATE	StartingBuildings
 SET		Building = 'BUILDING_MONUMENT'
-WHERE	Era = 'ERA_RENAISSANCE'; */
+WHERE	Building = 'BUILDING_WALLS';
