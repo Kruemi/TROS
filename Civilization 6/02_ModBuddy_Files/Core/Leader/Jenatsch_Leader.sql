@@ -38,6 +38,13 @@ INSERT INTO	LoadingInfo
 VALUES	('LEADER_TROS_JENATSCH',	'LEADER_TROS_JENATSCH_NEUTRAL',	'LEADER_TROS_JENATSCH_BACKGROUND',	0					);
 
 -----------------------------------------------
+-- DiplomacyInfo
+-----------------------------------------------
+INSERT INTO	DiplomacyInfo
+		(Type,						BackgroundImage				)
+VALUES	('LEADER_TROS_JENATSCH',	'ART_LEADER_TROS_JENATSCH'	);
+
+-----------------------------------------------
 -- FavoredReligions
 -----------------------------------------------
 INSERT INTO FavoredReligions

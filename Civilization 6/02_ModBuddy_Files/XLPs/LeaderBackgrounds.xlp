@@ -7,6 +7,22 @@
 			<m_EntryID text="LEADER_TROS_ALFRED_BACKGROUND"/> <!--LEADER_LEADER_CUSTOM_BACKGROUND-->
 			<m_ObjectName text="LEADER_TROS_ALFRED_BACKGROUND"/> <!--LEADER_LEADER_CUSTOM_BACKGROUND-->
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_JAKOB_BACKGROUND"/>
+			<m_ObjectName text="LEADER_TROS_JAKOB_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_KARLDK_BACKGROUND"/>
+			<m_ObjectName text="LEADER_TROS_KARLDK_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_STAUFFACHER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_TROS_STAUFFACHER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_JENATSCH_BACKGROUND"/>
+			<m_ObjectName text="LEADER_TROS_JENATSCH_BACKGROUND"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

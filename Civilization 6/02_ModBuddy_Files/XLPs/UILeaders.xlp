@@ -4,8 +4,24 @@
 	<m_PackageName text="UILeaders"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="LEADER_TROS_ALFRED_NEUTRAL"/> <!--LEADER_LEADER_CUSTOM_NEUTRAL-->
-			<m_ObjectName text="LEADER_TROS_ALFRED_NEUTRAL"/> <!--LEADER_LEADER_CUSTOM_NEUTRAL-->
+			<m_EntryID text="LEADER_TROS_ALFRED_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TROS_ALFRED_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_JAKOB_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TROS_JAKOB_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_KARLDK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TROS_KARLDK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_STAUFFACHER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TROS_STAUFFACHER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_JENATSCH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TROS_JENATSCH_NEUTRAL"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
