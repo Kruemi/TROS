@@ -336,10 +336,58 @@
     <Content Include="Textures\ART_LEADER_TROS_ALFRED.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ART_LEADER_TROS_JAKOB.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_JAKOB.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_JENATSCH.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_JENATSCH.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_KARLDK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_KARLDK.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_STAUFFACHER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_STAUFFACHER.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_ALFRED.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_ALFRED.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_JAKOB.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_JAKOB.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_JENATSCH.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_JENATSCH.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_KARLDK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_KARLDK.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_STAUFFACHER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_STAUFFACHER.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_TROS_BERN_256.dds">
@@ -468,6 +516,54 @@
     <Content Include="Textures\LEADER_TROS_ALFRED_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\LEADER_TROS_JAKOB_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JAKOB_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JAKOB_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JAKOB_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JENATSCH_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JENATSCH_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JENATSCH_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JENATSCH_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_KARLDK_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_KARLDK_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_KARLDK_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_KARLDK_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_STAUFFACHER_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_STAUFFACHER_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_STAUFFACHER_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_STAUFFACHER_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\Icons_Bern.xlp">
       <SubType>Content</SubType>
     </Content>
@@ -499,6 +595,18 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\LEADER_TROS_ALFRED.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LEADER_TROS_JAKOB.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LEADER_TROS_JENATSCH.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LEADER_TROS_KARLDK.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LEADER_TROS_STAUFFACHER.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\UILeaders.xlp">
