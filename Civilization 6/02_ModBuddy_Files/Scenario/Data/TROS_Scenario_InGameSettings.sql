@@ -12,13 +12,36 @@ VALUES	('GAMESPEED_BERNER',	'KIND_GAMESPEED'	);
 -----------------------------------------------
 -- GameSpeeds
 -----------------------------------------------
-/*INSERT INTO	GameSpeeds
+INSERT INTO	GameSpeeds
 		(GameSpeedType, Name, Description, CostMultiplier, CivicUnlockMaxCost, CivicUnlockPerTurnDrop, CivicUnlockMinCost)
 VALUES	(
 		'GAMESPEED_BERNER', -- GameSpeedType
 		'LOC_TROS_SCENARIO_GAMESPEED_BERNER_NAME', -- Name
-		
-		);*/
+		'LOC_TROS_SCENARIO_GAMESPEED_BERNER_HELP', -- Description
+		'100', -- CostMultiplier
+		'100', -- CivicUnlockMaxCost
+		'10', -- CivicUnlockPerTurnDrop
+		'20' -- CivicUnlockMinCost
+		);
+
+-----------------------------------------------
+-- GameSpeed_Turns
+-----------------------------------------------
+INSERT INTO	GameSpeed_Turns
+		(GameSpeedType, MonthIncrement, TurnsPerIncrement)
+VALUES	(
+		'GAMESPEED_BERNER', -- GameSpeedType
+		'24', -- MonthIncrement
+		'259' -- TurnsPerIncrement
+		);
+
+INSERT INTO	GameSpeed_Turns
+		(GameSpeedType, MonthIncrement, TurnsPerIncrement)
+VALUES	(
+		'GAMESPEED_BERNER', -- GameSpeedType
+		'12', -- MonthIncrement
+		'241' -- TurnsPerIncrement
+		);
 
 /*For standard game speed, "years" per turn settings are:
 

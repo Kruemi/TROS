@@ -47,7 +47,7 @@ VALUES
 	Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung.
 	Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
 	
-	Viktor Amadeus II., wisst diese Umstände zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."  	),
+	[NEWLINE][NEWLINE]Viktor Amadeus II., wisst diese Umstände zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."  	),
 
 -- FIRST MEET
 	-- First AI Line
