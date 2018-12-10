@@ -69,7 +69,8 @@ INSERT INTO Units	(
 		Maintenance,
 		MandatoryObsoleteTech,
 		PrereqTech,
-		PrereqCivic
+		PrereqCivic,
+		BuildCharges
 		)
 SELECT	'UNIT_TROS_ZURICH_UU',	-- UnitType
 		'LOC_UNIT_TROS_ZURICH_UU_NAME',	-- Name
@@ -88,7 +89,8 @@ SELECT	'UNIT_TROS_ZURICH_UU',	-- UnitType
 		Maintenance,
 		MandatoryObsoleteTech,
 		PrereqTech,
-		PrereqCivic
+		PrereqCivic,
+		'3'
 FROM	Units
 WHERE	UnitType = 'UNIT_BUILDER';
 
@@ -197,8 +199,6 @@ INSERT INTO RequirementArguments
 VALUES	('REQ_TROS_ZURICH_UU_PLOT_HAS_IRON',	'ResourceType',	'RESOURCE_IRON'	);
 
 
-
-
 /* Version die nicht funktioniert hat (analog zum Hellebardier)
 
 -----------------------------------------------
@@ -304,3 +304,82 @@ BaseSightRange='2'
 BaseMoves='2'
 Cost='50'
 BuildCharges='3' */
+
+/*
+	Version die auch nicht funktioniert hat...
+
+INSERT INTO Types
+		(Kind,				Type						)
+VALUES	('KIND_UNIT',		'UNIT_TROS_ZURICH_UU'		);
+
+INSERT INTO Types
+		(Kind,				Type						)
+VALUES	('KIND_TRAIT',		'TRAIT_CIVILIZATION_TROS_ZURICH_UU'		);
+
+INSERT INTO Traits
+		(Name,				TraitType						)
+VALUES	('LOC_TRAIT_UNIT_TROS_ZURICH_UU_NAME',		'TRAIT_UNIT_TROS_ZURICH_UU'		);
+
+INSERT INTO CivilizationTraits
+		(CivilizationType,				TraitType							)
+VALUES	('CIVILIZATION_TROS_ZURICH',	'TRAIT_CIVILIZATION_TROS_ZURICH_UU'	);
+
+INSERT INTO UnitAiInfos
+		(AiType,				UnitType					)
+VALUES	('UNITAI_BUILD',		'UNIT_TROS_ZURICH_UU'		);
+
+INSERT INTO UnitAiInfos
+		(AiType,				UnitType					)
+VALUES	('UNITTYPE_CIVILIAN',	'UNIT_TROS_ZURICH_UU'		);
+
+INSERT INTO UnitCaptures
+		(BecomesUnitType,		CapturedUnitType			)
+VALUES	('UNIT_BUILDER',		'UNIT_TROS_ZURICH_UU'		);
+
+INSERT INTO UnitReplaces
+		(ReplacesUnitType,		CivUniqueUnitType			)
+VALUES	('UNIT_BUILDER',		'UNIT_TROS_ZURICH_UU'		);
+
+INSERT INTO TypeTags
+		(Type,						Tag							)
+VALUES	('UNIT_TROS_ZURICH_UU',		'CLASS_LANDCIVILIAN'		);
+
+INSERT INTO TypeTags
+		(Type,						Tag							)
+VALUES	('UNIT_TROS_ZURICH_UU',		'CLASS_BUILDER'				);
+
+
+INSERT INTO Units
+		(UnitType,
+		Name,
+		PurchaseYield,
+		CostProgressionParam1,
+		CostProgressionModel,
+		CanCapture,
+		Description,
+		AdvisorType,
+		FormationClass,
+		Domain,
+		ZoneOfControl,
+		BaseSightRange,
+		BaseMoves,
+		Cost,
+		BuildCharges)
+VALUES	(
+		'UNIT_TROS_ZURICH_UU',
+		'LOC_UNIT_TROS_ZURICH_UU_NAME',
+		'YIELD_GOLD',
+		'4',
+		'COST_PROGRESSION_PREVIOUS_COPIES',
+		'False',
+		'LOC_UNIT_TROS_ZURICH_UU_DESCRIPTION',
+		'ADVISOR_GENERIC',
+		'FORMATION_CLASS_CIVILIAN',
+		'DOMAIN_LAND',
+		'false',
+		'2',
+		'2',
+		'50',
+		'3');
+		 
+		 */
