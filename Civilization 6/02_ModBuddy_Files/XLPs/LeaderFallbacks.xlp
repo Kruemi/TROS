@@ -23,6 +23,14 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_TROS_JENATSCH"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_TROS_JENATSCH"/>
 		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_TROS_RUDOLF"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_TROS_RUDOLF"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_TROS_VIKTOR"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_TROS_VIKTOR"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
