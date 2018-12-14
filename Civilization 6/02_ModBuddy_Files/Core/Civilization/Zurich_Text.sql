@@ -37,7 +37,7 @@ VALUES
 	("LOC_UNIT_TROS_ZURICH_UU_DESCRIPTION",	"en_US",
 	"Eine Werkbehörde die Bauvorhaben schneller fertig stellt."),
 
-	("LOC_MODIFIER_TROS_ZURICH_UU_ADJUST_STRENGTH_DESCRIPTION",	"en_US",	"Plaecholder."	),
+	--("LOC_MODIFIER_TROS_ZURICH_UU_ADJUST_STRENGTH_DESCRIPTION",	"en_US",	"Plaecholder."	),
 
 -----------------------------------------------
 -- Cities

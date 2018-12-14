@@ -418,7 +418,7 @@ INSERT INTO RulesetDomainOverrides
 		(Ruleset,					PlayerId,	ParameterId,	Domain						)
 VALUES	('RULESET_SCENARIO_TROS',	Null,		'PlayerLeader',	'TROS_Scenario_Players'		),
 		('RULESET_SCENARIO_TROS',	Null,		'Map',			'Maps:Expansion1Maps'		), -- change domain to 'TROS_Scenario_Maps'
-		--('RULESET_SCENARIO_TROS',	Null,		'GameSpeeds',	'TROS_Scenario_GameSpeeds'	),
+		('RULESET_SCENARIO_TROS',	Null,		'GameSpeeds',	'TROS_Scenario_GameSpeeds'	),
 		('RULESET_SCENARIO_TROS',	Null,		'GameStartEra',	'TROS_Scenario_StartEras'	),
 		('RULESET_SCENARIO_TROS',	Null,		'GameCalendar',	'TROS_Scenario_Calendar'	),
 		('RULESET_SCENARIO_TROS',	'0',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),

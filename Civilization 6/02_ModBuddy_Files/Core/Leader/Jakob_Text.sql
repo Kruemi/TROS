@@ -47,7 +47,7 @@ VALUES
 	Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung.
 	Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
 	
-	Jakob von Wattenwyl, wisst diese Umstände zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."),
+	[NEWLINE][NEWLINE]Jakob von Wattenwyl, wisst diese Umstände zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."),
 
 -- FIRST MEET
 	-- First AI Line
@@ -61,29 +61,23 @@ VALUES
 	"Plaecholder.AI invitation to visit nearby City"	),
 
 	-- AI accepts human invitation
-	("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TROS_JAKOB_ANY",	"en_US",	"Plaecholder."	),
 
 	-- AI invitation to exchange Capital Information
-	("LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TROS_JAKOB_ANY",	"en_US",	"Plaecholder."	),
 
 -- GREETINGS
-	("LOC_DIPLO_GREETING_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_GREETING_LEADER_TROS_JAKOB_ANY",	"en_US",	"Plaecholder."	),
 
 -- DELEGATION
 	-- AI Accepts
-	("LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",	"Plaecholder."	),
 
 	-- AI Rejects
-	("LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",	"Plaecholder."	),
 
 	-- AI Requests
-	("LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",	"Plaecholder."	),
 
 -- OPEN BORDERS
 	-- AI accepts from human

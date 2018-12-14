@@ -86,26 +86,6 @@ VALUES	(
 		'TECH_MILITARY_TACTICS', -- PrereqTech
 		'TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UU'); -- TraitType
 
---SELECT	'UNIT_TROS_EIDGENOSSENSCHAFT_UU', -- UnitType
---		'200', -- Cost
---		'3', -- Maintenance
---		'2', -- BaseMoves
---		'2', -- BaseSightRange
---		1, -- ZoneOfControl
---		'DOMAIN_LAND', -- Domain
---		'46', -- Combat
---		'FORMATION_CLASS_LAND_COMBAT', -- FormationClass
---		'PROMOTION_CLASS_ANTI_CAVALRY', -- PromotionClass
---		'ADVISOR_CONQUEST', -- AdvisorType
---		'LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_NAME', -- Name
---		'LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_DESCRIPTION', -- Description
---		'YIELD_GOLD', -- PurchaseYield
---		'TECH_COMPOSITES', -- MandatoryObsoleteTech
---		'TECH_MILITARY_TACTICS', -- PrereqTech
---		'TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UU' -- TraitType
---FROM	Units
---WHERE	UnitType = 'UNIT_PIKEMAN';
-
 --UnitType="UNIT_PIKEMAN"
 --Cost="200"
 --Maintenance="3"

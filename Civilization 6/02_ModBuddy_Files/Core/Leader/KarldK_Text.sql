@@ -47,7 +47,7 @@ VALUES
 	Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung.
 	Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie.
 	
-	Karl der Kühne, wisst diese Umstaende zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."  	),
+	[NEWLINE][NEWLINE]Karl der Kühne, wisst diese Umstaende zu Eurem Vorteil zu nutzen und baut ein Reich auf, dass die Zeiten überdauern wird."  	),
 
 -- FIRST MEET
 	-- First AI Line
