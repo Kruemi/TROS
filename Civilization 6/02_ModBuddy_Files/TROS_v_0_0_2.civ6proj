@@ -354,10 +354,22 @@
     <Content Include="Textures\ART_LEADER_TROS_KARLDK.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ART_LEADER_TROS_RUDOLF.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_RUDOLF.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ART_LEADER_TROS_STAUFFACHER.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ART_LEADER_TROS_STAUFFACHER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_VIKTOR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_VIKTOR.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_ALFRED.dds">
@@ -384,10 +396,22 @@
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_KARLDK.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_RUDOLF.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_RUDOLF.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_STAUFFACHER.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_STAUFFACHER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_VIKTOR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_VIKTOR.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_TROS_BERN_256.dds">
@@ -552,6 +576,18 @@
     <Content Include="Textures\LEADER_TROS_KARLDK_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\LEADER_TROS_RUDOLF_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_RUDOLF_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_RUDOLF_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_RUDOLF_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_TROS_STAUFFACHER_BACKGROUND.dds">
       <SubType>Content</SubType>
     </Content>
@@ -562,6 +598,18 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_TROS_STAUFFACHER_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_VIKTOR_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_VIKTOR_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_VIKTOR_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_VIKTOR_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons_Bern.xlp">
@@ -606,7 +654,13 @@
     <Content Include="XLPs\LEADER_TROS_KARLDK.xlp">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="XLPs\LEADER_TROS_RUDOLF.xlp">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\LEADER_TROS_STAUFFACHER.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LEADER_TROS_VIKTOR.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\UILeaders.xlp">

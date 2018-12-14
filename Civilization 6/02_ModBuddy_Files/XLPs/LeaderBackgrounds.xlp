@@ -23,6 +23,14 @@
 			<m_EntryID text="LEADER_TROS_JENATSCH_BACKGROUND"/>
 			<m_ObjectName text="LEADER_TROS_JENATSCH_BACKGROUND"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_RUDOLF_BACKGROUND"/>
+			<m_ObjectName text="LEADER_TROS_RUDOLF_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_VIKTOR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_TROS_VIKTOR_BACKGROUND"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
