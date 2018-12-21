@@ -38,6 +38,13 @@ INSERT INTO	LoadingInfo
 VALUES	('LEADER_TROS_RUDOLF',	'LEADER_TROS_RUDOLF_NEUTRAL',	'LEADER_TROS_RUDOLF_BACKGROUND',	0					);
 
 -----------------------------------------------
+-- DiplomacyInfo
+-----------------------------------------------
+INSERT INTO	DiplomacyInfo
+		(Type,					BackgroundImage				)
+VALUES	('LEADER_TROS_RUDOLF',	'ART_LEADER_TROS_RUDOLF'	);
+
+-----------------------------------------------
 -- FavoredReligions
 -----------------------------------------------
 INSERT INTO FavoredReligions

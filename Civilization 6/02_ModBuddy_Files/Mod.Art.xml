@@ -473,6 +473,8 @@
 				<Element text="LEADER_TROS_KARLDK"/>
 				<Element text="LEADER_TROS_STAUFFACHER"/>
 				<Element text="LEADER_TROS_JENATSCH"/>
+				<Element text="LEADER_TROS_RUDOLF"/>
+				<Element text="LEADER_TROS_VIKTOR"/>
 				<!--<Element text="Leader_Alfred"/>-->
 			</relativePackagePaths>
 		</Element>
@@ -585,6 +587,8 @@
 				<Element text="LEADER_TROS_KARLDK"/>
 				<Element text="LEADER_TROS_STAUFFACHER"/>
 				<Element text="LEADER_TROS_JENATSCH"/>
+				<Element text="LEADER_TROS_RUDOLF"/>
+				<Element text="LEADER_TROS_VIKTOR"/>
 				<!-- <Element text="LeaderFallbacks"/> -->
 			</relativePackagePaths>
 		</Element>
