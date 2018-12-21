@@ -60,16 +60,10 @@ INSERT INTO Units	(
 		Cost,
 		PurchaseYield,
 		AdvisorType,
-		Combat,
 		BaseSightRange,
 		ZoneOfControl,
 		Domain,
 		FormationClass,
-		PromotionClass,
-		Maintenance,
-		MandatoryObsoleteTech,
-		PrereqTech,
-		PrereqCivic,
 		BuildCharges
 		)
 SELECT	'UNIT_TROS_ZURICH_UU',	-- UnitType
@@ -80,16 +74,10 @@ SELECT	'UNIT_TROS_ZURICH_UU',	-- UnitType
 		Cost,
 		PurchaseYield,
 		AdvisorType,
-		Combat,
 		BaseSightRange,
 		ZoneOfControl,
 		Domain,
 		FormationClass,
-		PromotionClass,
-		Maintenance,
-		MandatoryObsoleteTech,
-		PrereqTech,
-		PrereqCivic,
 		'3'
 FROM	Units
 WHERE	UnitType = 'UNIT_BUILDER';
