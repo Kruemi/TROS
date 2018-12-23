@@ -209,6 +209,13 @@ VALUES	('IMPROVEMENT_FARM',			'UNIT_TROS_ZURICH_UU'	),
 		('IMPROVEMENT_OFFSHORE_OIL_RIG','UNIT_TROS_ZURICH_UU'	),
 		('IMPROVEMENT_BEACH_RESORT',	'UNIT_TROS_ZURICH_UU'	);
 
+-----------------------------------------------
+-- Route_ValidBuildUnits (Routes)
+-----------------------------------------------
+INSERT INTO Improvement_ValidBuildUnits
+		(RouteType,					UnitType				)
+VALUES	('ROUTE_INDUSTRIAL_ROAD',	'UNIT_TROS_ZURICH_UU'	), -- läuft stabil, aber unklar ob's funktioniert
+		('ROUTE_MODERN_ROAD',		'UNIT_TROS_ZURICH_UU'	);
 
 /* Values Builder for Reference
 'UNIT_TROS_ZURICH_UU', -- UnitType
