@@ -1,5 +1,5 @@
 /*
-	UU
+	Zürich UU: Tiefbauamt
 */
 
 -----------------------------------------------
@@ -73,18 +73,18 @@ SELECT	'UNIT_TROS_ZURICH_UU',	-- UnitType
 		'LOC_UNIT_TROS_ZURICH_UU_NAME',	-- Name
 		'LOC_UNIT_TROS_ZURICH_UU_DESCRIPTION', -- Description
 		'TRAIT_CIVILIZATION_TROS_ZURICH_UU', -- TraitType
-		BaseMoves,
-		Cost,
+		'3', -- BaseMoves (+1)
+		'45', -- Cost (-5)
 		PurchaseYield,
 		CostProgressionParam1,
 		CostProgressionModel,
 		CanCapture,
 		AdvisorType,
-		BaseSightRange,
+		'3', -- BaseSightRange (+1)
 		ZoneOfControl,
 		Domain,
 		FormationClass,
-		BuildCharges
+		'4'
 FROM	Units
 WHERE	UnitType = 'UNIT_BUILDER';
 
@@ -210,41 +210,20 @@ VALUES	('IMPROVEMENT_FARM',			'UNIT_TROS_ZURICH_UU'	),
 		('IMPROVEMENT_BEACH_RESORT',	'UNIT_TROS_ZURICH_UU'	);
 
 
-/* Version die nicht funktioniert hat (analog zum Hellebardier)
-
------------------------------------------------
--- Units
------------------------------------------------	
-INSERT INTO Units
-		(UnitType,
-		Name,
-		PurchaseYield,
-		CostProgressionParam1,
-		CostProgressionModel,
-		CanCapture,
-		Description,
-		AdvisorType,
-		FormationClass,
-		Domain,
-		ZoneOfControl,
-		BaseSightRange,
-		BaseMoves,
-		Cost,
-		BuildCharges)
-VALUES	(
-		'UNIT_TROS_ZURICH_UU', -- UnitType
-		'LOC_UNIT_TROS_ZURICH_UU_NAME', -- Name
-		'YIELD_GOLD', -- PurchaseYield
-		'4', -- CostProgressionParam1
-		'COST_PROGRESSION_PREVIOUS_COPIES', -- CostProgressionModel
-		'False', -- CanCapture
-		'LOC_UNIT_TROS_ZURICH_UU_DESCRIPTION', -- Description
-		'ADVISOR_GENERIC', -- AdvisorType
-		'FORMATION_CLASS_CIVILIAN', -- FormationClass
-		'DOMAIN_LAND', -- Domain
-		'false', -- ZoneOfControl
-		'3', -- BaseSightRange (+1)
-		'3', -- BaseMoves (+1)
-		'45', -- Cost (-5)
-		'4'); -- BuildCharges (+1)
+/* Values Builder for Reference
+'UNIT_TROS_ZURICH_UU', -- UnitType
+'LOC_UNIT_TROS_ZURICH_UU_NAME', -- Name
+'YIELD_GOLD', -- PurchaseYield
+'4', -- CostProgressionParam1
+'COST_PROGRESSION_PREVIOUS_COPIES', -- CostProgressionModel
+'False', -- CanCapture
+'LOC_UNIT_TROS_ZURICH_UU_DESCRIPTION', -- Description
+'ADVISOR_GENERIC', -- AdvisorType
+'FORMATION_CLASS_CIVILIAN', -- FormationClass
+'DOMAIN_LAND', -- Domain
+'false', -- ZoneOfControl
+'3', -- BaseSightRange (+1)
+'3', -- BaseMoves (+1)
+'45', -- Cost (-5)
+'4'); -- BuildCharges (+1)
 */
