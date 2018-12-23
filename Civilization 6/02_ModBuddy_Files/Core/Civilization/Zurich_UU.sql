@@ -84,7 +84,7 @@ SELECT	'UNIT_TROS_ZURICH_UU',	-- UnitType
 		ZoneOfControl,
 		Domain,
 		FormationClass,
-		'3'
+		BuildCharges
 FROM	Units
 WHERE	UnitType = 'UNIT_BUILDER';
 
@@ -192,50 +192,25 @@ INSERT INTO RequirementArguments
 		(RequirementId,							Name,			Value			)
 VALUES	('REQ_TROS_ZURICH_UU_PLOT_HAS_IRON',	'ResourceType',	'RESOURCE_IRON'	);
 
+-----------------------------------------------
+-- Improvement_ValidBuildUnits (Improvements)
+-----------------------------------------------
+INSERT INTO Improvement_ValidBuildUnits
+		(ImprovementType,				UnitType				)
+VALUES	('IMPROVEMENT_FARM',			'UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_MINE',			'UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_QUARRY',			'UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_FISHING_BOATS',	'UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_PASTURE',			'UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_PLANTATION',		'UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_CAMP',			'UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_LUMBER_MILL',		'UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_OIL_WELL',		'UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_OFFSHORE_OIL_RIG','UNIT_TROS_ZURICH_UU'	),
+		('IMPROVEMENT_BEACH_RESORT',	'UNIT_TROS_ZURICH_UU'	);
+
 
 /* Version die nicht funktioniert hat (analog zum Hellebardier)
-
------------------------------------------------
--- Types
------------------------------------------------	
-INSERT INTO Types
-		(Type,										Kind				)
-VALUES	('TRAIT_CIVILIZATION_TROS_ZURICH_UU',		'KIND_TRAIT'		),
-		('UNIT_TROS_ZURICH_UU',						'KIND_UNIT'			);
-
------------------------------------------------
--- Tags
------------------------------------------------	
---INSERT INTO Tags
---		(Tag,						Vocabulary		)
---VALUES	('CLASS_TROS_ZURICH_UU',	'ABILITY_CLASS'	);
-
------------------------------------------------
--- TypeTags
------------------------------------------------		
-INSERT INTO TypeTags
-		(Type,						Tag						)
-VALUES	('UNIT_TROS_ZURICH_UU',		'CLASS_BUILDER'	);
-		--('ABILITY_TROS_ZURICH_UU',	'CLASS_TROS_ZURICH_UU'	);
-
---INSERT INTO TypeTags (Type,		Tag)
---SELECT 	'UNIT_TROS_ZURICH_UU',	Tag
---FROM 	TypeTags
---WHERE 	Type = 'UNIT_BUILDER';
-
------------------------------------------------
--- Traits
------------------------------------------------	
-INSERT INTO Traits
-		(TraitType,								Name							)
-VALUES	('TRAIT_CIVILIZATION_TROS_ZURICH_UU',	'LOC_UNIT_TROS_ZURICH_UU_NAME'	);
-
------------------------------------------------
--- CivilizationTraits
------------------------------------------------
-INSERT INTO CivilizationTraits
-		(CivilizationType,				TraitType							)
-VALUES	('CIVILIZATION_TROS_ZURICH',	'TRAIT_CIVILIZATION_TROS_ZURICH_UU'	);
 
 -----------------------------------------------
 -- Units
@@ -272,108 +247,4 @@ VALUES	(
 		'3', -- BaseMoves (+1)
 		'45', -- Cost (-5)
 		'4'); -- BuildCharges (+1)
-		
------------------------------------------------
--- UnitReplaces
------------------------------------------------
-INSERT INTO UnitReplaces
-		(CivUniqueUnitType,		ReplacesUnitType	)
-VALUES	('UNIT_TROS_ZURICH_UU',	'UNIT_BUILDER'		);
-
 */
-
-/*
-UnitType='UNIT_BUILDER'
-Name='LOC_UNIT_BUILDER_NAME'
-PurchaseYield='YIELD_GOLD'
-CostProgressionParam1='4'
-CostProgressionModel='COST_PROGRESSION_PREVIOUS_COPIES'
-CanCapture='False'
-Description='LOC_UNIT_BUILDER_DESCRIPTION'
-AdvisorType='ADVISOR_GENERIC'
-FormationClass='FORMATION_CLASS_CIVILIAN'
-Domain='DOMAIN_LAND'
-ZoneOfControl='false'
-BaseSightRange='2'
-BaseMoves='2'
-Cost='50'
-BuildCharges='3' */
-
-/*
-	Version die auch nicht funktioniert hat...
-
-INSERT INTO Types
-		(Kind,				Type						)
-VALUES	('KIND_UNIT',		'UNIT_TROS_ZURICH_UU'		);
-
-INSERT INTO Types
-		(Kind,				Type						)
-VALUES	('KIND_TRAIT',		'TRAIT_CIVILIZATION_TROS_ZURICH_UU'		);
-
-INSERT INTO Traits
-		(Name,				TraitType						)
-VALUES	('LOC_TRAIT_UNIT_TROS_ZURICH_UU_NAME',		'TRAIT_UNIT_TROS_ZURICH_UU'		);
-
-INSERT INTO CivilizationTraits
-		(CivilizationType,				TraitType							)
-VALUES	('CIVILIZATION_TROS_ZURICH',	'TRAIT_CIVILIZATION_TROS_ZURICH_UU'	);
-
-INSERT INTO UnitAiInfos
-		(AiType,				UnitType					)
-VALUES	('UNITAI_BUILD',		'UNIT_TROS_ZURICH_UU'		);
-
-INSERT INTO UnitAiInfos
-		(AiType,				UnitType					)
-VALUES	('UNITTYPE_CIVILIAN',	'UNIT_TROS_ZURICH_UU'		);
-
-INSERT INTO UnitCaptures
-		(BecomesUnitType,		CapturedUnitType			)
-VALUES	('UNIT_BUILDER',		'UNIT_TROS_ZURICH_UU'		);
-
-INSERT INTO UnitReplaces
-		(ReplacesUnitType,		CivUniqueUnitType			)
-VALUES	('UNIT_BUILDER',		'UNIT_TROS_ZURICH_UU'		);
-
-INSERT INTO TypeTags
-		(Type,						Tag							)
-VALUES	('UNIT_TROS_ZURICH_UU',		'CLASS_LANDCIVILIAN'		);
-
-INSERT INTO TypeTags
-		(Type,						Tag							)
-VALUES	('UNIT_TROS_ZURICH_UU',		'CLASS_BUILDER'				);
-
-
-INSERT INTO Units
-		(UnitType,
-		Name,
-		PurchaseYield,
-		CostProgressionParam1,
-		CostProgressionModel,
-		CanCapture,
-		Description,
-		AdvisorType,
-		FormationClass,
-		Domain,
-		ZoneOfControl,
-		BaseSightRange,
-		BaseMoves,
-		Cost,
-		BuildCharges)
-VALUES	(
-		'UNIT_TROS_ZURICH_UU',
-		'LOC_UNIT_TROS_ZURICH_UU_NAME',
-		'YIELD_GOLD',
-		'4',
-		'COST_PROGRESSION_PREVIOUS_COPIES',
-		'False',
-		'LOC_UNIT_TROS_ZURICH_UU_DESCRIPTION',
-		'ADVISOR_GENERIC',
-		'FORMATION_CLASS_CIVILIAN',
-		'DOMAIN_LAND',
-		'false',
-		'2',
-		'2',
-		'50',
-		'3');
-		 
-		 */
