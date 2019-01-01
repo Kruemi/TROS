@@ -19,9 +19,9 @@ VALUES
 -----------------------------------------------
 -- UA
 -----------------------------------------------
-	("LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UA_NAME",  "en_US",	"Unique Ability"	),
+	("LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UA_NAME",  "en_US",	"Zwinglianismus"	),
 	("LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UA_DESCRIPTION",	"en_US",
-	"Plaecholder."	),
+	"Unique Ability Description"	),
 
 -----------------------------------------------
 -- UI
@@ -35,7 +35,7 @@ VALUES
 -----------------------------------------------
 	("LOC_UNIT_TROS_ZURICH_UU_NAME",	"en_US",	"Tiefbauamt"	),
 	("LOC_UNIT_TROS_ZURICH_UU_DESCRIPTION",	"en_US",
-	"Eine Werkbehörde die Bauvorhaben schneller fertig stellt."),
+	"Eine Werkbehörde die mehr Bauvorhaben fertig stellen kann."),
 
 	--("LOC_MODIFIER_TROS_ZURICH_UU_ADJUST_STRENGTH_DESCRIPTION",	"en_US",	"Plaecholder."	),
 
