@@ -316,9 +316,17 @@ SELECT	'TROS_Scenario_Players', -- Domain
 FROM	Players
 WHERE	CivilizationType = 'CIVILIZATION_TROS_ZURICH';
 
--- Deutschland geht nicht mit insert/select/from/where (Grund domain?), versuche insert values
+-- Deutschland
 INSERT INTO Players	(Domain,					LeaderAbilityIcon,			LeaderAbilityDescription,							LeaderAbilityName,							CivilizationAbilityIcon,		CivilizationAbilityDescription,								CivilizationAbilityName,							LeaderIcon,					LeaderName,						CivilizationIcon,				CivilizationName,					LeaderType,				CivilizationType)
 VALUES				('TROS_Scenario_Players',	'ICON_LEADER_BARBAROSSA',	'LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION',	'LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_NAME',	'ICON_CIVILIZATION_GERMANY',	'LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_DESCRIPTION',	'LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME',	'ICON_LEADER_BARBAROSSA',	'LOC_LEADER_BARBAROSSA_NAME',	'ICON_CIVILIZATION_GERMANY',	'LOC_CIVILIZATION_GERMANY_NAME',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY');
+
+-- Frankreich
+INSERT INTO Players	(Domain,					LeaderAbilityIcon,					LeaderAbilityDescription,						LeaderAbilityName,							CivilizationAbilityIcon,	CivilizationAbilityDescription,							CivilizationAbilityName,						LeaderIcon,							LeaderName,								CivilizationIcon,			CivilizationName,				LeaderType,						CivilizationType)
+VALUES				('TROS_Scenario_Players',	'ICON_LEADER_CATHERINE_DE_MEDICI',	'LOC_TRAIT_LEADER_FLYING_SQUADRON_DESCRIPTION',	'LOC_TRAIT_LEADER_FLYING_SQUADRON_NAME',	'ICON_CIVILIZATION_FRANCE',	'LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION',	'LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_NAME',	'ICON_LEADER_CATHERINE_DE_MEDICI',	'LOC_LEADER_CATHERINE_DE_MEDICI_NAME',	'ICON_CIVILIZATION_FRANCE',	'LOC_CIVILIZATION_FRANCE_NAME',	'LEADER_CATHERINE_DE_MEDICI',	'CIVILIZATION_FRANCE');
+
+-- Italien (Rom)
+INSERT INTO Players	(Domain,					LeaderAbilityIcon,		LeaderAbilityDescription,						LeaderAbilityName,						CivilizationAbilityIcon,	CivilizationAbilityDescription,							CivilizationAbilityName,							LeaderIcon,				LeaderName,					CivilizationIcon,			CivilizationName,				LeaderType,			CivilizationType)
+VALUES				('TROS_Scenario_Players',	'ICON_LEADER_TRAJAN',	'LOC_TRAIT_LEADER_TRAJANS_COLUMN_DESCRIPTION',	'LOC_TRAIT_LEADER_TRAJANS_COLUMN_NAME',	'ICON_CIVILIZATION_ROME',	'LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_DESCRIPTION',	'LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_NAME',	'ICON_LEADER_TRAJAN',	'LOC_LEADER_TRAJAN_NAME',	'ICON_CIVILIZATION_ROME',	'LOC_CIVILIZATION_ROME_NAME',	'LEADER_TRAJAN',	'CIVILIZATION_ROME');
 
 -----------------------------------------------
 -- PlayerItems (Base\Assets\Configuration\Players.xml)
@@ -356,14 +364,21 @@ SELECT	'TROS_Scenario_Players',	CivilizationType, 			LeaderType, 			Type, 						
 INSERT INTO	PlayerItems
 		(Domain, 					CivilizationType, 			LeaderType, 			Type, 						Icon, 								Name, 									Description, 								SortIndex	)
 SELECT	'TROS_Scenario_Players',	CivilizationType, 			LeaderType, 			Type, 						Icon, 								Name, 									Description, 								SortIndex	FROM	PlayerItems	WHERE CivilizationType = 'CIVILIZATION_TROS_ZURICH';
--- Deutschland 9. - geht nicht so, versuche insert values
---INSERT INTO	PlayerItems
---		(Domain, 					CivilizationType, 			LeaderType, 			Type, 						Icon, 								Name, 									Description, 								SortIndex	)
---SELECT	'TROS_Scenario_Players',	CivilizationType, 			LeaderType, 			Type, 						Icon, 								Name, 									Description, 								SortIndex	FROM	PlayerItems	WHERE CivilizationType = 'CIVILIZATION_GERMANY';
-INSERT INTO PlayerItems (Domain,					LeaderType,			CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
+-- Deutschland
+INSERT INTO PlayerItems (Domain,					LeaderType,				CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
 VALUES					('TROS_Scenario_Players',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY',	'10',		'LOC_UNIT_GERMAN_UBOAT_DESCRIPTION','LOC_UNIT_GERMAN_UBOAT_NAME',	'ICON_UNIT_GERMAN_UBOAT',	'UNIT_GERMAN_UBOAT');
-INSERT INTO PlayerItems (Domain,					LeaderType,			CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
+INSERT INTO PlayerItems (Domain,					LeaderType,				CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
 VALUES					('TROS_Scenario_Players',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY',	'20',		'LOC_UNIT_GERMAN_HANSA_DESCRIPTION','LOC_DISTRICT_HANSA_NAME',		'ICON_DISTRICT_HANSA',		'DISTRICT_HANSA');
+-- Frankreich
+INSERT INTO PlayerItems (Domain,					LeaderType,						CivilizationType,		SortIndex,	Description,									Name,									Icon,								Type)
+VALUES					('TROS_Scenario_Players',	'LEADER_CATHERINE_DE_MEDICI',	'CIVILIZATION_FRANCE',	'10',		'LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION',	'LOC_UNIT_FRENCH_GARDE_IMPERIALE_NAME',	'ICON_UNIT_FRENCH_GARDE_IMPERIALE',	'UNIT_FRENCH_GARDE_IMPERIALE');
+INSERT INTO PlayerItems (Domain,					LeaderType,						CivilizationType,		SortIndex,	Description,									Name,									Icon,							Type)
+VALUES					('TROS_Scenario_Players',	'LEADER_CATHERINE_DE_MEDICI',	'CIVILIZATION_FRANCE',	'20',		'LOC_IMPROVEMENT_CHATEAU_DESCRIPTION',			'LOC_IMPROVEMENT_CHATEAU_NAME',			'ICON_IMPROVEMENT_CHATEAU',		'IMPROVEMENT_CHATEAU');
+-- Italien (Rom) 11.
+INSERT INTO PlayerItems (Domain,					LeaderType,			CivilizationType,		SortIndex,	Description,							Name,							Icon,						Type)
+VALUES					('TROS_Scenario_Players',	'LEADER_TRAJAN',	'CIVILIZATION_ROME',	'10',		'LOC_UNIT_ROMAN_LEGION_DESCRIPTION',	'LOC_UNIT_ROMAN_LEGION_NAME',	'ICON_UNIT_ROMAN_LEGION',	'UNIT_ROMAN_LEGION');
+INSERT INTO PlayerItems (Domain,					LeaderType,			CivilizationType,		SortIndex,	Description,							Name,							Icon,						Type)
+VALUES					('TROS_Scenario_Players',	'LEADER_TRAJAN',	'CIVILIZATION_ROME',	'20',		'LOC_DISTRICT_BATH_DESCRIPTION',		'LOC_DISTRICT_BATH_NAME',		'ICON_DISTRICT_BATH',		'DISTRICT_BATH');
 
 -----------------------------------------------
 -- Parameters
@@ -415,9 +430,9 @@ VALUES	(
 		'MAPSIZE_HUGE', -- MapSizeType
 		'LOC_MAPSIZE_HUGE_NAME', -- Name
 		'LOC_MAPSIZE_HUGE_DESCRIPTION', -- Description
-		'9', -- MinPlayers
-		'9', -- MaxPlayers
-		'9', -- DefaultPlayers
+		'11', -- MinPlayers
+		'11', -- MaxPlayers
+		'11', -- DefaultPlayers
 		'18', -- MinCityStates
 		'18', -- MaxCityStates
 		'18', -- DefaultCityStates
@@ -441,7 +456,9 @@ VALUES	('RULESET_SCENARIO_TROS',	Null,		'PlayerLeader',	'TROS_Scenario_Players'	
 		('RULESET_SCENARIO_TROS',	'5',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
 		('RULESET_SCENARIO_TROS',	'6',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
 		('RULESET_SCENARIO_TROS',	'7',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
-		('RULESET_SCENARIO_TROS',	'8',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	);
+		('RULESET_SCENARIO_TROS',	'9',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
+		('RULESET_SCENARIO_TROS',	'10',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
+		('RULESET_SCENARIO_TROS',	'11',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	);
 
 -----------------------------------------------
 -- RulesetSupportedValues
