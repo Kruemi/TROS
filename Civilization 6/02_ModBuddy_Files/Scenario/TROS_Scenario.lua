@@ -6,9 +6,9 @@
 -- 5 - Viktor		Savoyen
 -- 6 - BischofVS	Wallis
 -- 7 - Alfred		Zurich
--- 8 - Barbarossa				Deutschland
--- 9 - Catharina de Medici		Frankreich
--- 10 - Gian Visconti			Milano
+-- Barbarossa		Deutschland
+-- Catharina de Medici		Frankreich
+-- Gian Visconti			Milano
 
 -- 62 - Free Cities
 -- 63 - Barbarians
@@ -66,6 +66,17 @@ function IdentifyCivilizationIDs()
 				eFrancelayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_ROME") then
 				eRomePlayer = iPlayer;
+			elseif (sPlayerCivName == "CIVILIZATION_YEREVAN") then
+				eLuzernPlayer = iPlayer;
+			elseif (sPlayerCivName == "CIVILIZATION_HATTUSA") then
+				eSanktGallenPlayer = iPlayer;
+			elseif (sPlayerCivName == "CIVILIZATION_KABUL") then
+				eNeuenburgPlayer = iPlayer;
+			elseif (sPlayerCivName == "CIVILIZATION_VILNIUS") then
+				eBaselPlayer = iPlayer;
+			elseif (sPlayerCivName == "CIVILIZATION_KANDY") then
+				eJuraPlayer = iPlayer;
+
 			end
 		end
 	end
@@ -83,8 +94,12 @@ function Initialize_NewGame()
 		-- Kriege
 	Players[eHabsburgPlayer]:GetDiplomacy():DeclareWarOn(eEidgenossenschaftPlayer, WarTypes.FORMAL_WAR, true);
 	Players[eHabsburgPlayer]:GetDiplomacy():DeclareWarOn(eGermanyPlayer, WarTypes.FORMAL_WAR, true);
+	Players[eHabsburgPlayer]:GetDiplomacy():DeclareWarOn(eLuzernPlayer, WarTypes.FORMAL_WAR, true);
+	Players[eHabsburgPlayer]:GetDiplomacy():DeclareWarOn(eSanktGallenPlayer, WarTypes.FORMAL_WAR, true);
 	Players[eSavoyenPlayer]:GetDiplomacy():DeclareWarOn(eWallisPlayer, WarTypes.FORMAL_WAR, true);
 	Players[eSavoyenPlayer]:GetDiplomacy():DeclareWarOn(eBernPlayer, WarTypes.FORMAL_WAR, true);
+	Players[eNeuenburgPlayer]:GetDiplomacy():DeclareWarOn(eBaselPlayer, WarTypes.FORMAL_WAR, true);
+	Players[eNeuenburgPlayer]:GetDiplomacy():DeclareWarOn(eJuraPlayer, WarTypes.FORMAL_WAR, true);
 
 	-- ===========================================================================
 	-- Cities
