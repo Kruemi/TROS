@@ -91,7 +91,7 @@ VALUES
 	("LOC_CITIZEN_TROS_WALLIS_MALE_5",		"en_US",	"Giannni"	),
 	("LOC_CITIZEN_TROS_WALLIS_MALE_6",		"en_US",	"Joseph"	),
 	("LOC_CITIZEN_TROS_WALLIS_MALE_7",		"en_US",	"Sepp"	),
-	("LOC_CITIZEN_TROS_WALLIS_MALE_8",		"en_US",	"Placeholder"	),
+	("LOC_CITIZEN_TROS_WALLIS_MALE_8",		"en_US",	"Reto"	),
 	("LOC_CITIZEN_TROS_WALLIS_MALE_9",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_WALLIS_MALE_10",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_WALLIS_FEMALE_1",		"en_US",	"Maria"	),
