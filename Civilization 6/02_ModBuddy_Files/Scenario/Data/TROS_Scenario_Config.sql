@@ -317,8 +317,8 @@ FROM	Players
 WHERE	CivilizationType = 'CIVILIZATION_TROS_ZURICH';
 
 -- Deutschland geht nicht mit insert/select/from/where (Grund domain?), versuche insert values
-INSERT INTO Players	(LeaderAbilityIcon,			LeaderAbilityDescription,							LeaderAbilityName,							CivilizationAbilityIcon,		CivilizationAbilityDescription,								CivilizationAbilityName,							LeaderIcon,					LeaderName,						CivilizationIcon,				CivilizationName,					LeaderType,				CivilizationType)
-VALUES				('ICON_LEADER_BARBAROSSA',	'LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION',	'LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_NAME',	'ICON_CIVILIZATION_GERMANY',	'LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_DESCRIPTION',	'LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME',	'ICON_LEADER_BARBAROSSA',	'LOC_LEADER_BARBAROSSA_NAME',	'ICON_CIVILIZATION_GERMANY',	'LOC_CIVILIZATION_GERMANY_NAME',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY');
+INSERT INTO Players	(Domain,					LeaderAbilityIcon,			LeaderAbilityDescription,							LeaderAbilityName,							CivilizationAbilityIcon,		CivilizationAbilityDescription,								CivilizationAbilityName,							LeaderIcon,					LeaderName,						CivilizationIcon,				CivilizationName,					LeaderType,				CivilizationType)
+VALUES				('TROS_Scenario_Players',	'ICON_LEADER_BARBAROSSA',	'LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION',	'LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_NAME',	'ICON_CIVILIZATION_GERMANY',	'LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_DESCRIPTION',	'LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME',	'ICON_LEADER_BARBAROSSA',	'LOC_LEADER_BARBAROSSA_NAME',	'ICON_CIVILIZATION_GERMANY',	'LOC_CIVILIZATION_GERMANY_NAME',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY');
 
 -----------------------------------------------
 -- PlayerItems (Base\Assets\Configuration\Players.xml)
@@ -360,10 +360,10 @@ SELECT	'TROS_Scenario_Players',	CivilizationType, 			LeaderType, 			Type, 						
 --INSERT INTO	PlayerItems
 --		(Domain, 					CivilizationType, 			LeaderType, 			Type, 						Icon, 								Name, 									Description, 								SortIndex	)
 --SELECT	'TROS_Scenario_Players',	CivilizationType, 			LeaderType, 			Type, 						Icon, 								Name, 									Description, 								SortIndex	FROM	PlayerItems	WHERE CivilizationType = 'CIVILIZATION_GERMANY';
---INSERT INTO PlayerItems (LeaderType,			CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
---VALUES					('LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY',	'10',		'LOC_UNIT_GERMAN_UBOAT_DESCRIPTION','LOC_UNIT_GERMAN_UBOAT_NAME',	'ICON_UNIT_GERMAN_UBOAT',	'UNIT_GERMAN_UBOAT');
---INSERT INTO PlayerItems (LeaderType,			CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
---VALUES					('LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY',	'20',		'LOC_UNIT_GERMAN_HANSA_DESCRIPTION','LOC_DISTRICT_HANSA_NAME',		'ICON_DISTRICT_HANSA',		'DISTRICT_HANSA');
+INSERT INTO PlayerItems (Domain,					LeaderType,			CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
+VALUES					('TROS_Scenario_Players',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY',	'10',		'LOC_UNIT_GERMAN_UBOAT_DESCRIPTION','LOC_UNIT_GERMAN_UBOAT_NAME',	'ICON_UNIT_GERMAN_UBOAT',	'UNIT_GERMAN_UBOAT');
+INSERT INTO PlayerItems (Domain,					LeaderType,			CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
+VALUES					('TROS_Scenario_Players',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY',	'20',		'LOC_UNIT_GERMAN_HANSA_DESCRIPTION','LOC_DISTRICT_HANSA_NAME',		'ICON_DISTRICT_HANSA',		'DISTRICT_HANSA');
 
 -----------------------------------------------
 -- Parameters
