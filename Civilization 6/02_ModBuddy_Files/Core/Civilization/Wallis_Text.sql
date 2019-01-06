@@ -45,7 +45,7 @@ VALUES
 	("LOC_CITY_NAME_TROS_WALLIS_1", "en_US", "Sion"),
 	("LOC_CITY_NAME_TROS_WALLIS_2", "en_US", "Brig"),
 	("LOC_CITY_NAME_TROS_WALLIS_3", "en_US", "Zermatt"),
-	("LOC_CITY_NAME_TROS_WALLIS_4", "en_US", "PlaecholderVS4"),
+	("LOC_CITY_NAME_TROS_WALLIS_4", "en_US", "Siders"),
 	("LOC_CITY_NAME_TROS_WALLIS_5", "en_US", "PlaecholderVS5"),
 	("LOC_CITY_NAME_TROS_WALLIS_6", "en_US", "PlaecholderVS6"),
 	("LOC_CITY_NAME_TROS_WALLIS_7", "en_US", "PlaecholderVS7"),
