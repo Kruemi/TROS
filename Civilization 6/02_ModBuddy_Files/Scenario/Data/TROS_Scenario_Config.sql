@@ -368,7 +368,7 @@ SELECT	'TROS_Scenario_Players',	CivilizationType, 			LeaderType, 			Type, 						
 INSERT INTO PlayerItems (Domain,					LeaderType,				CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
 VALUES					('TROS_Scenario_Players',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY',	'10',		'LOC_UNIT_GERMAN_UBOAT_DESCRIPTION','LOC_UNIT_GERMAN_UBOAT_NAME',	'ICON_UNIT_GERMAN_UBOAT',	'UNIT_GERMAN_UBOAT');
 INSERT INTO PlayerItems (Domain,					LeaderType,				CivilizationType,		SortIndex,	Description,						Name,							Icon,						Type)
-VALUES					('TROS_Scenario_Players',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY',	'20',		'LOC_UNIT_GERMAN_HANSA_DESCRIPTION','LOC_DISTRICT_HANSA_NAME',		'ICON_DISTRICT_HANSA',		'DISTRICT_HANSA');
+VALUES					('TROS_Scenario_Players',	'LEADER_BARBAROSSA',	'CIVILIZATION_GERMANY',	'20',		'LOC_DISTRICT_HANSA_DESCRIPTION',	'LOC_DISTRICT_HANSA_NAME',		'ICON_DISTRICT_HANSA',		'DISTRICT_HANSA');
 -- Frankreich
 INSERT INTO PlayerItems (Domain,					LeaderType,						CivilizationType,		SortIndex,	Description,									Name,									Icon,								Type)
 VALUES					('TROS_Scenario_Players',	'LEADER_CATHERINE_DE_MEDICI',	'CIVILIZATION_FRANCE',	'10',		'LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION',	'LOC_UNIT_FRENCH_GARDE_IMPERIALE_NAME',	'ICON_UNIT_FRENCH_GARDE_IMPERIALE',	'UNIT_FRENCH_GARDE_IMPERIALE');
