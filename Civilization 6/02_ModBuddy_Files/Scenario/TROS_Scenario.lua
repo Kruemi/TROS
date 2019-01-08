@@ -68,7 +68,7 @@ function IdentifyCivilizationIDs()
 			elseif (sPlayerCivName == "CIVILIZATION_GERMANY") then
 				eGermanyPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_FRANCE") then
-				eFrancelayer = iPlayer;
+				eFrancePlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_ROME") then
 				eRomePlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_YEREVAN") then
