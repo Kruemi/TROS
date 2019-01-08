@@ -13,8 +13,8 @@ VALUES
 -- Rulesets
 -----------------------------------------------
 	("LOC_TROS_SCENARIO_NAME",			"en_US",	"The Rise of Switzerland"			),
-	("LOC_TROS_SCENARIO_TOOLTIP",		"en_US",	"EXAMPLE As a viking king, can you amass the greatest wealth? Lasts 60 Turns."	),
-	("LOC_TROS_SCENARIO_DESCRIPTION",  	"en_US",	"EXAMPLE Bring Europe under your rule as the mightiest Viking lord in this 60 turn scenario. Play as one of three unique Viking rulers from Denmark, Norway, or Sweden and pillage and raid your way through Europe. Launch a naval invasion of England, conquer Paris, or sail around Gibraltar and raid the Mediterranean Sea.[NEWLINE][NEWLINE]Back home, build a merchant empire as you accumulate trade routes with the most profitable cities that you can. And if you find yourself following a religion, spread the good word and generate [ICON_Faith] Faith for your people."			);
+	("LOC_TROS_SCENARIO_TOOLTIP",		"en_US",	"As a leader of a middle Europe civilization, can you achieve victory? Lasts 500 Turns."	),
+	("LOC_TROS_SCENARIO_DESCRIPTION",  	"en_US",	"Wir schreiben das Jahr 1291 nach Christus. Mitteleuropa befindet sich im Umbruch: Reiche der Zaehringer und Kyburger sind zerfallen und sind auf der Suche nach neuen Herrn. Die Talschaften von Uri, Schwyz und Unterwalden haben ihren Bund erneuert und bestehen auf ihrer Reichsunmittelbarkeit mit Gewalt. Derweil strebt das Hause Habsburg nach Einfluss und dem Königsthron. Die Gletscher haben sich zurückgezogen und abgelegene Talschaften werden bereit zur Nutzung. Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so einfach wie noch nie. [NEWLINE][NEWLINE]Play as one of 11 rulers from Swiss Confederation, Habsburg, Wallis, Graubuenden, Berne, Zurich, Savoy, Burgund, Germany, France or Italy; with each unique advantages.");
 
 -----------------------------------------------
 -- Map

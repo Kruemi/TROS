@@ -44,11 +44,11 @@ VALUES
 -----------------------------------------------
 	("LOC_CITY_NAME_TROS_BERN_1", "en_US", "Bern"),
 	("LOC_CITY_NAME_TROS_BERN_2", "en_US", "Interlaken"),
-	("LOC_CITY_NAME_TROS_BERN_3", "en_US", "Thun"),
-	("LOC_CITY_NAME_TROS_BERN_4", "en_US", "Murten"),
-	("LOC_CITY_NAME_TROS_BERN_5", "en_US", "Porrentruy"),
-	("LOC_CITY_NAME_TROS_BERN_6", "en_US", "Burgdorf"),
-	("LOC_CITY_NAME_TROS_BERN_7", "en_US", "Plaecholder7"),
+	("LOC_CITY_NAME_TROS_BERN_3", "en_US", "Simmental"),
+	("LOC_CITY_NAME_TROS_BERN_4", "en_US", "Thun"),
+	("LOC_CITY_NAME_TROS_BERN_5", "en_US", "Murten"),
+	("LOC_CITY_NAME_TROS_BERN_6", "en_US", "Porrentruy"),
+	("LOC_CITY_NAME_TROS_BERN_7", "en_US", "Burgdorf"),
 
 -----------------------------------------------
 -- Citizens

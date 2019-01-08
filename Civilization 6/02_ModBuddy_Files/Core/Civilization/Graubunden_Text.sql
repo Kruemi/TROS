@@ -88,7 +88,7 @@ VALUES
 	("LOC_CITIZEN_TROS_GRAUBUNDEN_MALE_1",		"en_US",	"Andreas"		),
 	("LOC_CITIZEN_TROS_GRAUBUNDEN_MALE_2",		"en_US",	"Ursin"		),
 	("LOC_CITIZEN_TROS_GRAUBUNDEN_MALE_3",		"en_US",	"Caspar"	),
-	("LOC_CITIZEN_TROS_GRAUBUNDEN_MALE_4",		"en_US",	"Placeholder"	),
+	("LOC_CITIZEN_TROS_GRAUBUNDEN_MALE_4",		"en_US",	"Reto"	),
 	("LOC_CITIZEN_TROS_GRAUBUNDEN_MALE_5",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_GRAUBUNDEN_MALE_6",		"en_US",	"Placeholder"	),
 	("LOC_CITIZEN_TROS_GRAUBUNDEN_MALE_7",		"en_US",	"Placeholder"	),
