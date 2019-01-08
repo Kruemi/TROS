@@ -81,112 +81,112 @@ VALUES
 
 -- OPEN BORDERS
 	-- AI accepts from human
-	("LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder."	),
 
 	-- AI rejects from human
-	("LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",  "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",  "en_US",
+	--"Plaecholder."	),
 
 	-- AI requests from human
-	("LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TROS_JAKOB_ANY",      "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TROS_JAKOB_ANY",      "en_US",
+	--"Plaecholder."	),
 
 -- DECLARE FRIENDSHIP
 
 	-- AI accepts from human
-	("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",   "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",   "en_US",
+	--"Plaecholder."	),
 
 	-- AI rejects from human
-	("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",   "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",   "en_US",
+	--"Plaecholder."	),
 
 	-- AI Requests friendship from human
-	("LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TROS_JAKOB_ANY",     "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TROS_JAKOB_ANY",     "en_US",
+	--"Plaecholder."	),
 
 	-- Human accepts AI requests, AI responds
-	("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TROS_JAKOB_ANY",   "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TROS_JAKOB_ANY",   "en_US",
+	--"Plaecholder."	),
 
 	-- Human rejects AI requests, AI responds
-	("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TROS_JAKOB_ANY",   "en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TROS_JAKOB_ANY",   "en_US",
+	--"Plaecholder."	),
 
 -- ALLIANCE
 
 	-- AI Requests an alliance from human
-	("LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder"	),
 
 -- KUDOS & WARNINGS
 
 	-- AI Kudos
-	("LOC_DIPLO_KUDO_EXIT_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_KUDO_EXIT_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder"	),
 
 	-- AI Warnings
-	("LOC_DIPLO_WARNING_EXIT_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_WARNING_EXIT_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder"	),
 
 	-- AI warns player for border troops
-	("LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder"	),
 
 -- TRADE
 
 	-- AI Accepts Deal
-	("LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder"	),
 
 	-- AI Rejects Deal
-	("LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder"	),
 
 -- DENOUNCE
 
 	-- From Human
-	("LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Aso ize isch gnue Heu dune!"	),
+	--("LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Aso ize isch gnue Heu dune!"	),
 
 	-- From AI
-	("LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Aso ize isch gnue Heu dune!"	),
+	--("LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Aso ize isch gnue Heu dune!"	),
 
 -- DOW
 
 	-- Human Declares War
-	("LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder"	),
 
 	-- AI Declares War
-	("LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder"	),
+	--("LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder"	),
 
 -- MAKE PEACE
 
 	-- AI accepts from human
-	("LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder."	),
 
 	-- AI refuses human
-	("LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder."	),
 
 	-- AI requests from human
-	("LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder."	),
 
 -- DEFEAT
 
 	-- AI is Defeated
-	("LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder."	),
 
 	-- Human is Defeated (will see this in hotseat)
-	("LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
-	"Plaecholder."	),
+	--("LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TROS_JAKOB_ANY",	"en_US",
+	--"Plaecholder."	),
 
 --------------------------------------------------------------------
 -- Quote and Pedia
