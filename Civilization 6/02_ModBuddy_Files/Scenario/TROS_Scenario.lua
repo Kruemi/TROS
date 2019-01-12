@@ -17,8 +17,11 @@
 g_iW, g_iH = Map.GetGridSize();
 pCitiesList = {};
 
---[[ Firaxis Games developers quotes
+--[[ Firaxis Games developers comments
 I do not know why we make local functions, but I am keeping standard
+
+Build ze tip!
+Build the tool tip line by line.
 ]]
 
 -- ===========================================================================
@@ -126,9 +129,9 @@ function Initialize_NewGame()
 	
 	-- ===========================================================================
 	-- Diplomacy
-	print ("Initialize: Diplomacy");
+	print ("Initialize_NewGame: Diplomacy");
 
-		-- Kriege
+	-- Kriege --------------------------------------------------------------------
 	Players[eHabsburgPlayer]:GetDiplomacy():DeclareWarOn(eEidgenossenschaftPlayer, WarTypes.FORMAL_WAR, true);
 	Players[eHabsburgPlayer]:GetDiplomacy():DeclareWarOn(eGermanyPlayer, WarTypes.FORMAL_WAR, true);
 	Players[eHabsburgPlayer]:GetDiplomacy():DeclareWarOn(eLuzernPlayer, WarTypes.FORMAL_WAR, true);
@@ -140,33 +143,38 @@ function Initialize_NewGame()
 
 	-- ===========================================================================
 	-- Cities
-	print ("Initialize: Buildings");
+	print ("Initialize_NewGame: Cities");
+	
+	--[[ -------------------------------------------------------------------------
 
-	AddBuilding("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1", "BUILDING_SEWER", "DISTRICT_CITY_CENTER")
+	List of functions:
+	
+	AddBuilding(sCityName, sBuildingName)
+		Input:
+			sCityName: "Altdorf" or "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+			sBuildingName: "BUILDING_MONUMENT" (required district is automatically selected (special case: unique districts not yet included))
 
-	-- Eidgenossenschaft
-	for i, pCity in Players[eEidgenossenschaftPlayer]:GetCities():Members() do
-		local sCityName = pCity:GetName(); -- Format: LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1
+	DeleteBuilding(sCityName, sBuildingName)
+		Input:
+			sCityName: "Altdorf" or "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+			sBuildingName: "BUILDING_MONUMENT"
 
-		-- Add building
-		--[[ if (sCityName == "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1") then
-			local pCityPlot = Map.GetPlot(pCity:GetX(), pCity:GetY()) -- needs to be placed in correct district
-			local pCityBuildQ = pCity:GetBuildQueue()
-			pCityBuildQ:CreateIncompleteBuilding(GameInfo.Buildings["BUILDING_SEWER"].Index, pCityPlot:GetIndex(), 100);
-		end ]]
-		
-		-- Remove building
-		if (sCityName == "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2") then
-			if pCity:GetBuildings():HasBuilding(GameInfo.Buildings["BUILDING_MONUMENT"].Index) then
-				pCity:GetBuildings():RemoveBuilding(GameInfo.Buildings["BUILDING_MONUMENT"].Index);
-			end
-		end
+	ChangeCityValue(sCityName, sValueName, iValue)
+		Input:
+			sCityName: "Altdorf" or "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+			sValueName: "Population"
+			iValue: 7
 
-		-- Set population
-		if (sCityName == "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_3") then
-			WorldBuilder.CityManager():SetCityValue(pCity, "Population", 7);
-		end
-	end
+	]] ---------------------------------------------------------------------------
+	
+	-- Examples (DELETE THESE)
+	AddBuilding("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "BUILDING_STABLE")
+	AddBuilding("Altdorf", "BUILDING_SHIPYARD")
+	
+	DeleteBuilding("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "BUILDING_MONUMENT")
+
+	ChangeCityValue("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_3", "Population", 7)
+
 
 	print("Initialize_NewGame: finished")
 end
@@ -175,54 +183,96 @@ end
 -- AddBuilding
 -- Input:
 --	sCityName: "Altdorf" or "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
---	sBuildingName: "BUILDING_MONUMENT"
---	sDistrictName: "DISTRICT_CITY_CENTER"
-function AddBuilding(sCityName, sBuildingName, sDistrictName)
-	print ("AddBuilding")
+--	sBuildingName: "BUILDING_MONUMENT" (required district is automatically selected)
+function AddBuilding(sCityName, sBuildingName)
 	local pCity = pCitiesList[sCityName]
+	local prereqDist = GameInfo.Districts[GameInfo.Buildings[sBuildingName].PrereqDistrict]
 	
+	local sCityName_, sCityName_LOC = ReturnCityNames(sCityName) -- "Altdorf", "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+
+	--[[ NOTE
+	works:
+	print("entertainment: " .. pCitiesList[sCityName]:GetDistricts():GetNumDistrictsOfType(GameInfo.Districts["DISTRICT_ENTERTAINMENT_COMPLEX"].Index))
+
+	does NOT work:
+	local pDistricts = pCity:GetDistricts()
+	print("entertainment: " .. pDistricts:GetDistricts():GetNumDistrictsOfType(GameInfo.Districts["DISTRICT_ENTERTAINMENT_COMPLEX"].Index))
+	]]
+
 	if (not pCity:GetBuildings():HasBuilding(GameInfo.Buildings[sBuildingName].Index)) then
-		local pDistricts = pCity:GetDistricts()
-		local hasDistrict = false
-		print("11")
+		iNofDistricts = pCitiesList[sCityName]:GetDistricts():GetNumDistrictsOfType(prereqDist.Index)
 
-		print(pCity:GetOwner())
-		for i,district in pDistricts:Members() do
-			print("22")
-			if district:IsComplete() then
-				print("33")
-				local districtInfo = GameInfo.Districts[district:GetType()]
-				if districtInfo.DistrictType == sDistrictName then
-					print("44")
-					hasDistrict = true
-					-- toolTipString = Locale.Lookup(districtInfo.Name)
-				end
-			end
-		end
-		print("55")
-
-		if (hasDistrict) then
+		if (iNofDistricts > 0) then
+			if iNofDistricts > 1 then print("=== Warning in 'AddBuilding' === " .. iNofDistricts .. " districts of type " .. prereqDist.DistrictType .. " in " .. sCityName_LOC .. " (" .. sCityName_ .. ")" .. " === Warning ===") end
 			
-			local pPlot = Map.GetPlot(pDistricts():GetDistrict(sDistrictName):GetX(), pDistricts():GetDistrict(sDistrictName):GetY())
+			local posX = pCity:GetDistricts():GetDistrict(prereqDist.Index):GetX()
+			local posY = pCity:GetDistricts():GetDistrict(prereqDist.Index):GetY()
+			local pDistrictPlot = Map.GetPlot(posX, posY)
+
 			local pCityBuildQ = pCity:GetBuildQueue()
+			pCityBuildQ:CreateIncompleteBuilding(GameInfo.Buildings[sBuildingName].Index, pDistrictPlot:GetIndex(), 100);
 
-			pCityBuildQ:CreateIncompleteBuilding(GameInfo.Buildings[sBuildingName].Index, pPlot:GetIndex(), 100);
-
-			print (sBuildingName .. " added to " .. sCityName)
+			if (pCity:GetBuildings():HasBuilding(GameInfo.Buildings[sBuildingName].Index)) then
+				print (sCityName_LOC .. " (" .. sCityName_ .. "): " .. sBuildingName .. " added to " .. prereqDist.DistrictType)
+			else
+				print ("### ERROR in 'AddBuilding' ### " .. sBuildingName .. " has not been added to " .. prereqDist.DistrictType .. " in " .. sCityName_LOC .. " (" .. sCityName_ .. ")" .. " ### ERROR ###")
+			end
 		else
-			print ("Error: " .. sCityName .. " does not have the necessary district " .. sDistrictName .. " to build " .. sBuildingName)
+			print ("### ERROR in 'AddBuilding' ### " .. sCityName_LOC .. " (" .. sCityName_ .. ")" .. " does not have the necessary district " .. prereqDist.DistrictType .. " to build " .. sBuildingName .. " ### ERROR ###")
 		end
 	else
-		print ("Warning: " .. sBuildingName .. " has already been built in " .. sCityName)
+		print ("=== Warning in 'AddBuilding' === " .. sBuildingName .. " has already been built in " .. sCityName_LOC .. " (" .. sCityName_ .. ")" .. " === Warning ===")
+	end
+end
+
+-- ===========================================================================
+-- DeleteBuilding
+-- Input:
+--	sCityName: "Altdorf" or "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+--	sBuildingName: "BUILDING_MONUMENT"
+function DeleteBuilding(sCityName, sBuildingName)
+	local pCity = pCitiesList[sCityName]
+
+	local sCityName_, sCityName_LOC = ReturnCityNames(sCityName) -- "Altdorf", "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+
+	if pCity:GetBuildings():HasBuilding(GameInfo.Buildings[sBuildingName].Index) then
+		pCity:GetBuildings():RemoveBuilding(GameInfo.Buildings[sBuildingName].Index)
+		if (not pCity:GetBuildings():HasBuilding(GameInfo.Buildings[sBuildingName].Index)) then
+			print (sCityName_LOC .. " (" .. sCityName_ .. "): " .. sBuildingName .. " deleted")
+		else
+			print ("### ERROR in 'DeleteBuilding' ### " .. sBuildingName .. " could not be deleted in " .. sCityName_LOC .. " (" .. sCityName_ .. ")" .. " ### ERROR ###")
+		end
+	else
+		print ("=== Warning in 'DeleteBuilding' === " .. sBuildingName .. " was not found in " .. sCityName_LOC .. " (" .. sCityName_ .. ")" .. " === Warning ===")
+	end
+end
+
+-- ===========================================================================
+-- ChangeCityValue (wrapper for SetCityValue)
+-- Input:
+--	sCityName: "Altdorf" or "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+--	sValueName: "Population"
+--	iValue: 7
+function ChangeCityValue(sCityName, sValueName, iValue)
+	WorldBuilder.CityManager():SetCityValue(pCitiesList[sCityName], sValueName, iValue)
+
+	local sCityName_, sCityName_LOC = ReturnCityNames(sCityName) -- "Altdorf", "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+
+	if WorldBuilder.CityManager():GetCityValue(pCitiesList[sCityName], sValueName) == iValue then
+		print(sCityName_LOC .. " (" .. sCityName_ .. "): " .. sValueName .. " set to " .. iValue)
+	else
+		print("### ERROR in 'ChangeCityValue' ### " .. sValueName .. " has not been set to " .. iValue .. " in " .. sCityName_LOC .. " (" .. sCityName_ .. ")" .. " ### ERROR ###")
 	end
 end
 
 Initialize();
 LuaEvents.NewGameInitialized.Add(Initialize_NewGame); -- nur aufgerufen wenn neu gestartet -> Vorsicht mit Variabeln-Zuweisung in Lua
 
+-- TODO:
+-- function to print all buildings of a city to console
 
 -- ===========================================================================
--- God Mode
+-- God Mode and Useful Functions
 -- ===========================================================================
 
 -- main function of God Mode
@@ -246,7 +296,7 @@ function GodMode_SetVisibility()
 			userVisibility:ChangeVisibilityCount(iPlotIndex, 1);
 		end
 	end
-	print("God Mode: finished")
+	print("GodMode: finished")
 end
 
 -- toggle God Mode (set to false before release)
@@ -272,4 +322,18 @@ function dump(o)
    print("finished dumping table")
 end
 
+-- ===========================================================================
+-- ReturnCityNames
+--	returns both city name notations "Altdorf" and "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+-- Input:
+--	sCityName: "Altdorf" or "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+-- Output:
+--	sName: "Altdorf"
+--	sNameLOC: "LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_1"
+function ReturnCityNames(sCityName)
+	local sName = Locale.Lookup(pCitiesList[sCityName]:GetName())
+	local sNameLOC = pCitiesList[sCityName]:GetName()
+	
+	return sName, sNameLOC
+end
 

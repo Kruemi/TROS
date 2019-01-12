@@ -18,7 +18,7 @@ VALUES	(
 		1, -- RequiresNoTeams (Boolean, default: 0)
 		1, -- RequiresUniqueLeaders (Boolean, default: 0)
 		'Expansion1', -- GameCore (default: Base)
-		'1' -- SortIndex (Integer, default: 100)
+		'1' -- SortIndex (Integer, default: 100) (change to 100 before release (alphabetical order))
 		-- ScenarioSetupPortrait
 		-- ScenarioSetupPortraitBackground
 		-- SupportsSinglePlayer (Boolean, default: 1)
@@ -456,9 +456,9 @@ VALUES	('RULESET_SCENARIO_TROS',	Null,		'PlayerLeader',	'TROS_Scenario_Players'	
 		('RULESET_SCENARIO_TROS',	'5',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
 		('RULESET_SCENARIO_TROS',	'6',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
 		('RULESET_SCENARIO_TROS',	'7',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
+		('RULESET_SCENARIO_TROS',	'8',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
 		('RULESET_SCENARIO_TROS',	'9',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
-		('RULESET_SCENARIO_TROS',	'10',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	),
-		('RULESET_SCENARIO_TROS',	'11',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	);
+		('RULESET_SCENARIO_TROS',	'10',		'PlayerLocked',	'PlayerLockedAlwaysLocked'	);
 
 -----------------------------------------------
 -- RulesetSupportedValues
