@@ -31,6 +31,10 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_TROS_VIKTOR"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_TROS_VIKTOR"/>
 		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_TROS_BISCHOFVS"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_TROS_BISCHOFVS"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

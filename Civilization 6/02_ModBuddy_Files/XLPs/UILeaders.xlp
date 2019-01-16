@@ -31,6 +31,10 @@
 			<m_EntryID text="LEADER_TROS_VIKTOR_NEUTRAL"/>
 			<m_ObjectName text="LEADER_TROS_VIKTOR_NEUTRAL"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_BISCHOFVS_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TROS_BISCHOFVS_NEUTRAL"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
