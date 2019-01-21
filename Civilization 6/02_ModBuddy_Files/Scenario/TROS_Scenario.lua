@@ -168,12 +168,13 @@ function Initialize_NewGame()
 	]] ---------------------------------------------------------------------------
 	
 	-- Examples (DELETE THESE)
-	AddBuilding("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "BUILDING_STABLE")
-	AddBuilding("Altdorf", "BUILDING_SHIPYARD")
-	
-	DeleteBuilding("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "BUILDING_MONUMENT")
+	--AddBuilding("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "BUILDING_STABLE")
+	--AddBuilding("Altdorf", "BUILDING_SHIPYARD")
+	--DeleteBuilding("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "BUILDING_MONUMENT")
+	--ChangeCityValue("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_3", "Population", 7)
 
-	ChangeCityValue("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_3", "Population", 7)
+	-- CITIES ACTUAL
+	AddBuilding("Zürich", "BUILDING_WALLS")
 
 
 	print("Initialize_NewGame: finished")
