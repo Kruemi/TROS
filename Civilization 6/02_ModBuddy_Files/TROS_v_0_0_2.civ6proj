@@ -336,6 +336,12 @@
     <Content Include="Textures\ART_LEADER_TROS_ALFRED.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ART_LEADER_TROS_BISCHOFVS.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_BISCHOFVS.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ART_LEADER_TROS_JAKOB.dds">
       <SubType>Content</SubType>
     </Content>
@@ -376,6 +382,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_ALFRED.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_BISCHOFVS.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_BISCHOFVS.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_JAKOB.dds">
@@ -540,6 +552,18 @@
     <Content Include="Textures\LEADER_TROS_ALFRED_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\LEADER_TROS_BISCHOFVS_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_BISCHOFVS_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_BISCHOFVS_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_BISCHOFVS_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_TROS_JAKOB_BACKGROUND.dds">
       <SubType>Content</SubType>
     </Content>
@@ -643,6 +667,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\LEADER_TROS_ALFRED.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LEADER_TROS_BISCHOFVS.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\LEADER_TROS_JAKOB.xlp">

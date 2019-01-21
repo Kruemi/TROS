@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_ClassName text="UITexture"/> <!--UITexture-->
+	<m_PackageName text="LEADER_TROS_BISCHOFVS"/> <!--LEADER_TEMP_LEADER_CUSTOM--> <!--LEADER_TROS_ALFRED-->
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ART_LEADER_TROS_BISCHOFVS"/> <!--ART_LEADER_LEADER_CUSTOM-->
+			<m_ObjectName text="ART_LEADER_TROS_BISCHOFVS"/> <!--ART_LEADER_LEADER_CUSTOM-->
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>

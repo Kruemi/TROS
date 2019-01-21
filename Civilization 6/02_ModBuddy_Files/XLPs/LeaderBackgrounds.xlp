@@ -31,6 +31,10 @@
 			<m_EntryID text="LEADER_TROS_VIKTOR_BACKGROUND"/>
 			<m_ObjectName text="LEADER_TROS_VIKTOR_BACKGROUND"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TROS_BISCHOFVS_BACKGROUND"/>
+			<m_ObjectName text="LEADER_TROS_BISCHOFVS_BACKGROUND"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

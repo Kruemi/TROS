@@ -34,8 +34,15 @@ VALUES	('LEADER_TROS_BISCHOFVS',	'LOC_PEDIA_LEADERS_PAGE_TROS_BISCHOFVS_QUOTE'	)
 -- LoadingInfo
 -----------------------------------------------
 INSERT INTO	LoadingInfo
-		(LeaderType,			ForegroundImage,				BackgroundImage,				PlayDawnOfManAudio	)
+		(LeaderType,				ForegroundImage,					BackgroundImage,					PlayDawnOfManAudio	)
 VALUES	('LEADER_TROS_BISCHOFVS',	'LEADER_TROS_BISCHOFVS_NEUTRAL',	'LEADER_TROS_BISCHOFVS_BACKGROUND',	0					);
+
+-----------------------------------------------
+-- DiplomacyInfo
+-----------------------------------------------
+INSERT INTO	DiplomacyInfo
+		(Type,						BackgroundImage	)
+VALUES	('LEADER_TROS_BISCHOFVS',	'ART_LEADER_TROS_BISCHOFVS'	);
 
 -----------------------------------------------
 -- FavoredReligions
