@@ -3,7 +3,7 @@
 <!-- Author: Kruemi -->
 <AssetObjects..XLP>
 	<m_ClassName text="UITexture"/>
-	<m_PackageName text="Icons"/>
+	<m_PackageName text="Icons_Graubunden"/>
 	<m_Entries>
 		<!--<Element>
 			<m_EntryID text="ICON_CIVILIZATION_TROS_GRAUBUNDEN_COLOR_45"/>
