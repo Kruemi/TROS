@@ -1,4 +1,4 @@
--- 0 - Stauffacher	Schweiz		<-- theoretisch nicht mehr notwendig
+﻿-- 0 - Stauffacher	Schweiz		<-- theoretisch nicht mehr notwendig
 -- 1 - Jakob		Bern
 -- 2 - KarldK		Burgund
 -- 3 - Jenatsch		Graubunden
@@ -178,7 +178,7 @@ function Initialize_NewGame()
 	--ChangeCityValue("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_3", "Population", 7)
 
 	-- CITIES ACTUAL
-	AddBuilding("Z�rich", "BUILDING_WALLS")
+	AddBuilding("Zürich", "BUILDING_WALLS")
 
 
 	print("Initialize_NewGame: finished")
@@ -325,7 +325,7 @@ function GodMode_DismissPopups()
 	print ("GodMode_DismissPopups");
 
 	ContextPtr:SetInputHandler(OnInputHandler, true);
-	m_queuedBoosts[1]
+	-- m_queuedBoosts[1]
 	
 	print("GodMode_DismissPopups: finished")
 end
