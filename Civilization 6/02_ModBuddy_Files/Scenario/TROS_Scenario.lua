@@ -177,8 +177,12 @@ function Initialize_NewGame()
 	--DeleteBuilding("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "BUILDING_MONUMENT")
 	--ChangeCityValue("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_3", "Population", 7)
 
-	-- CITIES ACTUAL
-	AddBuilding("Zürich", "BUILDING_WALLS")
+	-- Städte Gebäude hinzufügen oder löschen
+		-- CH komplett
+		-- F
+		-- ZH komplett
+		AddBuilding("Zürich", "BUILDING_WALLS")
+		AddBuilding("Zürich", "BUILDING_MARKET")
 
 
 	print("Initialize_NewGame: finished")
