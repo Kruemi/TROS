@@ -1,4 +1,4 @@
--- 0 - Stauffacher	Schweiz		<-- theoretisch nicht mehr notwendig
+﻿-- 0 - Stauffacher	Schweiz		<-- theoretisch nicht mehr notwendig
 -- 1 - Jakob		Bern
 -- 2 - KarldK		Burgund
 -- 3 - Jenatsch		Graubunden
@@ -12,6 +12,10 @@
 
 -- 62 - Free Cities
 -- 63 - Barbarians
+
+-- include
+include( "InstanceManager" );
+include( "EventPopup" );
 
 -- global variables
 g_iW, g_iH = Map.GetGridSize();
@@ -173,8 +177,12 @@ function Initialize_NewGame()
 	--DeleteBuilding("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_2", "BUILDING_MONUMENT")
 	--ChangeCityValue("LOC_CITY_NAME_TROS_EIDGENOSSENSCHAFT_3", "Population", 7)
 
-	-- CITIES ACTUAL
-	AddBuilding("Z�rich", "BUILDING_WALLS")
+	-- Städte Gebäude hinzufügen oder löschen
+		-- CH komplett
+		-- F
+		-- ZH komplett
+		AddBuilding("Zürich", "BUILDING_WALLS")
+		AddBuilding("Zürich", "BUILDING_MARKET")
 
 
 	print("Initialize_NewGame: finished")
@@ -276,13 +284,18 @@ LuaEvents.NewGameInitialized.Add(Initialize_NewGame); -- nur aufgerufen wenn neu
 -- God Mode and Useful Functions
 -- ===========================================================================
 
+-- ===========================================================================
 -- main function of God Mode
 function Initialize_GodMode()
 	print ("Hell yes.");
 
 	GodMode_SetVisibility();
+	
+	print("Game.GetCurrentGameTurn(): " .. Game.GetCurrentGameTurn())
+	print("GameConfiguration.GetStartTurn(): " .. GameConfiguration.GetStartTurn())
 end
 
+-- ===========================================================================
 -- reveals entire map
 function GodMode_SetVisibility()
 	print ("GodMode_SetVisibility");
@@ -297,9 +310,31 @@ function GodMode_SetVisibility()
 			userVisibility:ChangeVisibilityCount(iPlotIndex, 1);
 		end
 	end
-	print("GodMode: finished")
+	print("GodMode_SetVisibility: finished")
 end
 
+-- ===========================================================================
+-- dismiss notifications
+function GodMode_DismissNotifications()
+	print ("GodMode_DismissNotifications");
+
+	local pNotification = NotificationManager
+	
+	print("GodMode_DismissNotifications: finished")
+end
+
+-- ===========================================================================
+-- dismiss popups
+function GodMode_DismissPopups()
+	print ("GodMode_DismissPopups");
+
+	ContextPtr:SetInputHandler(OnInputHandler, true);
+	-- m_queuedBoosts[1]
+	
+	print("GodMode_DismissPopups: finished")
+end
+
+-- ===========================================================================
 -- toggle God Mode (set to false before release)
 if (true) then
 	print("Can you hear me?")
@@ -307,6 +342,7 @@ if (true) then
 	LuaEvents.NewGameInitialized.Add(Initialize_GodMode);
 end
 
+-- ===========================================================================
 -- print table https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console
 function dump(o)
    print("dumping table")

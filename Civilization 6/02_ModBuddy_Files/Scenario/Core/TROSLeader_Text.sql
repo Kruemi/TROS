@@ -31,4 +31,5 @@ Durch den Ausbau der Gotthardstrasse wurde der Handel zwischen Nord und Süd so e
 
 	-- FIRST MEET
 	("LOC_DIPLO_FIRST_MEET_LEADER_TRAJAN_ANY",	"de_DE",
-	"Willkommen, Fremdling. Ich bin Gian Galeazzo Visconti, Herzog von Mailand. Wer seid Ihr und welche Gebiete stehen unter Eurer Kontrolle?"); -- korrigiert wegen Name
+	"Willkommen, Fremdling. Ich bin Gian Galeazzo 
+	, Herzog von Mailand. Wer seid Ihr und welche Gebiete stehen unter Eurer Kontrolle?"); -- korrigiert wegen Name

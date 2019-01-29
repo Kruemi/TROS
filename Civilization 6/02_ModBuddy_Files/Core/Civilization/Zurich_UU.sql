@@ -212,7 +212,7 @@ VALUES	('IMPROVEMENT_FARM',			'UNIT_TROS_ZURICH_UU'	),
 -----------------------------------------------
 -- Route_ValidBuildUnits (Routes)
 -----------------------------------------------
-INSERT INTO Improvement_ValidBuildUnits
+INSERT INTO Route_ValidBuildUnits
 		(RouteType,					UnitType				)
 VALUES	('ROUTE_INDUSTRIAL_ROAD',	'UNIT_TROS_ZURICH_UU'	), -- läuft stabil, aber unklar ob's funktioniert
 		('ROUTE_MODERN_ROAD',		'UNIT_TROS_ZURICH_UU'	);
