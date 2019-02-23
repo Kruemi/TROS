@@ -14,18 +14,57 @@
 -- 63 - Barbarians
 
 -- include
-include( "InstanceManager" );
-include( "EventPopup" );
+--include( "InstanceManager" );
+--include( "EventPopup" );
+--include( "NotificationPanel" );
+include "InstanceManager.lua"
+include "DiplomacyStatementSupport.lua"
+include "SupportFunctions.lua"
+include "DeclareWarPopup.lua"
 
 -- global variables
 g_iW, g_iH = Map.GetGridSize();
 pCitiesList = {};
 
 --[[ Firaxis Games developers comments
-I do not know why we make local functions, but I am keeping standard
+	I do not know why we make local functions, but I am keeping standard
 
-Build ze tip!
-Build the tool tip line by line.
+	Build ze tip!
+	Build the tool tip line by line.
+
+	Root context for ingame (aka: All-the-things)
+
+	-- AI function for use in ending a naval exploration strategy
+	function FoundNewWorld(PlayerId : number, Threshold : number)
+		-- Do something here to indicate when the player has found the new world (unknown at this time) - AWG
+		return false;
+	end
+
+	-- Serialize these after creation in the future when we have scenario-specific DBs!
+
+	-- NEED A FINAL APPROACH TO TURN AND YEAR
+	--    *** ALSO FIX TURN BEFORE CALL TO SetInitialVisibility AT BOTTOM OF FILE
+	-- Game.SetCurrentGameTurn(1);
+
+	-- Removing this check at least temporarily so I can do some AI autoplays with it
+	--if (pPlayer:IsHuman() == true) then
+
+	-- TESTED?
+
+	(complete AI_Diplomacy.lua)
+	GameEvents.DiploSurpriseDeclareWar.Add(function( mainPlayer, opponentPlayer )
+	--	local player = Players[mainPlayer];
+	--	if ( player ~= nil ) then
+	--		Print(player);
+	--		local ai = player:GetAi_Military();
+	--		Print(ai);
+	--		ai:PrepareForWarWith(opponentPlayer);
+	--		if ( ai:HasOperationAgainst( opponentPlayer, true ) ) then
+	--			return true;
+	--		end
+	--	end
+		return false;
+	end );
 ]]
 
 -- ===========================================================================
@@ -58,37 +97,52 @@ function IdentifyCivilizationIDs()
 			
 			if (sPlayerCivName == "CIVILIZATION_TROS_EIDGENOSSENSCHAFT") then
 				eEidgenossenschaftPlayer = iPlayer;
+				ExposedMembers.eEidgenossenschaftPlayer = iPlayer; -- ExposedMembers are used to share variables between functions and different context (i.e. gameplay and UI)
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_BERN") then
 				eBernPlayer = iPlayer;
+				ExposedMembers.eBernPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_BURGUND") then
 				eBurgundPlayer = iPlayer;
+				ExposedMembers.eBurgundPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_GRAUBUNDEN") then
 				eGraubundenPlayer = iPlayer;
+				ExposedMembers.eGraubundenPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_HABSBURG") then
 				eHabsburgPlayer = iPlayer;
+				ExposedMembers.eHabsburgPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_SAVOYEN") then
 				eSavoyenPlayer = iPlayer;
+				ExposedMembers.eSavoyenPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_WALLIS") then
 				eWallisPlayer = iPlayer;
+				ExposedMembers.eWallisPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_ZURICH") then
 				eZurichPlayer = iPlayer;
+				ExposedMembers.eZurichPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_GERMANY") then
 				eGermanyPlayer = iPlayer;
+				ExposedMembers.eGermanyPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_FRANCE") then
 				eFrancePlayer = iPlayer;
+				ExposedMembers.eFrancePlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_ROME") then
 				eRomePlayer = iPlayer;
+				ExposedMembers.eRomePlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_YEREVAN") then
 				eLuzernPlayer = iPlayer;
+				ExposedMembers.eLuzernPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_HATTUSA") then
 				eSanktGallenPlayer = iPlayer;
+				ExposedMembers.eSanktGallenPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_KABUL") then
 				eNeuenburgPlayer = iPlayer;
+				ExposedMembers.eNeuenburgPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_VILNIUS") then
 				eBaselPlayer = iPlayer;
+				ExposedMembers.eBaselPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_KANDY") then
 				eJuraPlayer = iPlayer;
-
+				ExposedMembers.eJuraPlayer = iPlayer;
 			end
 		end
 	end
@@ -184,7 +238,6 @@ function Initialize_NewGame()
 		AddBuilding("Zürich", "BUILDING_WALLS")
 		AddBuilding("Zürich", "BUILDING_MARKET")
 
-
 	print("Initialize_NewGame: finished")
 end
 
@@ -274,8 +327,33 @@ function ChangeCityValue(sCityName, sValueName, iValue)
 	end
 end
 
+-- ===========================================================================
+-- OnPlayerTurnActivated
+-- Examples:
+--	AlexanderScenario, AustraliaScenario, IndonesiaKhmerScenario, NubiaScenario, PolandScenario, PolandScenario\UI\UnitFlagManager, VikingScenario, Expansion1\UI\CityBanners
+function OnPlayerTurnActivated(player)
+	local currentTurn = Game.GetCurrentGameTurn();
+	local aPlayers = PlayerManager.GetAlive();
+
+	-- Wars
+	--	WarTypes: SURPRISE_WAR, FORMAL_WAR, HOLY_WAR, RECONQUEST_WAR, LIBERATION_WAR, DEFENSIVE_PACT, JOINT_WAR, SUZERAIN_WAR, PROTECTORATE_WAR, COLONIAL_WAR, TERRITORIAL_WAR, NO_WAR
+	--Scenario_DeclareWar(1, eSavoyenPlayer, eEidgenossenschaftPlayer, "HOLY_WAR", player, currentTurn)
+end
+GameEvents.PlayerTurnStarted.Add(OnPlayerTurnActivated);
+
+-- ===========================================================================
+-- OnGameTurnStarted
+-- Examples:
+--	AustraliaScenario, NubiaScenario
+local function OnGameTurnStarted( player )
+	local currentTurn = Game.GetCurrentGameTurn();
+	local aPlayers = PlayerManager.GetAliveMajors();
+end
+GameEvents.OnGameTurnStarted.Add(OnGameTurnStarted);
+
 Initialize();
 LuaEvents.NewGameInitialized.Add(Initialize_NewGame); -- nur aufgerufen wenn neu gestartet -> Vorsicht mit Variabeln-Zuweisung in Lua
+
 
 -- TODO:
 -- function to print all buildings of a city to console
@@ -290,9 +368,6 @@ function Initialize_GodMode()
 	print ("Hell yes.");
 
 	GodMode_SetVisibility();
-	
-	print("Game.GetCurrentGameTurn(): " .. Game.GetCurrentGameTurn())
-	print("GameConfiguration.GetStartTurn(): " .. GameConfiguration.GetStartTurn())
 end
 
 -- ===========================================================================
