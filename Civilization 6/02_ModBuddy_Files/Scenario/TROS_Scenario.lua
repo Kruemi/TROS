@@ -212,8 +212,8 @@ function Initialize_NewGame()
 		DeleteBuilding("Aosta", "BUILDING_MONUMENT")
 		DeleteBuilding("Aosta", "BUILDING_GRANARY")
 		-- D check
-		   --AddBuilding("München", "BUILDING_MARKET")
-		   --DeleteBuilding("München", "BUILDING_GRANARY")
+		AddBuilding("Muenchen", "BUILDING_MARKET") -- check
+		DeleteBuilding("Muenchen", "BUILDING_GRANARY") -- check
 		DeleteBuilding("Landsberg", "BUILDING_MONUMENT")
 		DeleteBuilding("Landsberg", "BUILDING_GRANARY")
 		DeleteBuilding("Lindau", "BUILDING_GRANARY")
@@ -236,7 +236,7 @@ function Initialize_NewGame()
 		DeleteBuilding("Albstadt", "BUILDING_GRANARY")
 		DeleteBuilding("Ravensburg", "BUILDING_MONUMENT")
 		DeleteBuilding("Ravensburg", "BUILDING_GRANARY")
-		-- I
+		-- I komplett
 		DeleteBuilding("Milano", "BUILDING_GRANARY")
 		DeleteBuilding("Brescia", "BUILDING_MONUMENT")
 		DeleteBuilding("Brescia", "BUILDING_GRANARY")
