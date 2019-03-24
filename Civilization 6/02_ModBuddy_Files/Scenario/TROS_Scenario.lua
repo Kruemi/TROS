@@ -187,11 +187,11 @@ function Initialize_NewGame()
 		DeleteBuilding("Dijon", "BUILDING_GRANARY")
 		AddBuilding("Dole", "BUILDING_MARKET")
 		DeleteBuilding("Dole", "BUILDING_GRANARY")
-		--AddBuilding("Montbéliard", "BUILDING_MARKET") -- check
-		--DeleteBuilding("Montbéliard", "BUILDING_GRANARY") -- check
-		-- S check
-		--DeleteBuilding("Chambery", "BUILDING_MONUMENT") -- check
-		--DeleteBuilding("Chambery", "BUILDING_GRANARY") -- check
+		   --AddBuilding("Montbéliard", "BUILDING_MARKET") -- check
+		   --DeleteBuilding("Montbéliard", "BUILDING_GRANARY") -- check
+		-- S
+		   --DeleteBuilding("Chambery", "BUILDING_MONUMENT") -- check
+		   --DeleteBuilding("Chambery", "BUILDING_GRANARY") -- check
 		DeleteBuilding("Annecy", "BUILDING_MONUMENT")
 		DeleteBuilding("Annecy", "BUILDING_GRANARY")
 		AddBuilding("Vevey", "BUILDING_MARKET")
@@ -212,8 +212,8 @@ function Initialize_NewGame()
 		DeleteBuilding("Aosta", "BUILDING_MONUMENT")
 		DeleteBuilding("Aosta", "BUILDING_GRANARY")
 		-- D check
-		AddBuilding("München", "BUILDING_MARKET")
-		DeleteBuilding("München", "BUILDING_GRANARY")
+		   --AddBuilding("München", "BUILDING_MARKET")
+		   --DeleteBuilding("München", "BUILDING_GRANARY")
 		DeleteBuilding("Landsberg", "BUILDING_MONUMENT")
 		DeleteBuilding("Landsberg", "BUILDING_GRANARY")
 		DeleteBuilding("Lindau", "BUILDING_GRANARY")
@@ -236,6 +236,23 @@ function Initialize_NewGame()
 		DeleteBuilding("Albstadt", "BUILDING_GRANARY")
 		DeleteBuilding("Ravensburg", "BUILDING_MONUMENT")
 		DeleteBuilding("Ravensburg", "BUILDING_GRANARY")
+		-- I
+		DeleteBuilding("Milano", "BUILDING_GRANARY")
+		DeleteBuilding("Brescia", "BUILDING_MONUMENT")
+		DeleteBuilding("Brescia", "BUILDING_GRANARY")
+		DeleteBuilding("Novara", "BUILDING_MONUMENT")
+		DeleteBuilding("Novara", "BUILDING_GRANARY")
+		DeleteBuilding("Varese", "BUILDING_MONUMENT")
+		DeleteBuilding("Varese", "BUILDING_GRANARY")
+		DeleteBuilding("Lecco", "BUILDING_MONUMENT")
+		DeleteBuilding("Lecco", "BUILDING_GRANARY")
+		DeleteBuilding("Busto Arsizio", "BUILDING_MONUMENT")
+		DeleteBuilding("Busto Arsizio", "BUILDING_GRANARY")
+		AddBuilding("Biella", "BUILDING_WALLS")
+		DeleteBuilding("Biella", "BUILDING_MONUMENT")
+		DeleteBuilding("Biella", "BUILDING_GRANARY")
+		DeleteBuilding("Domodossola", "BUILDING_MONUMENT")
+		DeleteBuilding("Domodossola", "BUILDING_GRANARY")
 
 	print("Initialize_NewGame: finished")
 end
