@@ -187,8 +187,8 @@ function Initialize_NewGame()
 		DeleteBuilding("Dijon", "BUILDING_GRANARY")
 		AddBuilding("Dole", "BUILDING_MARKET")
 		DeleteBuilding("Dole", "BUILDING_GRANARY")
-		AddBuilding("Montbeliard", "BUILDING_MARKET") -- check
-		DeleteBuilding("Montbeliard", "BUILDING_GRANARY") -- check
+		AddBuilding("Montbéliard", "BUILDING_MARKET") -- check
+		DeleteBuilding("Montbéliard", "BUILDING_GRANARY") -- check
 		-- S check
 		DeleteBuilding("Chambery", "BUILDING_MONUMENT")
 		DeleteBuilding("Chambery", "BUILDING_GRANARY")
