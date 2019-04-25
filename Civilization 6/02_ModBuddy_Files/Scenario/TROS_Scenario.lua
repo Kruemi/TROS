@@ -21,13 +21,6 @@ include( "EventPopup" );
 g_iW, g_iH = Map.GetGridSize();
 pCitiesList = {};
 
---[[ Firaxis Games developers comments
-I do not know why we make local functions, but I am keeping standard
-
-Build ze tip!
-Build the tool tip line by line.
-]]
-
 -- ===========================================================================
 -- Initialization functions
 -- ===========================================================================
@@ -179,11 +172,87 @@ function Initialize_NewGame()
 
 	-- Städte Gebäude hinzufügen oder löschen
 		-- CH komplett
-		-- F
+		-- F komplett (ausser Garnisonsschaden Lyon)
+		AddBuilding("Paris", "BUILDING_WALLS")
+		DeleteBuilding("Lyon", "BUILDING_MONUMENT")
+		DeleteBuilding("Lyon", "BUILDING_GRANARY")
+		DeleteBuilding("Chaumont", "BUILDING_GRANARY")
+		DeleteBuilding("Vesoul", "BUILDING_GRANARY")
+		DeleteBuilding("Epinal", "BUILDING_GRANARY")
 		-- ZH komplett
 		AddBuilding("Zürich", "BUILDING_WALLS")
 		AddBuilding("Zürich", "BUILDING_MARKET")
-
+		-- B
+		AddBuilding("Dijon", "BUILDING_MARKET")
+		DeleteBuilding("Dijon", "BUILDING_GRANARY")
+		AddBuilding("Dole", "BUILDING_MARKET")
+		DeleteBuilding("Dole", "BUILDING_GRANARY")
+		   --AddBuilding("Montbéliard", "BUILDING_MARKET") -- check
+		   --DeleteBuilding("Montbéliard", "BUILDING_GRANARY") -- check
+		-- S
+		   --DeleteBuilding("Chambery", "BUILDING_MONUMENT") -- check
+		   --DeleteBuilding("Chambery", "BUILDING_GRANARY") -- check
+		DeleteBuilding("Annecy", "BUILDING_MONUMENT")
+		DeleteBuilding("Annecy", "BUILDING_GRANARY")
+		AddBuilding("Vevey", "BUILDING_MARKET")
+		DeleteBuilding("Vevey", "BUILDING_MONUMENT")
+		DeleteBuilding("Vevey", "BUILDING_GRANARY")
+		DeleteBuilding("Yverdon", "BUILDING_MONUMENT")
+		DeleteBuilding("Yverdon", "BUILDING_GRANARY")
+		DeleteBuilding("Evian", "BUILDING_MONUMENT")
+		DeleteBuilding("Evian", "BUILDING_GRANARY")
+		DeleteBuilding("Bourg-en-Bresse", "BUILDING_MONUMENT")
+		DeleteBuilding("Bourg-en-Bresse", "BUILDING_GRANARY")
+		AddBuilding("Monthey", "BUILDING_MARKET")
+		DeleteBuilding("Monthey", "BUILDING_MONUMENT")
+		DeleteBuilding("Monthey", "BUILDING_GRANARY")
+		AddBuilding("Martigny", "BUILDING_ARENA")
+		DeleteBuilding("Martigny", "BUILDING_MONUMENT")
+		DeleteBuilding("Martigny", "BUILDING_GRANARY")
+		DeleteBuilding("Aosta", "BUILDING_MONUMENT")
+		DeleteBuilding("Aosta", "BUILDING_GRANARY")
+		-- D check
+		AddBuilding("Muenchen", "BUILDING_MARKET") -- check
+		DeleteBuilding("Muenchen", "BUILDING_GRANARY") -- check
+		DeleteBuilding("Landsberg", "BUILDING_MONUMENT")
+		DeleteBuilding("Landsberg", "BUILDING_GRANARY")
+		DeleteBuilding("Lindau", "BUILDING_GRANARY")
+		AddBuilding("Konstanz", "BUILDING_WALLS")
+		DeleteBuilding("Konstanz", "BUILDING_MONUMENT")
+		DeleteBuilding("Konstanz", "BUILDING_GRANARY")
+		AddBuilding("Colmar", "BUILDING_WALLS")
+		DeleteBuilding("Colmar", "BUILDING_MONUMENT")
+		DeleteBuilding("Colmar", "BUILDING_GRANARY")
+		AddBuilding("Biberach", "BUILDING_WALLS")
+		AddBuilding("Biberach", "BUILDING_MARKET")
+		DeleteBuilding("Biberach", "BUILDING_MONUMENT")
+		DeleteBuilding("Biberach", "BUILDING_GRANARY")
+		AddBuilding("Schlestadt", "BUILDING_WALLS")
+		DeleteBuilding("Schlestadt", "BUILDING_MONUMENT")
+		DeleteBuilding("Schlestadt", "BUILDING_GRANARY")
+		DeleteBuilding("Memmingen", "BUILDING_MONUMENT")
+		DeleteBuilding("Memmingen", "BUILDING_GRANARY")
+		DeleteBuilding("Albstadt", "BUILDING_MONUMENT")
+		DeleteBuilding("Albstadt", "BUILDING_GRANARY")
+		DeleteBuilding("Ravensburg", "BUILDING_MONUMENT")
+		DeleteBuilding("Ravensburg", "BUILDING_GRANARY")
+		-- I komplett
+		DeleteBuilding("Milano", "BUILDING_GRANARY")
+		DeleteBuilding("Brescia", "BUILDING_MONUMENT")
+		DeleteBuilding("Brescia", "BUILDING_GRANARY")
+		DeleteBuilding("Novara", "BUILDING_MONUMENT")
+		DeleteBuilding("Novara", "BUILDING_GRANARY")
+		DeleteBuilding("Varese", "BUILDING_MONUMENT")
+		DeleteBuilding("Varese", "BUILDING_GRANARY")
+		DeleteBuilding("Lecco", "BUILDING_MONUMENT")
+		DeleteBuilding("Lecco", "BUILDING_GRANARY")
+		DeleteBuilding("Busto Arsizio", "BUILDING_MONUMENT")
+		DeleteBuilding("Busto Arsizio", "BUILDING_GRANARY")
+		AddBuilding("Biella", "BUILDING_WALLS")
+		DeleteBuilding("Biella", "BUILDING_MONUMENT")
+		DeleteBuilding("Biella", "BUILDING_GRANARY")
+		DeleteBuilding("Domodossola", "BUILDING_MONUMENT")
+		DeleteBuilding("Domodossola", "BUILDING_GRANARY")
 
 	print("Initialize_NewGame: finished")
 end
