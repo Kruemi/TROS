@@ -14,8 +14,10 @@
 -- 63 - Barbarians
 
 -- include
-include( "InstanceManager" );
-include( "EventPopup" );
+include "InstanceManager.lua"
+include "DiplomacyStatementSupport.lua"
+include "SupportFunctions.lua"
+include "DeclareWarPopup.lua"
 
 -- global variables
 g_iW, g_iH = Map.GetGridSize();
@@ -51,37 +53,52 @@ function IdentifyCivilizationIDs()
 			
 			if (sPlayerCivName == "CIVILIZATION_TROS_EIDGENOSSENSCHAFT") then
 				eEidgenossenschaftPlayer = iPlayer;
+				ExposedMembers.eEidgenossenschaftPlayer = iPlayer; -- ExposedMembers are used to share variables between functions and different context (i.e. gameplay and UI)
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_BERN") then
 				eBernPlayer = iPlayer;
+				ExposedMembers.eBernPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_BURGUND") then
 				eBurgundPlayer = iPlayer;
+				ExposedMembers.eBurgundPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_GRAUBUNDEN") then
 				eGraubundenPlayer = iPlayer;
+				ExposedMembers.eGraubundenPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_HABSBURG") then
 				eHabsburgPlayer = iPlayer;
+				ExposedMembers.eHabsburgPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_SAVOYEN") then
 				eSavoyenPlayer = iPlayer;
+				ExposedMembers.eSavoyenPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_WALLIS") then
 				eWallisPlayer = iPlayer;
+				ExposedMembers.eWallisPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_TROS_ZURICH") then
 				eZurichPlayer = iPlayer;
+				ExposedMembers.eZurichPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_GERMANY") then
 				eGermanyPlayer = iPlayer;
+				ExposedMembers.eGermanyPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_FRANCE") then
 				eFrancePlayer = iPlayer;
+				ExposedMembers.eFrancePlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_ROME") then
 				eRomePlayer = iPlayer;
+				ExposedMembers.eRomePlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_YEREVAN") then
 				eLuzernPlayer = iPlayer;
+				ExposedMembers.eLuzernPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_HATTUSA") then
 				eSanktGallenPlayer = iPlayer;
+				ExposedMembers.eSanktGallenPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_KABUL") then
 				eNeuenburgPlayer = iPlayer;
+				ExposedMembers.eNeuenburgPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_VILNIUS") then
 				eBaselPlayer = iPlayer;
+				ExposedMembers.eBaselPlayer = iPlayer;
 			elseif (sPlayerCivName == "CIVILIZATION_KANDY") then
 				eJuraPlayer = iPlayer;
-
+				ExposedMembers.eJuraPlayer = iPlayer;
 			end
 		end
 	end
@@ -137,6 +154,10 @@ function Initialize_NewGame()
 	Players[eSavoyenPlayer]:GetDiplomacy():DeclareWarOn(eBernPlayer, WarTypes.FORMAL_WAR, true);
 	Players[eNeuenburgPlayer]:GetDiplomacy():DeclareWarOn(eBaselPlayer, WarTypes.FORMAL_WAR, true);
 	Players[eNeuenburgPlayer]:GetDiplomacy():DeclareWarOn(eJuraPlayer, WarTypes.FORMAL_WAR, true);
+
+	-- NOTE: to declare wars in later turns, see 'CheckForDiplomacyEvent'
+	
+	--Scenario_DeclareWar(1, ExposedMembers.eGraubundenPlayer, ExposedMembers.eEidgenossenschaftPlayer, WarTypes.FORMAL_WAR, ExposedMembers.eGraubundenPlayer, 1)
 
 	-- ===========================================================================
 	-- Cities
@@ -343,6 +364,66 @@ function ChangeCityValue(sCityName, sValueName, iValue)
 	end
 end
 
+-- ===========================================================================
+-- OnPlayerTurnActivated
+-- Examples:
+--	AlexanderScenario, AustraliaScenario, IndonesiaKhmerScenario, NubiaScenario, PolandScenario, PolandScenario\UI\UnitFlagManager, VikingScenario, Expansion1\UI\CityBanners
+function OnPlayerTurnActivated(currPlayerID)
+	local currTurn = Game.GetCurrentGameTurn();
+	local aPlayers = PlayerManager.GetAlive();
+
+	print("OnGameTurnStarted( player ): " .. currPlayerID)
+	print("currTurn: " .. currTurn)
+
+	CheckForDiplomacyEvent(currPlayerID, currTurn)
+end
+GameEvents.PlayerTurnStarted.Add(OnPlayerTurnActivated);
+
+-- ===========================================================================
+-- OnGameTurnStarted
+-- Examples:
+--	AustraliaScenario, NubiaScenario
+function OnGameTurnStarted( currPlayerID )
+	local currTurn = Game.GetCurrentGameTurn();
+	local aPlayers = PlayerManager.GetAliveMajors();
+
+	print("OnGameTurnStarted( player ): " .. currPlayerID)
+	print("currTurn: " .. currTurn)
+end
+--GameEvents.OnGameTurnStarted.Add(OnGameTurnStarted);
+
+-- ===========================================================================
+-- CheckForDiplomacyEvent
+-- Input:
+--	currPlayerID: integer
+--	currTurn: integer
+function CheckForDiplomacyEvent(currPlayerID, currTurn)
+	-- Wars ----------------------------------------------------------------------
+	--	WarTypes: SURPRISE_WAR, FORMAL_WAR, HOLY_WAR, RECONQUEST_WAR, LIBERATION_WAR, DEFENSIVE_PACT, JOINT_WAR, SUZERAIN_WAR, PROTECTORATE_WAR, COLONIAL_WAR, TERRITORIAL_WAR, NO_WAR, DECLARE_GOLDEN_AGE_WAR, DECLARE_WAR_OF_RETRIBUTION, DECLARE_IDEOLOGICAL_WAR
+	--  NOTE: same lines ("Scenario_DeclareWar(...)") need to be placed into 'TROS_Scenario_UI.lua' under 'OnPlayerTurnActivated'
+	Scenario_DeclareWar(1, ExposedMembers.eSavoyenPlayer, ExposedMembers.eEidgenossenschaftPlayer, WarTypes.FORMAL_WAR, currPlayerID, currTurn)
+	Scenario_DeclareWar(3, ExposedMembers.eFrancePlayer, ExposedMembers.eEidgenossenschaftPlayer, WarTypes.HOLY_WAR, currPlayerID, currTurn)
+end
+
+-- ===========================================================================
+-- Scenario_DeclareWar
+-- Input:
+--	iDeclarationTurn: turn in which war is declared
+--	eAttackingPlayer: integer
+--	eDefendingPlayer: integer
+--	eWarType: e.g. WarTypes.HOLY_WAR, WarTypes.FORMAL_WAR
+--	currPlayerID: integer
+--	currTurn: integer
+function Scenario_DeclareWar(iDeclarationTurn, eAttackingPlayer, eDefendingPlayer, eWarType, currPlayerID, currTurn)
+	if iDeclarationTurn == currTurn and currPlayerID == eAttackingPlayer and not Players[eAttackingPlayer]:GetDiplomacy():IsAtWarWith(eDefendingPlayer) and Players[eAttackingPlayer]:IsAlive() and Players[eDefendingPlayer]:IsAlive() then
+		ExposedMembers.bWarDeclaration = true
+		
+		Players[eAttackingPlayer]:GetDiplomacy():DeclareWarOn(eDefendingPlayer, eWarType, true);
+
+		print("[Turn " .. iDeclarationTurn .. "] Scenario_DeclareWar: " .. PlayerConfigurations[eAttackingPlayer]:GetCivilizationTypeName() .. " has declared a " .. eWarType .. " on " .. PlayerConfigurations[eDefendingPlayer]:GetCivilizationTypeName())
+	end
+end
+
 Initialize();
 LuaEvents.NewGameInitialized.Add(Initialize_NewGame); -- nur aufgerufen wenn neu gestartet -> Vorsicht mit Variabeln-Zuweisung in Lua
 
@@ -359,9 +440,6 @@ function Initialize_GodMode()
 	print ("Hell yes.");
 
 	GodMode_SetVisibility();
-	
-	print("Game.GetCurrentGameTurn(): " .. Game.GetCurrentGameTurn())
-	print("GameConfiguration.GetStartTurn(): " .. GameConfiguration.GetStartTurn())
 end
 
 -- ===========================================================================
