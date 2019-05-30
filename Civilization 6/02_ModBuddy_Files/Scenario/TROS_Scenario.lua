@@ -208,11 +208,11 @@ function Initialize_NewGame()
 		DeleteBuilding("Dijon", "BUILDING_GRANARY")
 		AddBuilding("Dole", "BUILDING_MARKET")
 		DeleteBuilding("Dole", "BUILDING_GRANARY")
-		   --AddBuilding("Montbéliard", "BUILDING_MARKET") -- check
-		   --DeleteBuilding("Montbéliard", "BUILDING_GRANARY") -- check
+		   --AddBuilding("Montbéliard", "BUILDING_MARKET") -- égu Problem lösen
+		   --DeleteBuilding("Montbéliard", "BUILDING_GRANARY") -- égu Problem lösen
 		-- S
-		   --DeleteBuilding("Chambery", "BUILDING_MONUMENT") -- check
-		   --DeleteBuilding("Chambery", "BUILDING_GRANARY") -- check
+		   --DeleteBuilding("Chambery", "BUILDING_MONUMENT") -- égu Problem lösen
+		   --DeleteBuilding("Chambery", "BUILDING_GRANARY") -- égu Problem lösen
 		DeleteBuilding("Annecy", "BUILDING_MONUMENT")
 		DeleteBuilding("Annecy", "BUILDING_GRANARY")
 		AddBuilding("Vevey", "BUILDING_MARKET")
@@ -274,6 +274,25 @@ function Initialize_NewGame()
 		DeleteBuilding("Biella", "BUILDING_GRANARY")
 		DeleteBuilding("Domodossola", "BUILDING_MONUMENT")
 		DeleteBuilding("Domodossola", "BUILDING_GRANARY")
+		-- H
+		DeleteBuilding("Brugg", "BUILDING_MONUMENT")
+		DeleteBuilding("Brugg", "BUILDING_GRANARY")
+		AddBuilding("Brugg", "BUILDING_MARKET")
+		DeleteBuilding("Aarau", "BUILDING_MONUMENT")
+		DeleteBuilding("Aarau", "BUILDING_GRANARY")
+		AddBuilding("Aarau", "BUILDING_MARKET")
+		DeleteBuilding("Innsbruck", "BUILDING_MONUMENT")
+		DeleteBuilding("Innsbruck", "BUILDING_GRANARY")
+		AddBuilding("Winterthur", "BUILDING_WALLS")
+		DeleteBuilding("Winterthur", "BUILDING_MONUMENT")
+		DeleteBuilding("Winterthur", "BUILDING_GRANARY")
+		DeleteBuilding("Zug", "BUILDING_MONUMENT")
+		DeleteBuilding("Zug", "BUILDING_GRANARY")
+		AddBuilding("Zug", "BUILDING_MARKET")
+		DeleteBuilding("Frauenfeld", "BUILDING_GRANARY")
+		DeleteBuilding("Belfort", "BUILDING_GRANARY")
+		DeleteBuilding("Waldshut", "BUILDING_MONUMENT")
+		DeleteBuilding("Waldshut", "BUILDING_GRANARY")
 
 	print("Initialize_NewGame: finished")
 end
