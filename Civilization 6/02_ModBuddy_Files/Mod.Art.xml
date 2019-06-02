@@ -591,6 +591,7 @@
 				<Element text="LEADER_TROS_RUDOLF"/>
 				<Element text="LEADER_TROS_VIKTOR"/>
 				<Element text="LEADER_TROS_BISCHOFVS"/>
+				<Element text="UI/Icons"/>
 				<!-- <Element text="LeaderFallbacks"/> -->
 			</relativePackagePaths>
 		</Element>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="TROS_CIVILIZATIONS_ICONS_256"/>
+			<m_ObjectName text="TROS_CIVILIZATIONS_ICONS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_CIVILIZATIONS_ICONS_80"/>
+			<m_ObjectName text="TROS_CIVILIZATIONS_ICONS_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_CIVILIZATIONS_ICONS_64"/>
+			<m_ObjectName text="TROS_CIVILIZATIONS_ICONS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_CIVILIZATIONS_ICONS_50"/>
+			<m_ObjectName text="TROS_CIVILIZATIONS_ICONS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_CIVILIZATIONS_ICONS_48"/>
+			<m_ObjectName text="TROS_CIVILIZATIONS_ICONS_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_CIVILIZATIONS_ICONS_44"/>
+			<m_ObjectName text="TROS_CIVILIZATIONS_ICONS_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_CIVILIZATIONS_ICONS_36"/>
+			<m_ObjectName text="TROS_CIVILIZATIONS_ICONS_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_CIVILIZATIONS_ICONS_30"/>
+			<m_ObjectName text="TROS_CIVILIZATIONS_ICONS_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_CIVILIZATIONS_ICONS_22"/>
+			<m_ObjectName text="TROS_CIVILIZATIONS_ICONS_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_LEADERS_ICONS_256"/>
+			<m_ObjectName text="TROS_LEADERS_ICONS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_LEADERS_ICONS_80"/>
+			<m_ObjectName text="TROS_LEADERS_ICONS_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_LEADERS_ICONS_64"/>
+			<m_ObjectName text="TROS_LEADERS_ICONS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_LEADERS_ICONS_55"/>
+			<m_ObjectName text="TROS_LEADERS_ICONS_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_LEADERS_ICONS_50"/>
+			<m_ObjectName text="TROS_LEADERS_ICONS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_LEADERS_ICONS_45"/>
+			<m_ObjectName text="TROS_LEADERS_ICONS_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_LEADERS_ICONS_32"/>
+			<m_ObjectName text="TROS_LEADERS_ICONS_32"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
