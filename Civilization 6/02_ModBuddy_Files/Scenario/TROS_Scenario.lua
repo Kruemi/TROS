@@ -204,7 +204,7 @@ function Initialize_NewGame()
 		-- ZH komplett
 		AddBuilding("Zürich", "BUILDING_WALLS")
 		AddBuilding("Zürich", "BUILDING_MARKET")
-		-- B
+		-- Burgund
 		AddBuilding("Dijon", "BUILDING_MARKET")
 		DeleteBuilding("Dijon", "BUILDING_GRANARY")
 		AddBuilding("Dole", "BUILDING_MARKET")
@@ -294,6 +294,18 @@ function Initialize_NewGame()
 		DeleteBuilding("Belfort", "BUILDING_GRANARY")
 		DeleteBuilding("Waldshut", "BUILDING_MONUMENT")
 		DeleteBuilding("Waldshut", "BUILDING_GRANARY")
+		-- Bern
+		AddBuilding("Bern", "BUILDING_WALLS")
+		DeleteBuilding("Bern", "BUILDING_GRANARY")
+		DeleteBuilding("Interlaken", "BUILDING_MONUMENT")
+		DeleteBuilding("Interlaken", "BUILDING_GRANARY")
+		-- Graubünden
+		DeleteBuilding("Chur", "BUILDING_GRANARY")
+		DeleteBuilding("Disentis", "BUILDING_GRANARY")
+		DeleteBuilding("Klosters", "BUILDING_GRANARY")
+		DeleteBuilding("Samedan", "BUILDING_GRANARY")
+		DeleteBuilding("Chiavenna", "BUILDING_GRANARY")
+		DeleteBuilding("Chiavenna", "BUILDING_MONUMENT")
 
 	print("Initialize_NewGame: finished")
 end
