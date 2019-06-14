@@ -61,6 +61,7 @@ function Initialize()
 	print("Initialize")
 	--GameEvents.PlayerTurnStarted.Add(OnPlayerTurnActivated);
 	--Events.PlayerTurnStarted.Add(OnPlayerTurnActivated);
+	
 	Events.PlayerTurnActivated.Add(OnPlayerTurnActivated);
 
 	print("Initialize: finished")

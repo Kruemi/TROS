@@ -1,18 +1,18 @@
 ﻿include( "InstanceManager" );
 include( "DiplomacyStatementSupport" );
 include( "SupportFunctions" );
-include( "Colors" );
+--include( "Colors" );
 
 -- ===========================================================================
 function CanDeclareWar(eDefendingPlayer:number)
-	local pPlayerConfig:table = PlayerConfigurations[eDefendingPlayer];
-	return pPlayerConfig:GetCivilizationLevelTypeID() == CivilizationLevelTypes.CIVILIZATION_LEVEL_FULL_CIV;
+	--local pPlayerConfig:table = PlayerConfigurations[eDefendingPlayer];
+	--return pPlayerConfig:GetCivilizationLevelTypeID() == CivilizationLevelTypes.CIVILIZATION_LEVEL_FULL_CIV;
 end
 -- ===========================================================================
 function DeclareWar(eAttackingPlayer:number, eDefendingPlayer:number, eWarType:number)
 	
 	--if CanDeclareWar(eDefendingPlayer) then
-	if true then
+	if eDefendingPlayer == ExposedMembers.eUser then
 
 		if (eWarType == WarTypes.SURPRISE_WAR) then 
 			DiplomacyManager.RequestSession(eAttackingPlayer, eDefendingPlayer, "DECLARE_SURPRISE_WAR");
@@ -53,10 +53,11 @@ function DeclareWar(eAttackingPlayer:number, eDefendingPlayer:number, eWarType:n
 		end
 
 	else
-		local parameters :table = {};
-		parameters[ PlayerOperations.PARAM_PLAYER_ONE ] = eAttackingPlayer;
-		parameters[ PlayerOperations.PARAM_PLAYER_TWO ] = eDefendingPlayer;
-		UI.RequestPlayerOperation(eAttackingPlayer, PlayerOperations.DIPLOMACY_DECLARE_WAR, parameters);
-		UI.PlaySound("Notification_War_Declared");
+		--print("TROS_DeclareWarPopup")
+		--local parameters :table = {};
+		--parameters[ PlayerOperations.PARAM_PLAYER_ONE ] = eAttackingPlayer;
+		--parameters[ PlayerOperations.PARAM_PLAYER_TWO ] = eDefendingPlayer;
+		--UI.RequestPlayerOperation(eAttackingPlayer, PlayerOperations.DIPLOMACY_DECLARE_WAR, parameters);
+		--UI.PlaySound("Notification_War_Declared");
 	end
 end

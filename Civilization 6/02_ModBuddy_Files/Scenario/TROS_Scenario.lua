@@ -48,6 +48,7 @@ function IdentifyCivilizationIDs()
 
 			if pCurrPlayer:IsHuman() then
 				user = Players[iPlayer]; -- assign user
+				ExposedMembers.eUser = iPlayer;
 				print("User is playing as " .. sPlayerCivName .. " (ID: " .. iPlayer .. ")");
 			end
 			
@@ -391,8 +392,12 @@ function OnPlayerTurnActivated(currPlayerID)
 	local currTurn = Game.GetCurrentGameTurn();
 	local aPlayers = PlayerManager.GetAlive();
 
-	print("OnGameTurnStarted( player ): " .. currPlayerID)
-	print("currTurn: " .. currTurn)
+	if currPlayerID == 1 then
+		print("Turn: " .. currTurn)
+	end
+
+	print("OnPlayerTurnActivated( player ): " .. currPlayerID)
+	
 
 	CheckForDiplomacyEvent(currPlayerID, currTurn)
 end
@@ -436,7 +441,6 @@ end
 function Scenario_DeclareWar(iDeclarationTurn, eAttackingPlayer, eDefendingPlayer, eWarType, currPlayerID, currTurn)
 	if iDeclarationTurn == currTurn and currPlayerID == eAttackingPlayer and not Players[eAttackingPlayer]:GetDiplomacy():IsAtWarWith(eDefendingPlayer) and Players[eAttackingPlayer]:IsAlive() and Players[eDefendingPlayer]:IsAlive() then
 		ExposedMembers.bWarDeclaration = true
-		
 		Players[eAttackingPlayer]:GetDiplomacy():DeclareWarOn(eDefendingPlayer, eWarType, true);
 
 		print("[Turn " .. iDeclarationTurn .. "] Scenario_DeclareWar: " .. PlayerConfigurations[eAttackingPlayer]:GetCivilizationTypeName() .. " has declared a " .. eWarType .. " on " .. PlayerConfigurations[eDefendingPlayer]:GetCivilizationTypeName())
