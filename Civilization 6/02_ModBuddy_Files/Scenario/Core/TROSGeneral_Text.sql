@@ -70,7 +70,7 @@ VALUES
 	("LOC_CITY_NAME_NUREMBERG", "en_US", "Tuttlingen"),
 	("LOC_CITY_NAME_BREMEN", "en_US", "Donaueschingen"),
 	("LOC_CITY_NAME_AUGSBURG", "en_US", "Freiburg im Breisgau"),
-	("LOC_CITY_NAME_AACHEN", "de_DE", "Muenchen"),--de (ü kann in der Weltübersicht nicht angezeigt werden...)
+	("LOC_CITY_NAME_AACHEN", "de_DE", "Muenchen"),--de (Ã¼ kann in der WeltÃ¼bersicht nicht angezeigt werden...)
 	("LOC_CITY_NAME_COLOGNE", "de_DE", "Landsberg"),
 	("LOC_CITY_NAME_FRANKFURT", "de_DE", "Lindau"),
 	("LOC_CITY_NAME_MAGDEBURG", "de_DE", "Konstanz"),
@@ -140,7 +140,7 @@ VALUES
 	("LOC_CITY_NAME_GARMISCHPARTENKIRCHEN", "de_DE", "Garmisch-Partenkirchen"),
 	("LOC_CITY_NAME_DORNBIRN", "de_DE", "Dornbirn"),
 	("LOC_CITY_NAME_FELDKIRCH", "de_DE", "Feldkirch");
-	-- wenn neue Städte hier ändern / hinzufügen: nicht vergessen die auch in TROSGeneral_Civilizatio.sql neu zu laden.
+	-- wenn neue StÃ¤dte hier Ã¤ndern / hinzufÃ¼gen: nicht vergessen die auch in TROSGeneral_Civilizatio.sql neu zu laden.
 
 	
 -----------------------------------------------
@@ -151,19 +151,19 @@ INSERT OR REPLACE INTO BaseGameText	(Tag, Text)
 VALUES
 
 -- CS1 Basel (AMSTERDAM)
-	--("LOC_CIVILIZATION_TROS_CS1_NAME",			"Basel"					),
-	--("LOC_CIVILIZATION_TROS_CS1_DESCRIPTION",	"Stadt Basel"			),
-	--("LOC_CIVILIZATION_TROS_CS1_ADJECTIVE",		"baslerisch"			),
-	--("LOC_LEADER_TROS_CS1_UA_NAME",  			"Basel Suzerain Bonus"	),
-	--("LOC_CITY_NAME_BASEL",						"Basel"					),
-	--("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_GENEVA_CHAPTER_HISTORY_PARA_1",	"Plaecholder")
+	("LOC_CIVILIZATION_TROS_CS1_NAME",			"Basel"					),
+	("LOC_CIVILIZATION_TROS_CS1_DESCRIPTION",	"Stadt Basel"			),
+	("LOC_CIVILIZATION_TROS_CS1_ADJECTIVE",		"baslerisch"			),
+	("LOC_LEADER_TROS_CS1_UA_NAME",  			"Basel Suzerain Bonus"	),
+	("LOC_CITY_NAME_BASEL",						"Basel"					),
+	("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_GENEVA_CHAPTER_HISTORY_PARA_1",	"Plaecholder")
 
 -- CS2 Luzern (BANDAR_BRUNEI)
-	--("LOC_CIVILIZATION_TROS_CS2_NAME",			"Luzern"				),
-	--("LOC_CIVILIZATION_TROS_CS2_DESCRIPTION",	"Kanton Luzern"			),
-	--("LOC_CIVILIZATION_TROS_CS2_ADJECTIVE",		"luzernisch"			),
-	--("LOC_LEADER_TROS_CS2_UA_NAME",  			"Luzern Suzerain Bonus"	),
-	--("LOC_CITY_NAME_LUZERN",					"Luzern"				),
+	("LOC_CIVILIZATION_TROS_CS2_NAME",			"Luzern"				),
+	("LOC_CIVILIZATION_TROS_CS2_DESCRIPTION",	"Kanton Luzern"			),
+	("LOC_CIVILIZATION_TROS_CS2_ADJECTIVE",		"luzernisch"			),
+	("LOC_LEADER_TROS_CS2_UA_NAME",  			"Luzern Suzerain Bonus"	),
+	("LOC_CITY_NAME_LUZERN",					"Luzern"				),
 
 -- CS3 Glarus (BRUSSELS)
 	("LOC_CIVILIZATION_TROS_CS3_NAME",			"Glarus"				),
@@ -216,12 +216,12 @@ VALUES
 
 --CS11 Neuenburg (KABUL)
 	("LOC_CIVILIZATION_TROS_CS11_NAME",			"Neuenburg"			),
-	("LOC_CIVILIZATION_TROS_CS11_DESCRIPTION",	"Canton de Neuchâtel"	),
-	("LOC_CIVILIZATION_TROS_CS11_ADJECTIVE",	"neuchâtelois"	),
+	("LOC_CIVILIZATION_TROS_CS11_DESCRIPTION",	"Canton de NeuchÃ¢tel"	),
+	("LOC_CIVILIZATION_TROS_CS11_ADJECTIVE",	"neuchÃ¢telois"	),
 	("LOC_LEADER_TROS_CS11_UA_NAME",  			"Neuenburg Suzerain Bonus"	),
 	("LOC_CITY_NAME_NEUENBURG",					"Neuenburg"				),
 
---CS12 Delémont (KANDY) é funktioniert leider nicht
+--CS12 DelÃ©mont (KANDY) Ã© funktioniert leider nicht
 	("LOC_CIVILIZATION_TROS_CS12_NAME",			"Delemont"			),
 	("LOC_CIVILIZATION_TROS_CS12_DESCRIPTION",	"Canton de Jura"	),
 	("LOC_CIVILIZATION_TROS_CS12_ADJECTIVE",	"jurassien"	),
@@ -244,9 +244,9 @@ VALUES
 
 --CS15 Vaduz (LISBON)
 	("LOC_CIVILIZATION_TROS_CS15_NAME",			"Vaduz"			),
-	("LOC_CIVILIZATION_TROS_CS15_DESCRIPTION",	"Fürstentum Liechtenstein"	),
+	("LOC_CIVILIZATION_TROS_CS15_DESCRIPTION",	"FÃ¼rstentum Liechtenstein"	),
 	("LOC_CIVILIZATION_TROS_CS15_ADJECTIVE",	"liechtensteinisch"	),
-	("LOC_LEADER_TROS_CS15_UA_NAME",  			"Liechtenstein Suzerän Bonus"	),
+	("LOC_LEADER_TROS_CS15_UA_NAME",  			"Liechtenstein SuzerÃ¤n Bonus"	),
 	("LOC_CITY_NAME_VADUZ",						"Vaduz"				),
 
 --CS16 Biel (MOHENJO_DARO)
@@ -256,11 +256,11 @@ VALUES
 	("LOC_LEADER_TROS_CS16_UA_NAME",  			"Biel Suzerain Bonus"	),
 	("LOC_CITY_NAME_BIEL",						"Biel"				),
 
---CS17 Besançon (PRESLAV)
+--CS17 BesanÃ§on (PRESLAV)
 	("LOC_CIVILIZATION_TROS_CS17_NAME",			"Besancon"			),
-	("LOC_CIVILIZATION_TROS_CS17_DESCRIPTION",	"Cité de Besançon"	),
+	("LOC_CIVILIZATION_TROS_CS17_DESCRIPTION",	"CitÃ© de BesanÃ§on"	),
 	("LOC_CIVILIZATION_TROS_CS17_ADJECTIVE",	"bisontin"	),
-	("LOC_LEADER_TROS_CS17_UA_NAME",  			"Besançon Suzerain Bonus"	),
+	("LOC_LEADER_TROS_CS17_UA_NAME",  			"BesanÃ§on Suzerain Bonus"	),
 	("LOC_CITY_NAME_BESANCON",					"Besancon"				),
 
 --CS18 Rottweil (NAN_MADOL)
@@ -270,12 +270,12 @@ VALUES
 	("LOC_LEADER_TROS_CS18_UA_NAME",  			"Rottweil Suzerain Bonus"	),
 	("LOC_CITY_NAME_ROTTWEIL",					"Rottweil"				),
 
---CS19 Mülhausen (SEOUL)
---	("LOC_CIVILIZATION_TROS_CS19_NAME",			"Mülhausen"			),
---	("LOC_CIVILIZATION_TROS_CS19_DESCRIPTION",	"Mulhouse"	),
---	("LOC_CIVILIZATION_TROS_CS19_ADJECTIVE",	"mülhausisch"	),
---	("LOC_LEADER_TROS_CS19_UA_NAME",  			"Mülhausen Suzerain Bonus"	),
---	("LOC_CITY_NAME_MULHAUSEN",					"Mülhausen"				),
+--CS19 MÃ¼lhausen (SEOUL)
+	("LOC_CIVILIZATION_TROS_CS19_NAME",			"MÃ¼lhausen"			),
+	("LOC_CIVILIZATION_TROS_CS19_DESCRIPTION",	"Mulhouse"	),
+	("LOC_CIVILIZATION_TROS_CS19_ADJECTIVE",	"mÃ¼lhausisch"	),
+	("LOC_LEADER_TROS_CS19_UA_NAME",  			"MÃ¼lhausen Suzerain Bonus"	),
+	("LOC_CITY_NAME_MULHAUSEN",					"MÃ¼lhausen"				),
 
 --CS20 Pfullendorf (STOCKHOLM)
 	("LOC_CIVILIZATION_TROS_CS20_NAME",			"Pfullendorf"			),
@@ -286,9 +286,9 @@ VALUES
 
 --CS21 Kempten (TORONTO)
 	("LOC_CIVILIZATION_TROS_CS21_NAME",			"Kempten"			),
-	("LOC_CIVILIZATION_TROS_CS21_DESCRIPTION",	"Allgäu"	),
-	("LOC_CIVILIZATION_TROS_CS21_ADJECTIVE",	"allgäuisch"	),
-	("LOC_LEADER_TROS_CS21_UA_NAME",  			"Allgäu Suzerain Bonus"	),
+	("LOC_CIVILIZATION_TROS_CS21_DESCRIPTION",	"AllgÃ¤u"	),
+	("LOC_CIVILIZATION_TROS_CS21_ADJECTIVE",	"allgÃ¤uisch"	),
+	("LOC_LEADER_TROS_CS21_UA_NAME",  			"AllgÃ¤u Suzerain Bonus"	),
 	("LOC_CITY_NAME_KEMPTEN",					"Kempten"				),
 
 --CS22 Buron (VALLETTA)
@@ -312,12 +312,12 @@ VALUES
 	("LOC_LEADER_TROS_CS24_UA_NAME",  			"Luzern Suzerain Bonus"	),
 	("LOC_CITY_NAME_LUZERN",					"Luzern"				),
 
---CS25 Mülhausen (ZANZIBAR)
-	("LOC_CIVILIZATION_TROS_CS25_NAME",			"Mülhausen"				),
+--CS25 MÃ¼lhausen (ZANZIBAR)
+	("LOC_CIVILIZATION_TROS_CS25_NAME",			"MÃ¼lhausen"				),
 	("LOC_CIVILIZATION_TROS_CS25_DESCRIPTION",	"Mulhouse"				),
-	("LOC_CIVILIZATION_TROS_CS25_ADJECTIVE",	"mülhausisch"			),
-	("LOC_LEADER_TROS_CS25_UA_NAME",  			"Mülhausen Suzerain Bonus"	),
-	("LOC_CITY_NAME_MULHAUSEN",					"Mülhausen"				);
+	("LOC_CIVILIZATION_TROS_CS25_ADJECTIVE",	"mÃ¼lhausisch"			),
+	("LOC_LEADER_TROS_CS25_UA_NAME",  			"MÃ¼lhausen Suzerain Bonus"	),
+	("LOC_CITY_NAME_MULHAUSEN",					"MÃ¼lhausen"				);
 
 -----------------------------------------------
 -- Other
@@ -326,9 +326,9 @@ VALUES
 INSERT OR REPLACE INTO LocalizedText
 		(Tag,	Language,	Text)
 VALUES
--- Eiger, Mönch & Jungfrau
-	("LOC_FEATURE_EVEREST_NAME",	"en_US",	"Eiger, Mönch und Jungfrau"	),
-	("LOC_FEATURE_EVEREST_NAME",	"de_DE",	"Eiger, Mönch und Jungfrau"	),
+-- Eiger, MÃ¶nch & Jungfrau
+	("LOC_FEATURE_EVEREST_NAME",	"en_US",	"Eiger, MÃ¶nch und Jungfrau"	),
+	("LOC_FEATURE_EVEREST_NAME",	"de_DE",	"Eiger, MÃ¶nch und Jungfrau"	),
 
 -- Mont Blanc
 	("LOC_FEATURE_KILIMANJARO_NAME",	"en_US",	"Mont Blanc"	),

@@ -321,7 +321,7 @@ function Initialize_NewGame()
 		AddBuilding("Solothurn", "BUILDING_WALLS")
 		DeleteBuilding("Solothurn", "BUILDING_MONUMENT")
 		DeleteBuilding("Solothurn", "BUILDING_GRANARY")
-		AddBuilding("St. Gallen", "BUILDING_WALLS")
+		AddBuilding("St. Gallen", "BUILDING_WALLS")-- check Schreibweise SG
 		AddBuilding("St. Gallen", "BUILDING_MARKET")
 		DeleteBuilding("Sankt Gallen", "BUILDING_MONUMENT")
 		DeleteBuilding("Sankt Gallen", "BUILDING_GRANARY")

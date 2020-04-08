@@ -136,7 +136,7 @@ SELECT	'TROS_Scenario_Players', -- Domain
 FROM	Players
 WHERE	CivilizationType = 'CIVILIZATION_TROS_BURGUND';
 
--- Graubünden
+-- GraubÃ¼nden
 INSERT INTO Players	(
 		Domain,
 		CivilizationType,
@@ -280,7 +280,7 @@ SELECT	'TROS_Scenario_Players', -- Domain
 FROM	Players
 WHERE	CivilizationType = 'CIVILIZATION_TROS_WALLIS';
 
--- Zürich
+-- ZÃ¼rich
 INSERT INTO Players	(
 		Domain,
 		CivilizationType,
