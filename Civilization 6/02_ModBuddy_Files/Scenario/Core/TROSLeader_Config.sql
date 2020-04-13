@@ -10,9 +10,9 @@ VALUES	(
 	'Players:Expansion1_Players','CIVILIZATION_ROME','LOC_CIVILIZATION_ROME_NAME','LEADER_TRAJAN','LOC_LEADER_TRAJAN_NAME'
 		);
 
---- bekannter Fehler: Eigenschaften und Fähigkeiten werden nicht angezeigt im Ladebildschirm und im Spiel.
---- Zweite Version unten löst das Problem nicht.
---- Dritte Version führt zu einem Fehler.
+--- bekannter Fehler: Eigenschaften und FÃ¤higkeiten werden nicht angezeigt im Ladebildschirm und im Spiel.
+--- Zweite Version unten lÃ¶st das Problem nicht.
+--- Dritte Version fÃ¼hrt zu einem Fehler.
 
 --INSERT OR REPLACE INTO Players (Domain, CivilizationType, CivilizationName, CivilizationIcon, LeaderType, LeaderName, LeaderIcon)
 --VALUES	(
@@ -38,7 +38,7 @@ VALUES	(
 --		'ICON_LEADER_TRAJAN' -- LeaderAbilityIcon
 --		);
 
--- folgendes wird benötigt, damit deutsche Städtenamen funktionieren (geprüft)
+-- folgendes wird benÃ¶tigt, damit deutsche StÃ¤dtenamen funktionieren (geprÃ¼ft)
 INSERT OR REPLACE INTO Players (Domain, CivilizationType, CivilizationName, LeaderType, LeaderName)
 VALUES	(
 	'Players:Expansion1_Players','CIVILIZATION_GERMANY','LOC_CIVILIZATION_GERMANY_NAME','LEADER_BARBAROSSA','LOC_LEADER_BARBAROSSA_NAME'
