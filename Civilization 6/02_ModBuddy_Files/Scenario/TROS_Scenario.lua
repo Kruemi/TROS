@@ -209,11 +209,11 @@ function Initialize_NewGame()
 		DeleteBuilding("Dijon", "BUILDING_GRANARY")
 		AddBuilding("Dole", "BUILDING_MARKET")
 		DeleteBuilding("Dole", "BUILDING_GRANARY")
-		   --AddBuilding("Montbéliard", "BUILDING_MARKET") -- égu Problem lösen
-		   --DeleteBuilding("Montbéliard", "BUILDING_GRANARY") -- égu Problem lösen
+		   --AddBuilding("Montbéliard", "BUILDING_MARKET") -- égu Problem lösen -- check
+		   --DeleteBuilding("Montbéliard", "BUILDING_GRANARY") -- égu Problem lösen -- check
 		-- S
-		   --DeleteBuilding("Chambery", "BUILDING_MONUMENT") -- égu Problem lösen
-		   --DeleteBuilding("Chambery", "BUILDING_GRANARY") -- égu Problem lösen
+		   --DeleteBuilding("Chambery", "BUILDING_MONUMENT") -- égu Problem lösen -- check
+		   --DeleteBuilding("Chambery", "BUILDING_GRANARY") -- égu Problem lösen -- check
 		DeleteBuilding("Annecy", "BUILDING_MONUMENT")
 		DeleteBuilding("Annecy", "BUILDING_GRANARY")
 		AddBuilding("Vevey", "BUILDING_MARKET")
@@ -234,10 +234,10 @@ function Initialize_NewGame()
 		DeleteBuilding("Aosta", "BUILDING_MONUMENT")
 		DeleteBuilding("Aosta", "BUILDING_GRANARY")
 		-- D check
-		AddBuilding("Muenchen", "BUILDING_MARKET") -- check
-		DeleteBuilding("Muenchen", "BUILDING_GRANARY") -- check
-		DeleteBuilding("Landsberg", "BUILDING_MONUMENT")
-		DeleteBuilding("Landsberg", "BUILDING_GRANARY")
+		AddBuilding("Muenchen", "BUILDING_MARKET") -- ok
+		DeleteBuilding("Muenchen", "BUILDING_GRANARY") -- ok
+		DeleteBuilding("Landsberg", "BUILDING_MONUMENT") -- ok
+		DeleteBuilding("Landsberg", "BUILDING_GRANARY") -- ok
 		DeleteBuilding("Lindau", "BUILDING_GRANARY")
 		AddBuilding("Konstanz", "BUILDING_WALLS")
 		DeleteBuilding("Konstanz", "BUILDING_MONUMENT")
@@ -317,14 +317,14 @@ function Initialize_NewGame()
 		DeleteBuilding("Luzern", "BUILDING_GRANARY")
 		DeleteBuilding("Glarus", "BUILDING_MONUMENT")
 		DeleteBuilding("Glarus", "BUILDING_GRANARY")
-		DeleteBuilding("Schaffhausen", "BUILDING_GRANARY")
-		AddBuilding("Solothurn", "BUILDING_WALLS")
-		DeleteBuilding("Solothurn", "BUILDING_MONUMENT")
-		DeleteBuilding("Solothurn", "BUILDING_GRANARY")
+		DeleteBuilding("Schaffhausen", "BUILDING_GRANARY") -- check
+		AddBuilding("Solothurn", "BUILDING_WALLS") -- check
+		DeleteBuilding("Solothurn", "BUILDING_MONUMENT") -- check
+		DeleteBuilding("Solothurn", "BUILDING_GRANARY") -- check
 		AddBuilding("St. Gallen", "BUILDING_WALLS")-- check Schreibweise SG
-		AddBuilding("St. Gallen", "BUILDING_MARKET")
-		DeleteBuilding("Sankt Gallen", "BUILDING_MONUMENT")
-		DeleteBuilding("Sankt Gallen", "BUILDING_GRANARY")
+		AddBuilding("St. Gallen", "BUILDING_MARKET") -- check
+		DeleteBuilding("St. Gallen", "BUILDING_MONUMENT") -- check
+		DeleteBuilding("St. Gallen", "BUILDING_GRANARY")
 		DeleteBuilding("Lausanne", "BUILDING_MONUMENT")
 		DeleteBuilding("Lausanne", "BUILDING_GRANARY")
 		AddBuilding("Liestal", "BUILDING_WALLS")

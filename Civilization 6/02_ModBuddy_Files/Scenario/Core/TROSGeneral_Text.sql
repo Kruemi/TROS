@@ -186,12 +186,14 @@ VALUES
 	("LOC_LEADER_TROS_CS5_UA_NAME",  			"Solothurn Suzerain Bonus"	),
 	("LOC_CITY_NAME_SOLOTHURN",					"Solothurn"				),
 
+--CS6 (skipped)
+
 --CS7 Sankt Gallen (HATTUSA)
 	("LOC_CIVILIZATION_TROS_CS7_NAME",			"St. Gallen"			),
 	("LOC_CIVILIZATION_TROS_CS7_DESCRIPTION",	"Kanton Sankt Gallen"	),
 	("LOC_CIVILIZATION_TROS_CS7_ADJECTIVE",		"sankt gallisch"			),
 	("LOC_LEADER_TROS_CS7_UA_NAME",  			"St. Gallen Suzerain Bonus"	),
-	("LOC_CITY_NAME_SANKT_GALLEN",					"St. Gallen"				),
+	("LOC_CITY_NAME_SANKT_GALLEN",				"St. Gallen"				),
 
 --CS8 Lausanne (HONG_KONG)
 	("LOC_CIVILIZATION_TROS_CS8_NAME",			"Waadt"			),
@@ -296,28 +298,28 @@ VALUES
 	("LOC_CIVILIZATION_TROS_CS22_DESCRIPTION",	"Kaufbeuren"	),
 	("LOC_CIVILIZATION_TROS_CS22_ADJECTIVE",	"beirisch"	),
 	("LOC_LEADER_TROS_CS22_UA_NAME",  			"Buron Suzerain Bonus"	),
-	("LOC_CITY_NAME_BURON",						"Buron"				),
+	("LOC_CITY_NAME_BURON",						"Buron"				);
 
--- CS23 Basel (VILNIUS)
-	("LOC_CIVILIZATION_TROS_CS23_NAME",			"Basel"					),
-	("LOC_CIVILIZATION_TROS_CS23_DESCRIPTION",	"Stadt Basel"			),
-	("LOC_CIVILIZATION_TROS_CS23_ADJECTIVE",	"baslerisch"			),
-	("LOC_LEADER_TROS_CS23_UA_NAME",  			"Basel Suzerain Bonus"	),
-	("LOC_CITY_NAME_BASEL",						"Basel"					),
-
--- CS24 Luzern (YEREVAN)
-	("LOC_CIVILIZATION_TROS_CS24_NAME",			"Luzern"				),
-	("LOC_CIVILIZATION_TROS_CS24_DESCRIPTION",	"Kanton Luzern"			),
-	("LOC_CIVILIZATION_TROS_CS24_ADJECTIVE",	"luzernisch"			),
-	("LOC_LEADER_TROS_CS24_UA_NAME",  			"Luzern Suzerain Bonus"	),
-	("LOC_CITY_NAME_LUZERN",					"Luzern"				),
-
---CS25 Mülhausen (ZANZIBAR)
-	("LOC_CIVILIZATION_TROS_CS25_NAME",			"Mülhausen"				),
-	("LOC_CIVILIZATION_TROS_CS25_DESCRIPTION",	"Mulhouse"				),
-	("LOC_CIVILIZATION_TROS_CS25_ADJECTIVE",	"mülhausisch"			),
-	("LOC_LEADER_TROS_CS25_UA_NAME",  			"Mülhausen Suzerain Bonus"	),
-	("LOC_CITY_NAME_MULHAUSEN",					"Mülhausen"				);
+---- CS23 Basel (VILNIUS) -- Nötige Duplikate; falls unkommentieren: Semikolon nicht vergessen Zeile oben oder ganz unten
+	--("LOC_CIVILIZATION_TROS_CS23_NAME",			"Basel"					),
+	--("LOC_CIVILIZATION_TROS_CS23_DESCRIPTION",	"Stadt Basel"			),
+	--("LOC_CIVILIZATION_TROS_CS23_ADJECTIVE",	"baslerisch"			),
+	--("LOC_LEADER_TROS_CS23_UA_NAME",  			"Basel Suzerain Bonus"	),
+	--("LOC_CITY_NAME_BASEL",						"Basel"					),
+--
+---- CS24 Luzern (YEREVAN)
+	--("LOC_CIVILIZATION_TROS_CS24_NAME",			"Luzern"				),
+	--("LOC_CIVILIZATION_TROS_CS24_DESCRIPTION",	"Kanton Luzern"			),
+	--("LOC_CIVILIZATION_TROS_CS24_ADJECTIVE",	"luzernisch"			),
+	--("LOC_LEADER_TROS_CS24_UA_NAME",  			"Luzern Suzerain Bonus"	),
+	--("LOC_CITY_NAME_LUZERN",					"Luzern"				),
+--
+----CS25 Mülhausen (ZANZIBAR)
+	--("LOC_CIVILIZATION_TROS_CS25_NAME",			"Mülhausen"				),
+	--("LOC_CIVILIZATION_TROS_CS25_DESCRIPTION",	"Mulhouse"				),
+	--("LOC_CIVILIZATION_TROS_CS25_ADJECTIVE",	"mülhausisch"			),
+	--("LOC_LEADER_TROS_CS25_UA_NAME",  			"Mülhausen Suzerain Bonus"	),
+	--("LOC_CITY_NAME_MULHAUSEN",					"Mülhausen"				);
 
 -----------------------------------------------
 -- Other
