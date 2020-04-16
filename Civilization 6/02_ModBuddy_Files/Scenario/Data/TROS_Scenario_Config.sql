@@ -433,9 +433,9 @@ VALUES	(
 		'11', -- MinPlayers
 		'11', -- MaxPlayers
 		'11', -- DefaultPlayers
-		'18', -- MinCityStates
-		'18', -- MaxCityStates
-		'18', -- DefaultCityStates
+		'22', -- MinCityStates
+		'22', -- MaxCityStates
+		'22', -- DefaultCityStates
 		'10'); -- SortIndex
 
 -----------------------------------------------
