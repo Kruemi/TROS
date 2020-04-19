@@ -70,7 +70,7 @@ VALUES
 	("LOC_CITY_NAME_NUREMBERG", "en_US", "Tuttlingen"),
 	("LOC_CITY_NAME_BREMEN", "en_US", "Donaueschingen"),
 	("LOC_CITY_NAME_AUGSBURG", "en_US", "Freiburg im Breisgau"),
-	("LOC_CITY_NAME_AACHEN", "de_DE", "Muenchen"),--de (ü kann in der Weltübersicht nicht angezeigt werden...)
+	("LOC_CITY_NAME_AACHEN", "de_DE", "München"),
 	("LOC_CITY_NAME_COLOGNE", "de_DE", "Landsberg"),
 	("LOC_CITY_NAME_FRANKFURT", "de_DE", "Lindau"),
 	("LOC_CITY_NAME_MAGDEBURG", "de_DE", "Konstanz"),
@@ -224,11 +224,11 @@ VALUES
 	("LOC_CITY_NAME_NEUENBURG",					"Neuenburg"				),
 
 --CS12 Delémont (KANDY) é funktioniert leider nicht
-	("LOC_CIVILIZATION_TROS_CS12_NAME",			"Delemont"			),
+	("LOC_CIVILIZATION_TROS_CS12_NAME",			"Delémont"			),
 	("LOC_CIVILIZATION_TROS_CS12_DESCRIPTION",	"Canton de Jura"	),
 	("LOC_CIVILIZATION_TROS_CS12_ADJECTIVE",	"jurassien"	),
 	("LOC_LEADER_TROS_CS12_UA_NAME",  			"Jura Suzerain Bonus"	),
-	("LOC_CITY_NAME_DELEMONT",					"Delemont"				),
+	("LOC_CITY_NAME_DELEMONT",					"Delémont"				),
 
 --CS13 Locarno (KUMASI)
 	("LOC_CIVILIZATION_TROS_CS13_NAME",			"Locarno"			),
