@@ -41,7 +41,7 @@ VALUES
 	("LOC_CITY_NAME_TROS_BURGUND_5", "en_US", "Pontarlier"),
 	("LOC_CITY_NAME_TROS_BURGUND_6", "en_US", "Plaecholder"),
 -- CIV4  - Savoyen ----------------------------
-	("LOC_CITY_NAME_TROS_SAVOYEN_1", "en_US", "Chambery"),
+	("LOC_CITY_NAME_TROS_SAVOYEN_1", "en_US", "Chambéry"),
 	("LOC_CITY_NAME_TROS_SAVOYEN_2", "en_US", "Annecy"),
 	("LOC_CITY_NAME_TROS_SAVOYEN_3", "en_US", "Vevey"),
 	("LOC_CITY_NAME_TROS_SAVOYEN_4", "en_US", "Yverdon"),
@@ -167,8 +167,8 @@ VALUES
 -- CIV1  - Eidgenossenschaft ------------------
 	("LOC_CITIZEN_TROS_EIDGENOSSENSCHAFT_MALE_1",		"en_US",	"Willhelm"),
 	("LOC_CITIZEN_TROS_EIDGENOSSENSCHAFT_MALE_2",		"en_US",	"Werner"),
-	-- Achtung: Placeholder
-	("LOC_CITIZEN_TROS_EIDGENOSSENSCHAFT_MALE_3",		"en_US",	"Placeholder"),
+	("LOC_CITIZEN_TROS_EIDGENOSSENSCHAFT_MALE_3",		"en_US",	"Hans"),
+		-- Achtung: Placeholder
 	("LOC_CITIZEN_TROS_EIDGENOSSENSCHAFT_MALE_4",		"en_US",	"Placeholder"),
 	("LOC_CITIZEN_TROS_EIDGENOSSENSCHAFT_MALE_5",		"en_US",	"Placeholder"),
 	("LOC_CITIZEN_TROS_EIDGENOSSENSCHAFT_MALE_6",		"en_US",	"Placeholder"),
@@ -321,7 +321,7 @@ VALUES
 	("LOC_CITIZEN_TROS_WALLIS_MALE_2",		"en_US",	"Aymon"		),
 	("LOC_CITIZEN_TROS_WALLIS_MALE_3",		"en_US",	"Philippe"	),
 	("LOC_CITIZEN_TROS_WALLIS_MALE_4",		"en_US",	"Christian"	),
-	("LOC_CITIZEN_TROS_WALLIS_MALE_5",		"en_US",	"Giannni"	),
+	("LOC_CITIZEN_TROS_WALLIS_MALE_5",		"en_US",	"Gianni"	),
 	("LOC_CITIZEN_TROS_WALLIS_MALE_6",		"en_US",	"Joseph"	),
 	("LOC_CITIZEN_TROS_WALLIS_MALE_7",		"en_US",	"Sepp"	),
 	("LOC_CITIZEN_TROS_WALLIS_MALE_8",		"en_US",	"Reto"	),

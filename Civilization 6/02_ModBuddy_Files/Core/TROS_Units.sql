@@ -504,7 +504,7 @@ SELECT	'UNIT_TROS_ZURICH_UU',	-- UnitType
 		ZoneOfControl,
 		Domain,
 		FormationClass,
-		'4'
+		'4'  -- BuildCharges (+1)
 FROM	Units
 WHERE	UnitType = 'UNIT_BUILDER';
 

@@ -223,7 +223,7 @@ VALUES
 	("LOC_LEADER_TROS_CS11_UA_NAME",  			"Neuenburg Suzerain Bonus"	),
 	("LOC_CITY_NAME_NEUENBURG",					"Neuenburg"				),
 
---CS12 Delémont (KANDY) é funktioniert leider nicht
+--CS12 Delémont (KANDY)
 	("LOC_CIVILIZATION_TROS_CS12_NAME",			"Delémont"			),
 	("LOC_CIVILIZATION_TROS_CS12_DESCRIPTION",	"Canton de Jura"	),
 	("LOC_CIVILIZATION_TROS_CS12_ADJECTIVE",	"jurassien"	),
@@ -246,7 +246,7 @@ VALUES
 
 --CS15 Vaduz (LISBON)
 	("LOC_CIVILIZATION_TROS_CS15_NAME",			"Vaduz"			),
-	("LOC_CIVILIZATION_TROS_CS15_DESCRIPTION",	"Fürstentum Liechtenstein"	),
+	("LOC_CIVILIZATION_TROS_CS15_DESCRIPTION",	"Fürstentum Lieamtenstein"	),
 	("LOC_CIVILIZATION_TROS_CS15_ADJECTIVE",	"liechtensteinisch"	),
 	("LOC_LEADER_TROS_CS15_UA_NAME",  			"Liechtenstein Suzerän Bonus"	),
 	("LOC_CITY_NAME_VADUZ",						"Vaduz"				),
