@@ -341,20 +341,53 @@ function Initialize_NewGame()
 		DeleteBuilding("Lugano", "BUILDING_GRANARY")
 		DeleteBuilding("Vaduz", "BUILDING_MONUMENT")
 		DeleteBuilding("Vaduz", "BUILDING_GRANARY")
-		DeleteBuilding("Biel", "BUILDING_MONUMENT")
-		DeleteBuilding("Biel", "BUILDING_GRANARY")
-		DeleteBuilding("Besançon", "BUILDING_MONUMENT")
-		DeleteBuilding("Besançon", "BUILDING_GRANARY")
-		DeleteBuilding("Rottweil", "BUILDING_MONUMENT")
-		DeleteBuilding("Rottweil", "BUILDING_GRANARY")
+		DeleteBuilding("Biel", "BUILDING_MONUMENT") -- ok
+		DeleteBuilding("Biel", "BUILDING_GRANARY") -- ok
+		DeleteBuilding("Besançon", "BUILDING_MONUMENT") -- check
+		DeleteBuilding("Besançon", "BUILDING_GRANARY") -- check
+		DeleteBuilding("Rottweil", "BUILDING_MONUMENT") -- check
+		DeleteBuilding("Rottweil", "BUILDING_GRANARY") -- check
 		DeleteBuilding("Mülhausen", "BUILDING_MONUMENT") -- check
 		DeleteBuilding("Mülhausen", "BUILDING_GRANARY") -- check
-		AddBuilding("Pfullendorf", "BUILDING_WALLS")
-		DeleteBuilding("Pfullendorf", "BUILDING_MONUMENT")
-		DeleteBuilding("Pfullendorf", "BUILDING_GRANARY")
-		DeleteBuilding("Kempten", "BUILDING_GRANARY")
+		AddBuilding("Pfullendorf", "BUILDING_WALLS") -- check
+		DeleteBuilding("Pfullendorf", "BUILDING_MONUMENT") -- check
+		DeleteBuilding("Pfullendorf", "BUILDING_GRANARY") -- check
+		DeleteBuilding("Kempten", "BUILDING_GRANARY") -- check
 		DeleteBuilding("Buron", "BUILDING_MONUMENT") -- check
 		DeleteBuilding("Buron", "BUILDING_GRANARY") -- check
+		-- Nyon? -- Oyonnaz? -- Pontarlier?
+
+		-- freie Städte
+	--("LOC_CITY_NAME_VERONA", "de_DE", "Verona"),
+	--("LOC_CITY_NAME_VICENZA", "de_DE", "Vicenza"),
+	--("LOC_CITY_NAME_BERGAMO", "de_DE", "Bergamo"),
+	--("LOC_CITY_NAME_COMO", "de_DE", "Como"),
+	--("LOC_CITY_NAME_TRIENT", "de_DE", "Trient"),
+	--("LOC_CITY_NAME_ROVERETO", "de_DE", "Rovereto"),
+	--("LOC_CITY_NAME_BOZEN", "de_DE", "Bozen"),
+	--("LOC_CITY_NAME_MERAN", "de_DE", "Meran"),
+	--("LOC_CITY_NAME_BELLINZONA", "de_DE", "Bellinzona"),
+	--("LOC_CITY_NAME_ZOFINGEN", "de_DE", "Zofingen"),
+	--("LOC_CITY_NAME_THUN", "de_DE", "Thun"),
+	--("LOC_CITY_NAME_MURTEN", "de_DE", "Murten"),
+	--("LOC_CITY_NAME_PORRENTRUY", "de_DE", "Porrentruy"),
+	--("LOC_CITY_NAME_BURGDORF", "de_DE", "Burgdorf"),
+	--("LOC_CITY_NAME_RAPPERSWIL", "de_DE", "Rapperswil"),
+	--("LOC_CITY_NAME_MALS", "de_DE", "Mals"),
+	--("LOC_CITY_NAME_SONDRIO", "de_DE", "Sondrio"),
+	--("LOC_CITY_NAME_ZERMATT", "de_DE", "Zermatt"),
+	--("LOC_CITY_NAME_OYONNAX", "de_DE", "Oyonnax"),
+	--("LOC_CITY_NAME_PONTARLIER", "de_DE", "Pontarlier"),
+	--("LOC_CITY_NAME_NYON", "de_DE", "Nyon"),
+	--("LOC_CITY_NAME_SINGEN", "de_DE", "Singen"),
+	--("LOC_CITY_NAME_TUTTLINGEN", "de_DE", "Tuttlingen"),
+	--("LOC_CITY_NAME_DONAUESCHINGEN", "de_DE", "Donaueschingen"),
+	--("LOC_CITY_NAME_FREIBURGIMBREISGAU", "de_DE", "Freiburg im Breisgau"),
+	--("LOC_CITY_NAME_GARMISCHPARTENKIRCHEN", "de_DE", "Garmisch-Partenkirchen"),
+	--("LOC_CITY_NAME_DORNBIRN", "de_DE", "Dornbirn"),
+	--("LOC_CITY_NAME_FELDKIRCH", "de_DE", "Feldkirch");
+
+
 
 	print("Initialize_NewGame: finished")
 end
