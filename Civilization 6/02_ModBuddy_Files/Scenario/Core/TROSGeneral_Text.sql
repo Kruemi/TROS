@@ -70,7 +70,7 @@ VALUES
 	("LOC_CITY_NAME_NUREMBERG", "en_US", "Tuttlingen"),
 	("LOC_CITY_NAME_BREMEN", "en_US", "Donaueschingen"),
 	("LOC_CITY_NAME_AUGSBURG", "en_US", "Freiburg im Breisgau"),
-	("LOC_CITY_NAME_AACHEN", "de_DE", "Muenchen"),--de (ü kann in der Weltübersicht nicht angezeigt werden...)
+	("LOC_CITY_NAME_AACHEN", "de_DE", "München"),
 	("LOC_CITY_NAME_COLOGNE", "de_DE", "Landsberg"),
 	("LOC_CITY_NAME_FRANKFURT", "de_DE", "Lindau"),
 	("LOC_CITY_NAME_MAGDEBURG", "de_DE", "Konstanz"),
@@ -223,12 +223,12 @@ VALUES
 	("LOC_LEADER_TROS_CS11_UA_NAME",  			"Neuenburg Suzerain Bonus"	),
 	("LOC_CITY_NAME_NEUENBURG",					"Neuenburg"				),
 
---CS12 Delémont (KANDY) é funktioniert leider nicht
-	("LOC_CIVILIZATION_TROS_CS12_NAME",			"Delemont"			),
+--CS12 Delémont (KANDY)
+	("LOC_CIVILIZATION_TROS_CS12_NAME",			"Delémont"			),
 	("LOC_CIVILIZATION_TROS_CS12_DESCRIPTION",	"Canton de Jura"	),
 	("LOC_CIVILIZATION_TROS_CS12_ADJECTIVE",	"jurassien"	),
 	("LOC_LEADER_TROS_CS12_UA_NAME",  			"Jura Suzerain Bonus"	),
-	("LOC_CITY_NAME_DELEMONT",					"Delemont"				),
+	("LOC_CITY_NAME_DELEMONT",					"Delémont"				),
 
 --CS13 Locarno (KUMASI)
 	("LOC_CIVILIZATION_TROS_CS13_NAME",			"Locarno"			),
@@ -246,7 +246,7 @@ VALUES
 
 --CS15 Vaduz (LISBON)
 	("LOC_CIVILIZATION_TROS_CS15_NAME",			"Vaduz"			),
-	("LOC_CIVILIZATION_TROS_CS15_DESCRIPTION",	"Fürstentum Liechtenstein"	),
+	("LOC_CIVILIZATION_TROS_CS15_DESCRIPTION",	"Fürstentum Lieamtenstein"	),
 	("LOC_CIVILIZATION_TROS_CS15_ADJECTIVE",	"liechtensteinisch"	),
 	("LOC_LEADER_TROS_CS15_UA_NAME",  			"Liechtenstein Suzerän Bonus"	),
 	("LOC_CITY_NAME_VADUZ",						"Vaduz"				),
@@ -259,11 +259,11 @@ VALUES
 	("LOC_CITY_NAME_BIEL",						"Biel"				),
 
 --CS17 Besançon (PRESLAV)
-	("LOC_CIVILIZATION_TROS_CS17_NAME",			"Besancon"			),
+	("LOC_CIVILIZATION_TROS_CS17_NAME",			"Besançon"			),
 	("LOC_CIVILIZATION_TROS_CS17_DESCRIPTION",	"Cité de Besançon"	),
 	("LOC_CIVILIZATION_TROS_CS17_ADJECTIVE",	"bisontin"	),
 	("LOC_LEADER_TROS_CS17_UA_NAME",  			"Besançon Suzerain Bonus"	),
-	("LOC_CITY_NAME_BESANCON",					"Besancon"				),
+	("LOC_CITY_NAME_BESANCON",					"Besançon"				),
 
 --CS18 Rottweil (NAN_MADOL)
 	("LOC_CIVILIZATION_TROS_CS18_NAME",			"Rottweil"			),
