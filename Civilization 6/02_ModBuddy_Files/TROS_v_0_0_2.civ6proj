@@ -35,8 +35,6 @@
     <Folder Include="Assets\UI\" />
     <Folder Include="Assets\UI\Icons\" />
     <Folder Include="Core" />
-    <Folder Include="Core\Civilization" />
-    <Folder Include="Core\Leader" />
     <Folder Include="ArtDefs" />
     <Folder Include="Maps" />
     <Folder Include="Scenario" />
