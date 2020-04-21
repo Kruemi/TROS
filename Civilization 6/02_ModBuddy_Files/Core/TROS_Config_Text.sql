@@ -218,12 +218,10 @@ VALUES
 	("LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_TROS_HABSBURG_UI_CHAPTER_HISTORY_PARA_2",
 																"de_DE",	NULL,			NULL,	"Plaecholder."),
 -- CIV8  - Zürich (Alfred) --------------------
-	("LOC_DISTRICT_TROS_ZURICH_UI_NAME",						"de_DE",	"feminine",		1,		"Grossbank|Grossbank|Grossbank|Grossbank|Grossbank"	),
-	("LOC_DISTRICT_TROS_ZURICH_UI_DESCRIPTION",					"de_DE",	NULL,			NULL,	"Eine Bank mit mehr Umsatz und mehr Gewinn als üblich."	),
-	("LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_TROS_ZURICH_UI_CHAPTER_HISTORY_PARA_1",
-																"de_DE",	NULL,			NULL,	"Plaecholder."),
-	("LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_TROS_ZURICH_UI_CHAPTER_HISTORY_PARA_2",
-																"de_DE",	NULL,			NULL,	"Plaecholder."),
+	("LOC_BUILDING_TROS_ZURICH_UI_NAME",						"de_DE",	"feminine",		1,		"Grossbank|Grossbank|Grossbank|Grossbank|Grossbank"	),
+	("LOC_BUILDING_TROS_ZURICH_UI_DESCRIPTION",					"de_DE",	NULL,			NULL,	"Eine Bank mit mehr Umsatz und mehr Gewinn als üblich. Trägt ausserdem zur Finanzierung von Bauvorhaben bei."	),
+	("LOC_PEDIA_BUILDINGS_PAGE_TROS_ZURICH_UI_CHAPTER_HISTORY_PARA_1",
+																"de_DE",	NULL,			NULL,	"Die beiden Grossbanken UBS und Credit Suisse mit Sitz in Zürich sind die grössten Bankkonzerne der Schweiz und gehören zu den grössten der Welt."),
 -- CIV9  - Bern (Jakob) -----------------------
 	("LOC_DISTRICT_TROS_BERN_UI_NAME",							"de_DE",	"feminine",		1,		"Käserei|Käserei|Käserei|Käserei|Käserei"),
 	("LOC_DISTRICT_TROS_BERN_UI_DESCRIPTION",					"de_DE",	NULL,			NULL,	"Ein Ort an dem gekaest wird."	),
@@ -276,7 +274,7 @@ VALUES
 	("LOC_UNIT_TROS_EIDGENOSSENSCHAFT_UU_DESCRIPTION",			"de_DE",	NULL,			NULL,	"Einzigartige Einheit der Schweiz. Plaecholder."), -- Assets/Text/en_US/Units_Text.xml
 	("LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UU_NAME",	"de_DE",	NULL,			NULL,	"Schweizerische Spezialeinheit: Hellebardier"), -- Assets/Text/en_US/Civilizations_Text.xml
 	("LOC_PEDIA_UNITS_PAGE_TROS_EIDGENOSSENSCHAFT_UU_CHAPTER_HISTORY_PARA_1",
-																"de_DE",	NULL,			NULL,	"PH: Geschichte des Hellebardiers"), -- Civilopedia (Assets/Text/en_US/Civilopedia_Units_Text.xml)
+																"de_DE",	NULL,			NULL,	"Ein Hellebardenträger, auch Hellebardier oder Hellebardist, ist eine Person, die mit einer Hellebarde bewaffnet ist. Im Militär wurden Hellebardenträger vom Spätmittelalter bis zur frühen Neuzeit eingesetzt und gehörten zur schweren Infanterie. Heute werden Hellebardenträger wie zum Beispiel die der Schweizergarde nur noch zu repräsentativen Zwecken eingesetzt."), -- Civilopedia (Assets/Text/en_US/Civilopedia_Units_Text.xml)
 	-- Ability/Modifier missing
 	-- ("LOC_MODIFIER_TROS_EIDGENOSSENSCHAFT_UU_ADJUST_STRENGTH_DESCRIPTION", "en_US", "Plaecholder."	), -- Civilopedia (Assets/Text/en_US/Civilopedia_Units_Text.xml)
 -- CIV2  - Frankreich -------------------------
@@ -301,7 +299,7 @@ VALUES
 	("LOC_UNIT_TROS_ZURICH_UU_NAME",							"de_DE",	"neuter",		1,		"Tiefbauamt|Tiefbauamt|Tiefbauamt|Tiefbauamtes|Tiefbauamt"	),
 	("LOC_UNIT_TROS_ZURICH_UU_DESCRIPTION",						"de_DE",	NULL,			NULL,	"Eine Werkbehörde die mehr Bauvorhaben fertig stellen kann."),
 	("LOC_PEDIA_UNITS_PAGE_UNIT_TROS_ZURICH_UU_CHAPTER_HISTORY_PARA_1", 
-																"de_DE",	NULL,			NULL,	"Plaecholder."),
+																"de_DE",	NULL,			NULL,	"Das Tiefbauamt ist verantwortlich für die Planung, Gestaltung und Erhaltung des öffentlichen Geländes sowie für eine zukunftsgerichtete Mobilität und Verkehrsplanung. Es sorgt für eine einwandfreie bauliche Infrastruktur."),
 -- CIV9  - Bern (Jakob) -----------------------
 	("LOC_UNIT_TROS_BERN_UU_NAME",								"de_DE",	"masculine",	1,		"Hellebardier|Hellebardier|Hellebardier|Hellebardiers|Hellebardier"),
 	("LOC_UNIT_TROS_BERN_UU_DESCRIPTION",						"de_DE",	NULL,			NULL,	"Plaecholder."),

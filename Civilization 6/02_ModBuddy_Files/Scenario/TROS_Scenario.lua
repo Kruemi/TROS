@@ -306,7 +306,7 @@ function Initialize_NewGame()
 		DeleteBuilding("Samedan", "BUILDING_GRANARY")
 		DeleteBuilding("Chiavenna", "BUILDING_GRANARY")
 		DeleteBuilding("Chiavenna", "BUILDING_MONUMENT")
-		-- Stadtstaaten check Buron, Mülhausen
+		-- Stadtstaaten komplett
 		AddBuilding("Genf", "BUILDING_WALLS")
 		DeleteBuilding("Genf", "BUILDING_MONUMENT")
 		DeleteBuilding("Genf", "BUILDING_GRANARY")
@@ -333,61 +333,89 @@ function Initialize_NewGame()
 		DeleteBuilding("Freiburg", "BUILDING_GRANARY")
 		DeleteBuilding("Neuenburg", "BUILDING_MONUMENT")
 		DeleteBuilding("Neuenburg", "BUILDING_GRANARY")
-		DeleteBuilding("Delémont", "BUILDING_MONUMENT") -- ok
-		DeleteBuilding("Delémont", "BUILDING_GRANARY") -- ok
+		DeleteBuilding("Delémont", "BUILDING_MONUMENT")
+		DeleteBuilding("Delémont", "BUILDING_GRANARY")
 		DeleteBuilding("Locarno", "BUILDING_MONUMENT")
 		DeleteBuilding("Locarno", "BUILDING_GRANARY")
 		DeleteBuilding("Lugano", "BUILDING_MONUMENT")
 		DeleteBuilding("Lugano", "BUILDING_GRANARY")
 		DeleteBuilding("Vaduz", "BUILDING_MONUMENT")
 		DeleteBuilding("Vaduz", "BUILDING_GRANARY")
-		DeleteBuilding("Biel", "BUILDING_MONUMENT") -- ok
-		DeleteBuilding("Biel", "BUILDING_GRANARY") -- ok
-		DeleteBuilding("Besançon", "BUILDING_MONUMENT") -- check
-		DeleteBuilding("Besançon", "BUILDING_GRANARY") -- check
-		DeleteBuilding("Rottweil", "BUILDING_MONUMENT") -- check
-		DeleteBuilding("Rottweil", "BUILDING_GRANARY") -- check
-		DeleteBuilding("Mülhausen", "BUILDING_MONUMENT") -- check
-		DeleteBuilding("Mülhausen", "BUILDING_GRANARY") -- check
-		AddBuilding("Pfullendorf", "BUILDING_WALLS") -- check
-		DeleteBuilding("Pfullendorf", "BUILDING_MONUMENT") -- check
-		DeleteBuilding("Pfullendorf", "BUILDING_GRANARY") -- check
-		DeleteBuilding("Kempten", "BUILDING_GRANARY") -- check
-		DeleteBuilding("Buron", "BUILDING_MONUMENT") -- check
-		DeleteBuilding("Buron", "BUILDING_GRANARY") -- check
-		-- Nyon? -- Oyonnaz? -- Pontarlier?
-
-		-- freie Städte
-	--("LOC_CITY_NAME_VERONA", "de_DE", "Verona"),
-	--("LOC_CITY_NAME_VICENZA", "de_DE", "Vicenza"),
-	--("LOC_CITY_NAME_BERGAMO", "de_DE", "Bergamo"),
-	--("LOC_CITY_NAME_COMO", "de_DE", "Como"),
-	--("LOC_CITY_NAME_TRIENT", "de_DE", "Trient"),
-	--("LOC_CITY_NAME_ROVERETO", "de_DE", "Rovereto"),
-	--("LOC_CITY_NAME_BOZEN", "de_DE", "Bozen"),
-	--("LOC_CITY_NAME_MERAN", "de_DE", "Meran"),
-	--("LOC_CITY_NAME_BELLINZONA", "de_DE", "Bellinzona"),
-	--("LOC_CITY_NAME_ZOFINGEN", "de_DE", "Zofingen"),
-	--("LOC_CITY_NAME_THUN", "de_DE", "Thun"),
-	--("LOC_CITY_NAME_MURTEN", "de_DE", "Murten"),
-	--("LOC_CITY_NAME_PORRENTRUY", "de_DE", "Porrentruy"),
-	--("LOC_CITY_NAME_BURGDORF", "de_DE", "Burgdorf"),
-	--("LOC_CITY_NAME_RAPPERSWIL", "de_DE", "Rapperswil"),
-	--("LOC_CITY_NAME_MALS", "de_DE", "Mals"),
-	--("LOC_CITY_NAME_SONDRIO", "de_DE", "Sondrio"),
-	--("LOC_CITY_NAME_ZERMATT", "de_DE", "Zermatt"),
-	--("LOC_CITY_NAME_OYONNAX", "de_DE", "Oyonnax"),
-	--("LOC_CITY_NAME_PONTARLIER", "de_DE", "Pontarlier"),
-	--("LOC_CITY_NAME_NYON", "de_DE", "Nyon"),
-	--("LOC_CITY_NAME_SINGEN", "de_DE", "Singen"),
-	--("LOC_CITY_NAME_TUTTLINGEN", "de_DE", "Tuttlingen"),
-	--("LOC_CITY_NAME_DONAUESCHINGEN", "de_DE", "Donaueschingen"),
-	--("LOC_CITY_NAME_FREIBURGIMBREISGAU", "de_DE", "Freiburg im Breisgau"),
-	--("LOC_CITY_NAME_GARMISCHPARTENKIRCHEN", "de_DE", "Garmisch-Partenkirchen"),
-	--("LOC_CITY_NAME_DORNBIRN", "de_DE", "Dornbirn"),
-	--("LOC_CITY_NAME_FELDKIRCH", "de_DE", "Feldkirch");
-
-
+		DeleteBuilding("Biel", "BUILDING_MONUMENT")
+		DeleteBuilding("Biel", "BUILDING_GRANARY")
+		DeleteBuilding("Besançon", "BUILDING_MONUMENT")
+		DeleteBuilding("Besançon", "BUILDING_GRANARY")
+		DeleteBuilding("Rottweil", "BUILDING_MONUMENT")
+		DeleteBuilding("Rottweil", "BUILDING_GRANARY")
+		DeleteBuilding("Mülhausen", "BUILDING_MONUMENT")
+		DeleteBuilding("Mülhausen", "BUILDING_GRANARY")
+		AddBuilding("Pfullendorf", "BUILDING_WALLS")
+		DeleteBuilding("Pfullendorf", "BUILDING_MONUMENT")
+		DeleteBuilding("Pfullendorf", "BUILDING_GRANARY")
+		DeleteBuilding("Kempten", "BUILDING_GRANARY")
+		DeleteBuilding("Buron", "BUILDING_MONUMENT")
+		DeleteBuilding("Buron", "BUILDING_GRANARY")
+		-- freie Städte, komplett
+		AddBuilding("Verona","BUILDING_ARENA") -- falls Amphitheater Verona, müsste Unterhaltungskomplex in Theaterkomplex ändern
+		AddBuilding("Verona","BUILDING_WALLS")
+		DeleteBuilding("Verona", "BUILDING_MONUMENT")
+		DeleteBuilding("Verona", "BUILDING_GRANARY")	
+		DeleteBuilding("Vicenza", "BUILDING_MONUMENT")
+		DeleteBuilding("Vicenza", "BUILDING_GRANARY")
+		DeleteBuilding("Bergamo", "BUILDING_MONUMENT")
+		DeleteBuilding("Bergamo", "BUILDING_GRANARY")
+		DeleteBuilding("Como", "BUILDING_MONUMENT")
+		DeleteBuilding("Como", "BUILDING_GRANARY")
+		DeleteBuilding("Trient", "BUILDING_MONUMENT")
+		DeleteBuilding("Trient", "BUILDING_GRANARY")
+		DeleteBuilding("Rovereto", "BUILDING_MONUMENT")
+		DeleteBuilding("Rovereto", "BUILDING_GRANARY")
+		AddBuilding("Bozen","BUILDING_MARKET")
+		DeleteBuilding("Bozen", "BUILDING_MONUMENT")
+		DeleteBuilding("Bozen", "BUILDING_GRANARY")	
+		DeleteBuilding("Meran", "BUILDING_MONUMENT")
+		DeleteBuilding("Meran", "BUILDING_GRANARY")	
+		DeleteBuilding("Bellinzona", "BUILDING_MONUMENT")
+		DeleteBuilding("Bellinzona", "BUILDING_GRANARY")
+		AddBuilding("Zofingen","BUILDING_MARKET")	
+		DeleteBuilding("Zofingen", "BUILDING_MONUMENT")
+		DeleteBuilding("Zofingen", "BUILDING_GRANARY")
+		DeleteBuilding("Thun", "BUILDING_MONUMENT")
+		DeleteBuilding("Thun", "BUILDING_GRANARY")
+		DeleteBuilding("Murten", "BUILDING_MONUMENT")
+		DeleteBuilding("Murten", "BUILDING_GRANARY")
+		DeleteBuilding("Porrentruy", "BUILDING_MONUMENT")
+		DeleteBuilding("Porrentruy", "BUILDING_GRANARY")
+		DeleteBuilding("Burgdorf", "BUILDING_MONUMENT")
+		DeleteBuilding("Burgdorf", "BUILDING_GRANARY")
+		DeleteBuilding("Rapperswil", "BUILDING_MONUMENT")
+		DeleteBuilding("Rapperswil", "BUILDING_GRANARY")	
+		DeleteBuilding("Mals", "BUILDING_MONUMENT")
+		DeleteBuilding("Mals", "BUILDING_GRANARY")		
+		DeleteBuilding("Sondrio", "BUILDING_MONUMENT")
+		DeleteBuilding("Sondrio", "BUILDING_GRANARY")		
+		DeleteBuilding("Zermatt", "BUILDING_MONUMENT")
+		DeleteBuilding("Zermatt", "BUILDING_GRANARY")	
+		DeleteBuilding("Oyonnax", "BUILDING_MONUMENT")
+		DeleteBuilding("Oyonnax", "BUILDING_GRANARY")	
+		DeleteBuilding("Pontarlier", "BUILDING_MONUMENT")
+		DeleteBuilding("Pontarlier", "BUILDING_GRANARY")		
+		DeleteBuilding("Nyon", "BUILDING_MONUMENT")
+		DeleteBuilding("Nyon", "BUILDING_GRANARY")	
+		DeleteBuilding("Singen", "BUILDING_MONUMENT")
+		DeleteBuilding("Singen", "BUILDING_GRANARY")
+		DeleteBuilding("Tuttlingen", "BUILDING_MONUMENT")
+		DeleteBuilding("Tuttlingen", "BUILDING_GRANARY")	
+		DeleteBuilding("Donaueschingen", "BUILDING_MONUMENT")
+		DeleteBuilding("Donaueschingen", "BUILDING_GRANARY")
+		AddBuilding("Freiburg im Breisgau","BUILDING_WALLS")		
+		DeleteBuilding("Freiburg im Breisgau", "BUILDING_GRANARY")		
+		DeleteBuilding("Garmisch-Partenkirchen", "BUILDING_MONUMENT")
+		DeleteBuilding("Garmisch-Partenkirchen", "BUILDING_GRANARY")	
+		DeleteBuilding("Dornbirn", "BUILDING_MONUMENT")
+		DeleteBuilding("Dornbirn", "BUILDING_GRANARY")
+		DeleteBuilding("Feldkirch", "BUILDING_MONUMENT")
+		DeleteBuilding("Feldkirch", "BUILDING_GRANARY")
 
 	print("Initialize_NewGame: finished")
 end
