@@ -498,3 +498,9 @@ VALUES	('TROS_Scenario_GameSpeeds',	'GAMESPEED_BERNER',	'LOC_TROS_SCENARIO_GAMES
 INSERT INTO Victories
 		(Domain,					VictoryType,		Name,						Description,						ReadOnly	)
 VALUES	('TROS_Scenario_Victories',	'VICTORY_SCORE',	'LOC_VICTORY_SCORE_NAME',	'LOC_VICTORY_SCORE_DESCRIPTION',	1			);
+
+
+-----------------------------------------------
+--	keine Städtegründungen
+-----------------------------------------------
+-- SET	CanFoundCities = 'false'	WHERE	CivilizationLevelType = 'CIVILIZATION_LEVEL_FULL_CIV';

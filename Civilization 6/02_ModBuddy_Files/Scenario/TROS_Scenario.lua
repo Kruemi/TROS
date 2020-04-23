@@ -629,6 +629,7 @@ end
 -- ===========================================================================
 -- toggle God Mode (set to false before release)
 if (true) then
+--if (false) then
 	print("Can you hear me?")
 
 	LuaEvents.NewGameInitialized.Add(Initialize_GodMode);
