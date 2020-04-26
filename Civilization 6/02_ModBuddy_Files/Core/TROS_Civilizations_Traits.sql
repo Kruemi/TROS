@@ -98,7 +98,7 @@ VALUES
 	('CIVILIZATION_TROS_HABSBURG',			'TRAIT_CIVILIZATION_TROS_HABSBURG_UA'			),
 -- CIV8  - Zürich -----------------------------
 	('CIVILIZATION_TROS_ZURICH',			'TRAIT_CIVILIZATION_TROS_ZURICH_UA'				),
-	--('CIVILIZATION_TROS_ZURICH',			'TRAIT_CIVILIZATION_PLATOS_REPUBLIC'			),
+	--('CIVILIZATION_TROS_ZURICH',			'TRAIT_CIVILIZATION_PLATOS_REPUBLIC'			), -- diese Zeile würde funktionieren, allerdings heisst der Train dann Platos Republik
 -- CIV9  - Bern -------------------------------
 	('CIVILIZATION_TROS_BERN',				'TRAIT_CIVILIZATION_TROS_BERN_UA'				),
 -- CIV10 - Graubünden -------------------------
@@ -107,32 +107,15 @@ VALUES
 	('CIVILIZATION_TROS_WALLIS',			'TRAIT_CIVILIZATION_TROS_WALLIS_UA'				);
 
 
-
-
-
-/*
-
-
-
-
-
-BELOW HERE: Modifiers and Requirements
-
-
-
-
-
-
-
-
-
-
-
-
-
 -----------------------------------------------
 -- TraitModifiers
 -----------------------------------------------
+INSERT INTO	TraitModifiers	
+		(TraitType,								ModifierId							)
+VALUES	('TRAIT_CIVILIZATION_TROS_ZURICH_UA',	'TRAIT_WILDCARD_GOVERNMENT_SLOT'	);
+
+
+/*
 INSERT INTO	TraitModifiers	
 		(TraitType,								ModifierId											)
 VALUES	('TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UA',	'MODIFIER_TROS_EIDGENOSSENSCHAFT_UA_HEALING_ENEMY'				),

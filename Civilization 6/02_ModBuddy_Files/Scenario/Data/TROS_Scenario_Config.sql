@@ -503,4 +503,4 @@ VALUES	('TROS_Scenario_Victories',	'VICTORY_SCORE',	'LOC_VICTORY_SCORE_NAME',	'L
 -----------------------------------------------
 --	keine Städtegründungen
 -----------------------------------------------
--- SET	CanFoundCities = 'false'	WHERE	CivilizationLevelType = 'CIVILIZATION_LEVEL_FULL_CIV';
+UPDATE Civilizations		SET	CanFoundCities = 'false'	WHERE	CivilizationLevelType = 'CIVILIZATION_LEVEL_FULL_CIV';
