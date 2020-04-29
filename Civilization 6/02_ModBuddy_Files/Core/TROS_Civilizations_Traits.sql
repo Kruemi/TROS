@@ -97,8 +97,7 @@ VALUES
 -- CIV7  - Habsburg ---------------------------
 	('CIVILIZATION_TROS_HABSBURG',			'TRAIT_CIVILIZATION_TROS_HABSBURG_UA'			),
 -- CIV8  - Zürich -----------------------------
-	('CIVILIZATION_TROS_ZURICH',			'TRAIT_CIVILIZATION_TROS_ZURICH_UA'				),
-	--('CIVILIZATION_TROS_ZURICH',			'TRAIT_CIVILIZATION_PLATOS_REPUBLIC'			), -- diese Zeile würde funktionieren, allerdings heisst der Train dann Platos Republik
+	('CIVILIZATION_TROS_ZURICH',			'TRAIT_CIVILIZATION_TROS_ZURICH_UA'				),--funktioniert
 -- CIV9  - Bern -------------------------------
 	('CIVILIZATION_TROS_BERN',				'TRAIT_CIVILIZATION_TROS_BERN_UA'				),
 -- CIV10 - Graubünden -------------------------
