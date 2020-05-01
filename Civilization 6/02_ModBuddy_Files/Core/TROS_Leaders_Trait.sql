@@ -103,28 +103,11 @@ VALUES
 -- CIV11 - Wallis (BischofVS) -----------------
 	('LEADER_TROS_BISCHOFVS',	'TRAIT_LEADER_TROS_BISCHOFVS_UA'	);
 
-
-
-
-
 /*
-
-
-
-
 
 BELOW HERE: Modifiers and Requirements
 
-
-
-
-
-
 */
-
-
-
-
 
 
 -----------------------------------------------
@@ -134,24 +117,28 @@ INSERT INTO	TraitModifiers
 		(TraitType,						ModifierId									)
 VALUES	('TRAIT_LEADER_TROS_STAUFFACHER_UA',	'MODIFIER_TROS_STAUFFACHER_UA_ATTACH_CITIES'		),
 		('TRAIT_LEADER_TROS_STAUFFACHER_UA',	'MODIFIER_TROS_STAUFFACHER_UA_SCIENCE_PER_CITY'	);
+		--('TRAIT_LEADER_TROS_ALFRED_UA',			'MODIFIER_TROS_ALFRED_UA_TRADE'	),
+		--('TRAIT_LEADER_TROS_ALFRED_UA',			'MODIFIER_TROS_ALFRED_UA_SCIENCE'	);
 
 -----------------------------------------------
 -- DynamicModifiers
 -----------------------------------------------
 INSERT INTO	DynamicModifiers
-		(ModifierType,									CollectionType,						EffectType								)
+		(ModifierType,										CollectionType,						EffectType								)
 VALUES	('MODTYPE_TROS_STAUFFACHER_UA_PLAYER_BELIEF_YIELD',	'COLLECTION_OWNER',					'EFFECT_ADD_PLAYER_BELIEF_YIELD'		),
-		('MODTYPE_TROS_STAUFFACHER_UA_ATTACH_CITIES',			'COLLECTION_PLAYER_CITIES',			'EFFECT_ATTACH_MODIFIER'				),
+		('MODTYPE_TROS_STAUFFACHER_UA_ATTACH_CITIES',		'COLLECTION_PLAYER_CITIES',			'EFFECT_ATTACH_MODIFIER'				),
 		('MODTYPE_TROS_STAUFFACHER_UA_FREE_PROMOTION',		'COLLECTION_CITY_TRAINED_UNITS',	'EFFECT_ADJUST_UNIT_GRANT_EXPERIENCE'	);
 
 -----------------------------------------------
 -- Modifiers
 -----------------------------------------------
 INSERT INTO	Modifiers
-		(ModifierId,									ModifierType,									SubjectRequirementSetId,				RunOnce,	Permanent	)
-VALUES	('MODIFIER_TROS_STAUFFACHER_UA_ATTACH_CITIES',		'MODTYPE_TROS_STAUFFACHER_UA_ATTACH_CITIES',			'REQSET_TROS_STAUFFACHER_UA_FULL_LOYALTY',	0,			0			),
-		('MODIFIER_TROS_STAUFFACHER_UA_CAVALRY_PROMOTION',	'MODTYPE_TROS_STAUFFACHER_UA_FREE_PROMOTION',			'REQSET_TROS_STAUFFACHER_UA_IS_CAVALRY',		0,			1			),
-		('MODIFIER_TROS_STAUFFACHER_UA_SCIENCE_PER_CITY',		'MODTYPE_TROS_STAUFFACHER_UA_PLAYER_BELIEF_YIELD',	NULL,									0,			0			);
+		(ModifierId,										ModifierType,										SubjectRequirementSetId,					RunOnce,	Permanent	)
+VALUES	('MODIFIER_TROS_STAUFFACHER_UA_ATTACH_CITIES',		'MODTYPE_TROS_STAUFFACHER_UA_ATTACH_CITIES',		'REQSET_TROS_STAUFFACHER_UA_FULL_LOYALTY',	0,			0			),
+		('MODIFIER_TROS_STAUFFACHER_UA_CAVALRY_PROMOTION',	'MODTYPE_TROS_STAUFFACHER_UA_FREE_PROMOTION',		'REQSET_TROS_STAUFFACHER_UA_IS_CAVALRY',	0,			1			),
+		('MODIFIER_TROS_STAUFFACHER_UA_SCIENCE_PER_CITY',	'MODTYPE_TROS_STAUFFACHER_UA_PLAYER_BELIEF_YIELD',	NULL,										0,			0			);
+		--('MODIFIER_TROS_ALFRED_UA_TRADE',					'MODTYPE_TROS_ALFRED_UA_TRADE',						NULL,										0,			1			),
+		--('MODIFIER_TROS_ALFRED_UA_SCIENCE',					'MODTYPE_TROS_ALFRED_UA_SCIENCE',					NULL,										0,			1			);
 
 -----------------------------------------------
 -- ModifierArguments
@@ -164,6 +151,12 @@ VALUES	('MODIFIER_TROS_STAUFFACHER_UA_ATTACH_CITIES',			'ModifierId',		'MODIFIER
 		('MODIFIER_TROS_STAUFFACHER_UA_SCIENCE_PER_CITY',			'YieldType',		'YIELD_SCIENCE'								),
 		('MODIFIER_TROS_STAUFFACHER_UA_SCIENCE_PER_CITY',			'Amount',			1											),
 		('MODIFIER_TROS_STAUFFACHER_UA_SCIENCE_PER_CITY',			'PerXItems',		1											);
+		--('MODIFIER_TROS_ALFRED_UA_TRADE',					'ModifierId',		'MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY'	),
+		--('MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY',	'Amount',			2											),
+		--('MODIFIER_TROS_ALFRED_UA_SCIENCE',					'BeliefYieldType',	'BELIEF_YIELD_PER_DISTRICT'					),
+		--('MODIFIER_TROS_ALFRED_UA_SCIENCE',					'YieldType',		'YIELD_SCIENCE'								),
+		--('MODIFIER_TROS_ALFRED_UA_SCIENCE',					'Amount',			1											),
+		--('MODIFIER_TROS_ALFRED_UA_SCIENCE',					'PerXItems',		1											);--
 
 -----------------------------------------------
 -- RequirementSetRequirements
