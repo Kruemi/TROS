@@ -1,4 +1,4 @@
-﻿/*
+/*
 	InGame Settings (Gameplay)
 */
 

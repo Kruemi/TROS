@@ -1,4 +1,4 @@
-﻿-- 0 - Stauffacher	Schweiz		<-- theoretisch nicht mehr notwendig
+-- 0 - Stauffacher	Schweiz		<-- theoretisch nicht mehr notwendig
 -- 1 - Jakob		Bern
 -- 2 - KarldK		Burgund
 -- 3 - Jenatsch		Graubunden
