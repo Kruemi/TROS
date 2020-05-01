@@ -137,7 +137,7 @@ VALUES
 	("LOC_TRAIT_CIVILIZATION_TROS_HABSBURG_UA_DESCRIPTION",				"de_DE",	NULL,	NULL,	"Plaecholder."	),
 -- CIV8  - Zürich -----------------------------
 	("LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UA_NAME",						"de_DE",	NULL,	NULL,	"Zwinglianismus"	),
-	("LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UA_DESCRIPTION",				"de_DE",	NULL,	NULL,	"Unique Ability Description"	),
+	("LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UA_DESCRIPTION",				"de_DE",	NULL,	NULL,	"Gewährt einen zusätzlichen Joker-Politikplatz"	),
 -- CIV9  - Bern -------------------------------
 	("LOC_TRAIT_CIVILIZATION_TROS_BERN_UA_NAME",						"de_DE",	NULL,	NULL,	"Unique Ability"	),
 	("LOC_TRAIT_CIVILIZATION_TROS_BERN_UA_DESCRIPTION",					"de_DE",	NULL,	NULL,	"Plaecholder."	),
@@ -168,7 +168,7 @@ VALUES
 	("LOC_TRAIT_LEADER_TROS_RUDOLF_UA_NAME",				"de_DE",	NULL,	NULL,	"Leader Ability"	),
 	("LOC_TRAIT_LEADER_TROS_RUDOLF_UA_DESCRIPTION",			"de_DE",	NULL,	NULL,	"Placeholder."),
 -- CIV8  - Zürich (Alfred) --------------------
-	("LOC_TRAIT_LEADER_TROS_ALFRED_UA_NAME",				"de_DE",	NULL,	NULL,	"Vater des Fortschritts, Pioniergeist ???"	),
+	("LOC_TRAIT_LEADER_TROS_ALFRED_UA_NAME",				"de_DE",	NULL,	NULL,	"Vater des Fortschritts & Pioniergeist"	),
 	("LOC_TRAIT_LEADER_TROS_ALFRED_UA_DESCRIPTION",			"de_DE",	NULL,	NULL,	"Placeholder."),
 -- CIV9  - Bern (Jakob) -----------------------
 	("LOC_TRAIT_LEADER_TROS_JAKOB_UA_NAME",					"de_DE",	NULL,	NULL,	"Leader Ability"	),
