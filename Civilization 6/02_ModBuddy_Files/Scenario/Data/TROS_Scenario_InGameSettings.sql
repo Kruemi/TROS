@@ -111,3 +111,9 @@ UPDATE	Eras	SET	WarmongerPoints = '0'	WHERE	EraType = 'ERA_INDUSTRIAL';
 UPDATE	Eras	SET	WarmongerPoints = '0'	WHERE	EraType = 'ERA_MODERN';
 UPDATE	Eras	SET	WarmongerPoints = '0'	WHERE	EraType = 'ERA_ATOMIC';
 UPDATE	Eras	SET	WarmongerPoints = '0'	WHERE	EraType = 'ERA_INFORMATION';
+
+
+-----------------------------------------------
+--	keine Städtegründungen
+-----------------------------------------------
+UPDATE CivilizationLevels		SET	CanFoundCities = 0	WHERE	CivilizationLevelType = 'CIVILIZATION_LEVEL_FULL_CIV';

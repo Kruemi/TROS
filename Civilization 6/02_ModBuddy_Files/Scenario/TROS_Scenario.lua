@@ -1,4 +1,4 @@
-﻿-- 0 - Stauffacher	Schweiz		<-- theoretisch nicht mehr notwendig
+-- 0 - Stauffacher	Schweiz		<-- theoretisch nicht mehr notwendig
 -- 1 - Jakob		Bern
 -- 2 - KarldK		Burgund
 -- 3 - Jenatsch		Graubunden
@@ -628,7 +628,7 @@ end
 
 -- ===========================================================================
 -- toggle God Mode (set to false before release)
-if (true) then
+if (false) then
 	print("Can you hear me?")
 
 	LuaEvents.NewGameInitialized.Add(Initialize_GodMode);
