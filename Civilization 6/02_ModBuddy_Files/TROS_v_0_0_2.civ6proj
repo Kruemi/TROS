@@ -344,6 +344,42 @@
     <Content Include="Textures\LEADER_TROS_VIKTOR_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_22.dds">
       <SubType>Content</SubType>
     </Content>
