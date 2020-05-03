@@ -137,7 +137,7 @@ VALUES
 	("LOC_TRAIT_CIVILIZATION_TROS_HABSBURG_UA_DESCRIPTION",				"de_DE",	NULL,	NULL,	"Plaecholder."	),
 -- CIV8  - Zürich -----------------------------
 	("LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UA_NAME",						"de_DE",	NULL,	NULL,	"Zwinglianismus"	),
-	("LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UA_DESCRIPTION",				"de_DE",	NULL,	NULL,	"Gewährt einen zusätzlichen Joker-Politikplatz"	),
+	("LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UA_DESCRIPTION",				"de_DE",	NULL,	NULL,	"Gewährt einen zusätzlichen Joker-Politikplatz."	),
 -- CIV9  - Bern -------------------------------
 	("LOC_TRAIT_CIVILIZATION_TROS_BERN_UA_NAME",						"de_DE",	NULL,	NULL,	"Unique Ability"	),
 	("LOC_TRAIT_CIVILIZATION_TROS_BERN_UA_DESCRIPTION",					"de_DE",	NULL,	NULL,	"Plaecholder."	),
@@ -169,7 +169,7 @@ VALUES
 	("LOC_TRAIT_LEADER_TROS_RUDOLF_UA_DESCRIPTION",			"de_DE",	NULL,	NULL,	"Placeholder."),
 -- CIV8  - Zürich (Alfred) --------------------
 	("LOC_TRAIT_LEADER_TROS_ALFRED_UA_NAME",				"de_DE",	NULL,	NULL,	"Vater des Fortschritts"	),
-	("LOC_TRAIT_LEADER_TROS_ALFRED_UA_DESCRIPTION",			"de_DE",	NULL,	NULL,	"+4 [ICON_Science] pro Runde in der Hauptstadt. Handelswegkapazität um 2 erhöht."),
+	("LOC_TRAIT_LEADER_TROS_ALFRED_UA_DESCRIPTION",			"de_DE",	NULL,	NULL,	"+4 [ICON_Science] Wissenschaft in der Hauptstadt. [ICON_TradeRoute] Handelswegkapazität um 2 erhöht."),
 -- CIV9  - Bern (Jakob) -----------------------
 	("LOC_TRAIT_LEADER_TROS_JAKOB_UA_NAME",					"de_DE",	NULL,	NULL,	"Leader Ability"	),
 	("LOC_TRAIT_LEADER_TROS_JAKOB_UA_DESCRIPTION",			"de_DE",	NULL,	NULL,	"Placeholder."),
