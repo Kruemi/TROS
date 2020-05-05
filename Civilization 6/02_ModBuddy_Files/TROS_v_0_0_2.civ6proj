@@ -118,6 +118,9 @@
     <Content Include="Scenario\Core\TROSLeader_Text.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Scenario\Data\TROS_Scenario_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Scenario\Data\TROS_Scenario_Config.sql">
       <SubType>Content</SubType>
     </Content>
