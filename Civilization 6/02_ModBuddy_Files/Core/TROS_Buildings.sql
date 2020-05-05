@@ -18,8 +18,8 @@ VALUES
 -- CIV6  - Italien ----------------------------
 -- CIV7  - Habsburg ---------------------------
 -- CIV8  - Zürich -----------------------------
-	('BUILDING_TROS_ZURICH_UI',				'KIND_BUILDING'	), -- (Base\Assets\Gameplay\Buildings.xml)
-	('TRAIT_CIVILIZATION_TROS_ZURICH_UI',	'KIND_TRAIT'	); -- (Base\Assets\Gameplay\Civilizations.xml)
+	('BUILDING_TROS_ZURICH_UI',						'KIND_BUILDING'	), -- (Base\Assets\Gameplay\Buildings.xml)
+	('TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI',	'KIND_TRAIT'	); -- (Base\Assets\Gameplay\Civilizations.xml)
 -- CIV9  - Bern -------------------------------
 -- CIV10 - Graubünden -------------------------
 -- CIV11 - Wallis -----------------------------
@@ -28,10 +28,10 @@ VALUES
 -- Traits (Base\Assets\Gameplay\Civilizations.xml)
 -----------------------------------------------
 INSERT INTO	Traits
-	(TraitType,											Name)
+	(TraitType,											Name, Description)
 VALUES
 -- CIV1  - Eidgenossenschaft ------------------
-	('TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UI',	'LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UI_NAME'),
+	('TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UI',	'LOC_TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UI_NAME', NULL),
 -- CIV2  - Frankreich -------------------------
 -- CIV3  - Burgund ----------------------------
 -- CIV4  - Savoyen ----------------------------
@@ -39,7 +39,7 @@ VALUES
 -- CIV6  - Italien ----------------------------
 -- CIV7  - Habsburg ---------------------------
 -- CIV8  - Zürich -----------------------------
-	('TRAIT_CIVILIZATION_TROS_ZURICH_UI',	'LOC_TRAIT_CIVILIZATION_TROS_ZURICH_UI_NAME');
+	('TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI',	'LOC_TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI_NAME',	'LOC_TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI_DESCRIPTION');
 -- CIV9  - Bern -------------------------------
 -- CIV10 - Graubünden -------------------------
 -- CIV11 - Wallis -----------------------------
@@ -59,7 +59,7 @@ VALUES
 -- CIV6  - Italien ----------------------------
 -- CIV7  - Habsburg ---------------------------
 -- CIV8  - Zürich -----------------------------
- 	('CIVILIZATION_TROS_ZURICH',	'TRAIT_CIVILIZATION_TROS_ZURICH_UI');
+ 	('CIVILIZATION_TROS_ZURICH',	'TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI');
 -- CIV9  - Bern -------------------------------
 -- CIV10 - Graubünden -------------------------
 -- CIV11 - Wallis -----------------------------
@@ -102,7 +102,7 @@ VALUES
 INSERT INTO Buildings
 	(BuildingType,							Name,											Description,											PrereqTech,		PrereqDistrict,				PurchaseYield,	Cost,	AdvisorType,		CitizenSlots,	TraitType)
 VALUES
-	('BUILDING_TROS_ZURICH_UI',				'LOC_BUILDING_TROS_ZURICH_UI_NAME',				'LOC_BUILDING_TROS_ZURICH_UI_DESCRIPTION',				'TECH_POTTERY',	'DISTRICT_COMMERCIAL_HUB',	'YIELD_GOLD',	'280',	'ADVISOR_GENERIC',	'1',			'TRAIT_CIVILIZATION_TROS_ZURICH_UI'); -- cost=280/290, TECH_BANKING
+	('BUILDING_TROS_ZURICH_UI',				'LOC_BUILDING_TROS_ZURICH_UI_NAME',				'LOC_BUILDING_TROS_ZURICH_UI_DESCRIPTION',				'TECH_POTTERY',	'DISTRICT_COMMERCIAL_HUB',	'YIELD_GOLD',	'280',	'ADVISOR_GENERIC',	'1',			'TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI'); -- cost=280/290, TECH_BANKING
 -- CIV9  - Bern -------------------------------
 -- CIV10 - Graubünden -------------------------
 -- CIV11 - Wallis -----------------------------
