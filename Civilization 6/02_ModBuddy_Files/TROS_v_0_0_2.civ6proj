@@ -380,12 +380,6 @@
     <Content Include="Textures\TROS_BUILDINGS_ICONS_80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TROS_BUILDINGS_ICONS_TEST_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\TROS_BUILDINGS_ICONS_TEST_256.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_22.dds">
       <SubType>Content</SubType>
     </Content>

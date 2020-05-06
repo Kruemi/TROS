@@ -7,7 +7,7 @@
 -----------------------------------------------
 INSERT INTO	IconTextureAtlases
 		(Name,								IconSize,	IconsPerRow,	IconsPerColumn,	Filename							)
-VALUES	('ICON_ATLAS_TROS_CIVILIZATIONS',	256,		4,				4,				'TROS_BUILDINGS_ICONS_TEST_256.dds'	),
+VALUES	('ICON_ATLAS_TROS_CIVILIZATIONS',	256,		4,				4,				'TROS_CIVILIZATIONS_ICONS_256.dds'	),
 		('ICON_ATLAS_TROS_CIVILIZATIONS',	80,			4,				4,				'TROS_CIVILIZATIONS_ICONS_80.dds'	),
 		('ICON_ATLAS_TROS_CIVILIZATIONS',	64,			4,				4,				'TROS_CIVILIZATIONS_ICONS_64.dds'	),
 		('ICON_ATLAS_TROS_CIVILIZATIONS',	50,			4,				4,				'TROS_CIVILIZATIONS_ICONS_50.dds'	),
@@ -48,12 +48,12 @@ VALUES	('ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT',	'ICON_ATLAS_TROS_CIVILIZATIO
 -----------------------------------------------
 INSERT INTO	IconTextureAtlases
 		(Name,							IconSize,	IconsPerRow,	IconsPerColumn,	Filename						)
-VALUES	('ICON_ATLAS_TROS_BUILDINGS',	256,		4,				4,				'TROS_BUILDINGS_ICONS_256.dds'	);
-		--('ICON_ATLAS_TROS_BUILDINGS',	128,		4,				4,				'TROS_BUILDINGS_ICONS_128.dds'	),
-		--('ICON_ATLAS_TROS_BUILDINGS',	80,			4,				4,				'TROS_BUILDINGS_ICONS_80.dds'	),
-		--('ICON_ATLAS_TROS_BUILDINGS',	50,			4,				4,				'TROS_BUILDINGS_ICONS_50.dds'	),
-		--('ICON_ATLAS_TROS_BUILDINGS',	38,			4,				4,				'TROS_BUILDINGS_ICONS_38.dds'	),
-		--('ICON_ATLAS_TROS_BUILDINGS',	32,			4,				4,				'TROS_BUILDINGS_ICONS_32.dds'	); -- 256 FOW?
+VALUES	('ICON_ATLAS_TROS_BUILDINGS',	256,		4,				4,				'TROS_BUILDINGS_ICONS_256.dds'	),
+		('ICON_ATLAS_TROS_BUILDINGS',	128,		4,				4,				'TROS_BUILDINGS_ICONS_128.dds'	),
+		('ICON_ATLAS_TROS_BUILDINGS',	80,			4,				4,				'TROS_BUILDINGS_ICONS_80.dds'	),
+		('ICON_ATLAS_TROS_BUILDINGS',	50,			4,				4,				'TROS_BUILDINGS_ICONS_50.dds'	),
+		('ICON_ATLAS_TROS_BUILDINGS',	38,			4,				4,				'TROS_BUILDINGS_ICONS_38.dds'	),
+		('ICON_ATLAS_TROS_BUILDINGS',	32,			4,				4,				'TROS_BUILDINGS_ICONS_32.dds'	); -- 256 FOW?
 
 -----------------------------------------------
 -- IconDefinitions
