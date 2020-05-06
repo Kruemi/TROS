@@ -73,6 +73,11 @@
 			<m_EntryID text="TROS_LEADERS_ICONS_32"/>
 			<m_ObjectName text="TROS_LEADERS_ICONS_32"/>
 		</Element>
+		<!-- City States -->
+		<Element>
+			<m_EntryID text="TROS_CITYSTATES_ICONS_256"/>
+			<m_ObjectName text="TROS_CITYSTATES_ICONS_256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
