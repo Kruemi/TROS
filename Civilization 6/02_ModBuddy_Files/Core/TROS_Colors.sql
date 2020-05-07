@@ -65,3 +65,55 @@ VALUES
 -- CIV11 - Wallis (BischofVS) -----------------
 	('COLOR_TROS_BISCHOFVS_PRIMARY',		'250,250,250,255'	),
 	('COLOR_TROS_BISCHOFVS_SECONDARY',		'250,0,0,255'		);
+
+
+-----------------------------------------------
+-- PlayerColors (Base\Assets\UI\Colors\PlayerColors.xml)
+-----------------------------------------------
+INSERT INTO	PlayerColors
+	(Type,						Usage,		PrimaryColor,						SecondaryColor										)
+VALUES
+-- CS1	- Basel -------------------------------
+	('CIVILIZATION_TROS_CS1',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS2	- Luzern ------------------------------
+	('CIVILIZATION_TROS_CS2',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS3	- Glarus ------------------------------
+	('CIVILIZATION_TROS_CS3',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS4	- Schaffhausen ------------------------
+	('CIVILIZATION_TROS_CS4',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS5	- Solothurn ---------------------------
+	('CIVILIZATION_TROS_CS5',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS6	- Genève ------------------------------
+	--('CIVILIZATION_TROS_CS6',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS7	- Sankt Gallen ------------------------
+	('CIVILIZATION_TROS_CS7',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS8	- Lausanne ----------------------------
+	('CIVILIZATION_TROS_CS8',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS9	- Liestal -----------------------------
+	('CIVILIZATION_TROS_CS9',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS10	- Freiburg ----------------------------
+	('CIVILIZATION_TROS_CS10',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS11	- Neuenburg ---------------------------
+	('CIVILIZATION_TROS_CS11',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS12	- Delémont ----------------------------
+	('CIVILIZATION_TROS_CS12',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS13	- Locarno -----------------------------
+	('CIVILIZATION_TROS_CS13',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS14	- Lugano ------------------------------
+	('CIVILIZATION_TROS_CS14',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS15	- Vaduz -------------------------------
+	('CIVILIZATION_TROS_CS15',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS16	- Biel --------------------------------
+	('CIVILIZATION_TROS_CS16',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS17	- Besançon ----------------------------
+	('CIVILIZATION_TROS_CS17',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS18	- Rottweil ----------------------------
+	('CIVILIZATION_TROS_CS18',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS19	- Mülhausen ---------------------------
+	('CIVILIZATION_TROS_CS19',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS20	- Pfullendorf -------------------------
+	('CIVILIZATION_TROS_CS20',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS21	- Kempten -----------------------------
+	('CIVILIZATION_TROS_CS21',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	), -- WIP: actual 'SecondaryColor' not yet specified
+-- CS22	- Buron -------------------------------
+	('CIVILIZATION_TROS_CS22',	'Minor',	'COLOR_PLAYER_CITY_STATE_PRIMARY',	'COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY'	); -- WIP: actual 'SecondaryColor' not yet specified
