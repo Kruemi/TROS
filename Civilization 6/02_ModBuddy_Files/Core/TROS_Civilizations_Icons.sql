@@ -1,5 +1,6 @@
 /*
-	Icons
+	Icons Civilizations
+	ES ist wichtig zuerst die Atlases und erst danach die Definitions zu listen, sonst werden die Icon nicht korrekt geladen
 */
 
 -----------------------------------------------
@@ -30,14 +31,10 @@ VALUES	('ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT',	'ICON_ATLAS_TROS_CIVILIZATIO
 		--('ICON_CIVILIZATION_TROS_DEUTSCHLAND',			'ICON_ATLAS_TROS_CIVILIZATIONS',	5		),
 		--('ICON_CIVILIZATION_TROS_MAILAND',				'ICON_ATLAS_TROS_CIVILIZATIONS',	6		),
 		('ICON_CIVILIZATION_TROS_HABSBURG',				'ICON_ATLAS_TROS_CIVILIZATIONS',	7		),
-		('ICON_CIVILIZATION_TROS_ZURICH',				'ICON_ATLAS_TROS_CIVILIZATIONS',		8		),
+		('ICON_CIVILIZATION_TROS_ZURICH',				'ICON_ATLAS_TROS_CIVILIZATIONS',	8		),
 		('ICON_CIVILIZATION_TROS_BERN',					'ICON_ATLAS_TROS_CIVILIZATIONS',	9		),
 		('ICON_CIVILIZATION_TROS_GRAUBUNDEN',			'ICON_ATLAS_TROS_CIVILIZATIONS',	10		),
 		('ICON_CIVILIZATION_TROS_WALLIS',				'ICON_ATLAS_TROS_CIVILIZATIONS',	11		);
-
-
-
-
 
 /*
 	Icons Buidlings
@@ -59,5 +56,28 @@ VALUES	('ICON_ATLAS_TROS_BUILDINGS',	256,		4,				4,				'TROS_BUILDINGS_ICONS_256
 -- IconDefinitions
 -----------------------------------------------
 INSERT INTO	IconDefinitions
-		(Name,								Atlas,							'Index'	)
-VALUES	('ICON_BUILDING_TROS_ZURICH_UI',	'ICON_ATLAS_TROS_BUILDINGS',	8		); -- 'ICON_ATLAS_TROS_BUILDINGS'
+		(Name,										Atlas,							'Index'	)
+VALUES	('ICON_BUILDING_TROS_EIDGENOSSENSCHAFT_UI',	'ICON_ATLAS_TROS_BUILDINGS',	1		),
+		('ICON_BUILDING_TROS_ZURICH_UI',			'ICON_ATLAS_TROS_BUILDINGS',	8		);
+
+/*
+	Icons Units
+*/
+
+-----------------------------------------------
+-- IconTextureAtlases
+-----------------------------------------------
+INSERT INTO	IconTextureAtlases
+		(Name,							IconSize,	IconsPerRow,	IconsPerColumn,	Filename						)
+VALUES	('ICON_ATLAS_TROS_UNITS',		256,		4,				4,				'TROS_UNITS_ICONS_256.dds'		);
+-- other Icon sizes to be done later
+
+-----------------------------------------------
+-- IconDefinitions
+-----------------------------------------------
+INSERT INTO	IconDefinitions
+		(Name,									Atlas,						'Index'	)
+VALUES	('ICON_UNIT_TROS_EIDGENOSSENSCHAFT',	'ICON_ATLAS_TROS_UNITS',	1		),
+		('ICON_UNIT_TROS_ZURICH',				'ICON_ATLAS_TROS_UNITS',	8		),
+		('ICON_UNIT_TROS_BERN',					'ICON_ATLAS_TROS_UNITS',	9		);
+--FOW not defined yet
