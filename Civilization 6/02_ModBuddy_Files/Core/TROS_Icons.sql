@@ -27,49 +27,49 @@ INSERT INTO	IconDefinitions
 	(Name,											Atlas,								'Index'	)
 VALUES
 -- CS1	- Basel -------------------------------
-	('ICON_CITYSTATE_TROS_CS1',						'ICON_ATLAS_TROS_CITYSTATES',		1		),
+	('ICON_CIVILIZATION_TROS_CS1',						'ICON_ATLAS_TROS_CITYSTATES',		1		),
 -- CS2	- Luzern ------------------------------
-	('ICON_CITYSTATE_TROS_CS2',						'ICON_ATLAS_TROS_CITYSTATES',		2		),
+	('ICON_CIVILIZATION_TROS_CS2',						'ICON_ATLAS_TROS_CITYSTATES',		2		),
 -- CS3	- Glarus ------------------------------	
-	('ICON_CITYSTATE_TROS_CS3',						'ICON_ATLAS_TROS_CITYSTATES',		3		),
+	('ICON_CIVILIZATION_TROS_CS3',						'ICON_ATLAS_TROS_CITYSTATES',		3		),
 -- CS4	- Schaffhausen ------------------------	
-	('ICON_CITYSTATE_TROS_CS4',						'ICON_ATLAS_TROS_CITYSTATES',		4		),
+	('ICON_CIVILIZATION_TROS_CS4',						'ICON_ATLAS_TROS_CITYSTATES',		4		),
 -- CS5	- Solothurn ---------------------------
-	('ICON_CITYSTATE_TROS_CS5',						'ICON_ATLAS_TROS_CITYSTATES',		5		),
+	('ICON_CIVILIZATION_TROS_CS5',						'ICON_ATLAS_TROS_CITYSTATES',		5		),
 -- CS6	- Genève ------------------------------
-	--('ICON_CITYSTATE_TROS_CS6',					'ICON_ATLAS_TROS_CITYSTATES',		6		),
+	--('ICON_CIVILIZATION_TROS_CS6',					'ICON_ATLAS_TROS_CITYSTATES',		6		),
 -- CS7	- Sankt Gallen ------------------------	
-	('ICON_CITYSTATE_TROS_CS7',						'ICON_ATLAS_TROS_CITYSTATES',		7		),
+	('ICON_CIVILIZATION_TROS_CS7',						'ICON_ATLAS_TROS_CITYSTATES',		7		),
 -- CS8	- Lausanne ----------------------------
-	('ICON_CITYSTATE_TROS_CS8',						'ICON_ATLAS_TROS_CITYSTATES',		8		),
+	('ICON_CIVILIZATION_TROS_CS8',						'ICON_ATLAS_TROS_CITYSTATES',		8		),
 -- CS9	- Liestal -----------------------------	
-	('ICON_CITYSTATE_TROS_CS9',						'ICON_ATLAS_TROS_CITYSTATES',		9		),
+	('ICON_CIVILIZATION_TROS_CS9',						'ICON_ATLAS_TROS_CITYSTATES',		9		),
 -- CS10	- Freiburg ----------------------------	
-	('ICON_CITYSTATE_TROS_CS10',					'ICON_ATLAS_TROS_CITYSTATES',		10		),
+	('ICON_CIVILIZATION_TROS_CS10',					'ICON_ATLAS_TROS_CITYSTATES',		10		),
 -- CS11	- Neuenburg ---------------------------	
-	('ICON_CITYSTATE_TROS_CS11',					'ICON_ATLAS_TROS_CITYSTATES',		11		),
+	('ICON_CIVILIZATION_TROS_CS11',					'ICON_ATLAS_TROS_CITYSTATES',		11		),
 -- CS12	- Delémont ----------------------------	
-	('ICON_CITYSTATE_TROS_CS12',					'ICON_ATLAS_TROS_CITYSTATES',		12		),
+	('ICON_CIVILIZATION_TROS_CS12',					'ICON_ATLAS_TROS_CITYSTATES',		12		),
 -- CS13	- Locarno -----------------------------	
-	('ICON_CITYSTATE_TROS_CS13',					'ICON_ATLAS_TROS_CITYSTATES',		13		),
+	('ICON_CIVILIZATION_TROS_CS13',					'ICON_ATLAS_TROS_CITYSTATES',		13		),
 -- CS14	- Lugano ------------------------------	
-	('ICON_CITYSTATE_TROS_CS14',					'ICON_ATLAS_TROS_CITYSTATES',		14		),
+	('ICON_CIVILIZATION_TROS_CS14',					'ICON_ATLAS_TROS_CITYSTATES',		14		),
 -- CS15	- Vaduz -------------------------------	
-	('ICON_CITYSTATE_TROS_CS15',					'ICON_ATLAS_TROS_CITYSTATES',		15		),
+	('ICON_CIVILIZATION_TROS_CS15',					'ICON_ATLAS_TROS_CITYSTATES',		15		),
 -- CS16	- Biel --------------------------------	
-	('ICON_CITYSTATE_TROS_CS16',					'ICON_ATLAS_TROS_CITYSTATES',		16		),
+	('ICON_CIVILIZATION_TROS_CS16',					'ICON_ATLAS_TROS_CITYSTATES',		16		),
 -- CS17	- Besançon ----------------------------	
-	('ICON_CITYSTATE_TROS_CS17',					'ICON_ATLAS_TROS_CITYSTATES',		17		),
+	('ICON_CIVILIZATION_TROS_CS17',					'ICON_ATLAS_TROS_CITYSTATES',		17		),
 -- CS18	- Rottweil ----------------------------	
-	('ICON_CITYSTATE_TROS_CS18',					'ICON_ATLAS_TROS_CITYSTATES',		18		),
+	('ICON_CIVILIZATION_TROS_CS18',					'ICON_ATLAS_TROS_CITYSTATES',		18		),
 -- CS19	- Mülhausen ---------------------------	
-	('ICON_CITYSTATE_TROS_CS19',					'ICON_ATLAS_TROS_CITYSTATES',		19		),
+	('ICON_CIVILIZATION_TROS_CS19',					'ICON_ATLAS_TROS_CITYSTATES',		19		),
 -- CS20	- Pfullendorf -------------------------	
-	('ICON_CITYSTATE_TROS_CS20',					'ICON_ATLAS_TROS_CITYSTATES',		20		),
+	('ICON_CIVILIZATION_TROS_CS20',					'ICON_ATLAS_TROS_CITYSTATES',		20		),
 -- CS21	- Kempten -----------------------------	
-	('ICON_CITYSTATE_TROS_CS21',					'ICON_ATLAS_TROS_CITYSTATES',		21		),
+	('ICON_CIVILIZATION_TROS_CS21',					'ICON_ATLAS_TROS_CITYSTATES',		21		),
 -- CS22	- Buron -------------------------------	
-	('ICON_CITYSTATE_TROS_CS22',					'ICON_ATLAS_TROS_CITYSTATES',		22		);
+	('ICON_CIVILIZATION_TROS_CS22',					'ICON_ATLAS_TROS_CITYSTATES',		22		);
 
 		--('ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT',	'ICON_ATLAS_TROS_CIVILIZATIONS',	1		),
 		--('ICON_CIVILIZATION_TROS_FRANKREICH',			'ICON_ATLAS_TROS_CIVILIZATIONS',	2		),
