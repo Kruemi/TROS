@@ -3,8 +3,8 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>315</build>
-		<revision>805</revision>
+		<build>451</build>
+		<revision>343</revision>
 	</m_Version>
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UI/Icons"/>
@@ -72,6 +72,54 @@
 		<Element>
 			<m_EntryID text="TROS_LEADERS_ICONS_32"/>
 			<m_ObjectName text="TROS_LEADERS_ICONS_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_BUILDINGS_ICONS_256"/>
+			<m_ObjectName text="TROS_BUILDINGS_ICONS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_BUILDINGS_ICONS_128"/>
+			<m_ObjectName text="TROS_BUILDINGS_ICONS_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_BUILDINGS_ICONS_32"/>
+			<m_ObjectName text="TROS_BUILDINGS_ICONS_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_BUILDINGS_ICONS_38"/>
+			<m_ObjectName text="TROS_BUILDINGS_ICONS_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_BUILDINGS_ICONS_50"/>
+			<m_ObjectName text="TROS_BUILDINGS_ICONS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_BUILDINGS_ICONS_80"/>
+			<m_ObjectName text="TROS_BUILDINGS_ICONS_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_UNITS_ICONS_256"/>
+			<m_ObjectName text="TROS_UNITS_ICONS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_UNITS_ICONS_22"/>
+			<m_ObjectName text="TROS_UNITS_ICONS_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_UNITS_ICONS_32"/>
+			<m_ObjectName text="TROS_UNITS_ICONS_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_UNITS_ICONS_38"/>
+			<m_ObjectName text="TROS_UNITS_ICONS_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_UNITS_ICONS_50"/>
+			<m_ObjectName text="TROS_UNITS_ICONS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TROS_UNITS_ICONS_80"/>
+			<m_ObjectName text="TROS_UNITS_ICONS_80"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

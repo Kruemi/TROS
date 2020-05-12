@@ -5,9 +5,9 @@
     <Name>TROS_v_0_0_2</Name>
     <Guid>6605538d-f9d8-419a-9713-1cf485e25e09</Guid>
     <ProjectGuid>06ffd583-bfe5-45b2-bf83-5db0b463f120</ProjectGuid>
-    <ModVersion>13</ModVersion>
+    <ModVersion>14</ModVersion>
     <Teaser>The Rise of Switzerland</Teaser>
-    <Description>Play as one of 11 rulers from Swiss Confederation, Habsburg, Wallis, Graubuenden, Berne, Zurich, Savoy, Burgund, Germany, France or Italy; with each unique advantages.</Description>
+    <Description>Play as one of 11 rulers from Swiss Confederation, Habsburg, Wallis, Grisons, Berne, Zurich, Savoy, Burgund, Germany, France or Italy; with each unique advantages.</Description>
     <Authors>Michael Weber</Authors>
     <SpecialThanks>Kruemi</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -344,6 +344,42 @@
     <Content Include="Textures\LEADER_TROS_VIKTOR_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_22.dds">
       <SubType>Content</SubType>
     </Content>
@@ -438,6 +474,30 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\TROS_LEADERS_ICONS_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_UNITS_ICONS_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_UNITS_ICONS_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_UNITS_ICONS_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_UNITS_ICONS_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_UNITS_ICONS_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_UNITS_ICONS_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_UNITS_ICONS_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TROS_v_0_0_2.Art.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons.xlp">
