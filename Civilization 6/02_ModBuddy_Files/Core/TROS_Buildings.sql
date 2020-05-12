@@ -102,7 +102,7 @@ VALUES
 INSERT INTO Buildings
 	(BuildingType,							Name,											Description,											PrereqTech,		PrereqDistrict,				PurchaseYield,	Cost,	AdvisorType,		CitizenSlots,	TraitType)
 VALUES
-	('BUILDING_TROS_ZURICH_UI',				'LOC_BUILDING_TROS_ZURICH_UI_NAME',				'LOC_BUILDING_TROS_ZURICH_UI_DESCRIPTION',				'TECH_POTTERY',	'DISTRICT_COMMERCIAL_HUB',	'YIELD_GOLD',	'280',	'ADVISOR_GENERIC',	'1',			'TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI'); -- cost=280/290, TECH_BANKING
+	('BUILDING_TROS_ZURICH_UI',				'LOC_BUILDING_TROS_ZURICH_UI_NAME',				'LOC_BUILDING_TROS_ZURICH_UI_DESCRIPTION',				'TECH_BANKING',	'DISTRICT_COMMERCIAL_HUB',	'YIELD_GOLD',	'280',	'ADVISOR_GENERIC',	'1',			'TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI'); -- cost=280/290
 -- CIV9  - Bern -------------------------------
 -- CIV10 - Graubünden -------------------------
 -- CIV11 - Wallis -----------------------------
