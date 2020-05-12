@@ -57,7 +57,7 @@ VALUES	('ICON_ATLAS_TROS_BUILDINGS',	256,		4,				4,				'TROS_BUILDINGS_ICONS_256
 -----------------------------------------------
 INSERT INTO	IconDefinitions
 		(Name,										Atlas,							'Index'	)
-VALUES	('ICON_BUILDING_TROS_EIDGENOSSENSCHAFT_UI',	'ICON_ATLAS_TROS_BUILDINGS',	1		),
+VALUES	('ICON_BUILDING_TROS_EIDGENOSSENSCHAFT_UI',	'ICON_ATLAS_TROS_BUILDINGS',	1		), -- Endung _UI ist nötig
 		('ICON_BUILDING_TROS_ZURICH_UI',			'ICON_ATLAS_TROS_BUILDINGS',	8		);
 
 /*
@@ -77,7 +77,7 @@ VALUES	('ICON_ATLAS_TROS_UNITS',		256,		4,				4,				'TROS_UNITS_ICONS_256.dds'		
 -----------------------------------------------
 INSERT INTO	IconDefinitions
 		(Name,									Atlas,						'Index'	)
-VALUES	('ICON_UNIT_TROS_EIDGENOSSENSCHAFT',	'ICON_ATLAS_TROS_UNITS',	1		),
-		('ICON_UNIT_TROS_ZURICH',				'ICON_ATLAS_TROS_UNITS',	8		),
-		('ICON_UNIT_TROS_BERN',					'ICON_ATLAS_TROS_UNITS',	9		);
+VALUES	('ICON_UNIT_TROS_EIDGENOSSENSCHAFT_UU',	'ICON_ATLAS_TROS_UNITS',	1		), -- Endung _UU ist nötig
+		('ICON_UNIT_TROS_ZURICH_UU',			'ICON_ATLAS_TROS_UNITS',	8		),
+		('ICON_UNIT_TROS_BERN_UU',				'ICON_ATLAS_TROS_UNITS',	9		);
 --FOW not defined yet
