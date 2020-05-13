@@ -5,9 +5,9 @@
     <Name>TROS_v_0_0_2</Name>
     <Guid>6605538d-f9d8-419a-9713-1cf485e25e09</Guid>
     <ProjectGuid>06ffd583-bfe5-45b2-bf83-5db0b463f120</ProjectGuid>
-    <ModVersion>13</ModVersion>
+    <ModVersion>14</ModVersion>
     <Teaser>The Rise of Switzerland</Teaser>
-    <Description>This is a brief description of the mod.</Description>
+    <Description>Play as one of 11 rulers from Swiss Confederation, Habsburg, Wallis, Grisons, Berne, Zurich, Savoy, Burgund, Germany, France or Italy; with each unique advantages.</Description>
     <Authors>Michael Weber</Authors>
     <SpecialThanks>Kruemi</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -16,13 +16,12 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>Keniisu's Rise and Fall Civ Template</AssemblyName>
     <RootNamespace>Keniisu's Rise and Fall Civ Template</RootNamespace>
-<<<<<<< HEAD
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization/Eigenossenschaft_Civilization.sql</File><File>Core/Civilization/Eigenossenschaft_UA.sql</File><File>Core/Civilization/Eigenossenschaft_UU.sql</File><File>Core/Civilization/Habsburg_Civilization.sql</File><File>Core/Civilization/Habsburg_UA.sql</File><File>Core/Civilization/Habsburg_UU.sql</File><File>Core/Civilization/Zurich_Civilization.sql</File><File>Core/Civilization/Zurich_UA.sql</File><File>Core/Civilization/Zurich_UU.sql</File><File>Core/Civilization/Burgund_Civilization.sql</File><File>Core/Civilization/Burgund_UA.sql</File><File>Core/Civilization/Burgund_UU.sql</File><File>Core/Civilization/Savoyen_Civilization.sql</File><File>Core/Civilization/Savoyen_UA.sql</File><File>Core/Civilization/Savoyen_UU.sql</File><File>Core/Civilization/Bern_Civilization.sql</File><File>Core/Civilization/Bern_UA.sql</File><File>Core/Civilization/Bern_UU.sql</File><File>Core/Civilization/Graubunden_Civilization.sql</File><File>Core/Civilization/Graubunden_UA.sql</File><File>Core/Civilization/Graubunden_UU.sql</File><File>Core/Civilization/Wallis_Civilization.sql</File><File>Core/Civilization/Wallis_UA.sql</File><File>Core/Civilization/Wallis_UU.sql</File><File>Core/Civilization/TROSGeneral_Civilization.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File><File>Core/Leader/Stauffacher_Text.sql</File><File>Core/Civilization/Habsburg_Text.sql</File><File>Core/Leader/Rudolf_Text.sql</File><File>Core/Civilization/Zurich_Text.sql</File><File>Core/Leader/Alfred_Text.sql</File><File>Core/Civilization/Burgund_Text.sql</File><File>Core/Leader/KarldK_Text.sql</File><File>Core/Civilization/Savoyen_Text.sql</File><File>Core/Leader/Viktor_Text.sql</File><File>Core/Civilization/Bern_Text.sql</File><File>Core/Leader/Jakob_Text.sql</File><File>Core/Civilization/Graubunden_Text.sql</File><File>Core/Leader/Jenatsch_Text.sql</File><File>Core/Civilization/Wallis_Text.sql</File><File>Core/Leader/BischofVS_Text.sql</File><File>Core/Civilization/TROSGeneral_Text.sql</File><File>Core/Leader/TROSLeader_Text.sql</File></UpdateText><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_UA.sql</File><File>Core/Leader/Stauffacher_Leader.sql</File><File>Core/Leader/Stauffacher_Agenda.sql</File><File>Core/Leader/Rudolf_UA.sql</File><File>Core/Leader/Rudolf_Leader.sql</File><File>Core/Leader/Rudolf_Agenda.sql</File><File>Core/Leader/Alfred_UA.sql</File><File>Core/Leader/Alfred_Leader.sql</File><File>Core/Leader/Alfred_Agenda.sql</File><File>Core/Leader/KarldK_UA.sql</File><File>Core/Leader/KarldK_Leader.sql</File><File>Core/Leader/KarldK_Agenda.sql</File><File>Core/Leader/Viktor_UA.sql</File><File>Core/Leader/Viktor_Leader.sql</File><File>Core/Leader/Viktor_Agenda.sql</File><File>Core/Leader/Jakob_UA.sql</File><File>Core/Leader/Jakob_Leader.sql</File><File>Core/Leader/Jakob_Agenda.sql</File><File>Core/Leader/Jenatsch_UA.sql</File><File>Core/Leader/Jenatsch_Leader.sql</File><File>Core/Leader/Jenatsch_Agenda.sql</File><File>Core/Leader/BischofVS_UA.sql</File><File>Core/Leader/BischofVS_Leader.sql</File><File>Core/Leader/BischofVS_Agenda.sql</File><File>Core/Leader/TROSLeader_Leader.sql</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Eidgenossenschaft_Icons.xml</File></UpdateIcons><ImportFiles id="NewAction"><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.tex</File></ImportFiles></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_Config.sql</File><File>Core/Leader/Rudolf_Config.sql</File><File>Core/Leader/Alfred_Config.sql</File><File>Core/Leader/KarldK_Config.sql</File><File>Core/Leader/Viktor_Config.sql</File><File>Core/Leader/Jakob_Config.sql</File><File>Core/Leader/Jenatsch_Config.sql</File><File>Core/Leader/BischofVS_Config.sql</File><File>Core/Leader/TROSLeader_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File><File>Core/Leader/Stauffacher_Text.sql</File><File>Core/Civilization/Habsburg_Text.sql</File><File>Core/Leader/Rudolf_Text.sql</File><File>Core/Civilization/Zurich_Text.sql</File><File>Core/Leader/Alfred_Text.sql</File><File>Core/Civilization/Burgund_Text.sql</File><File>Core/Leader/KarldK_Text.sql</File><File>Core/Civilization/Savoyen_Text.sql</File><File>Core/Leader/Viktor_Text.sql</File><File>Core/Civilization/Bern_Text.sql</File><File>Core/Leader/Jakob_Text.sql</File><File>Core/Civilization/Graubunden_Text.sql</File><File>Core/Leader/Jenatsch_Text.sql</File><File>Core/Civilization/Wallis_Text.sql</File><File>Core/Leader/BischofVS_Text.sql</File><File>Core/Civilization/TROSGeneral_Text.sql</File><File>Core/Leader/TROSLeader_Text.sql</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Eidgenossenschaft_Icons.xml</File></UpdateIcons><ImportFiles id="NewAction"><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
-=======
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization/Eigenossenschaft_Civilization.sql</File><File>Core/Civilization/Eigenossenschaft_UA.sql</File><File>Core/Civilization/Eigenossenschaft_UU.sql</File><File>Core/Civilization/Habsburg_Civilization.sql</File><File>Core/Civilization/Habsburg_UA.sql</File><File>Core/Civilization/Habsburg_UU.sql</File><File>Core/Civilization/Zurich_Civilization.sql</File><File>Core/Civilization/Zurich_UA.sql</File><File>Core/Civilization/Zurich_UU.sql</File><File>Core/Civilization/Burgund_Civilization.sql</File><File>Core/Civilization/Burgund_UA.sql</File><File>Core/Civilization/Burgund_UU.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File><File>Core/Leader/Stauffacher_Text.sql</File><File>Core/Civilization/Habsburg_Text.sql</File><File>Core/Leader/Rudolf_Text.sql</File><File>Core/Civilization/Zurich_Text.sql</File><File>Core/Leader/Alfred_Text.sql</File><File>Core/Civilization/Burgund_Text.sql</File><File>Core/Leader/KarldK_Text.sql</File></UpdateText><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_UA.sql</File><File>Core/Leader/Stauffacher_Leader.sql</File><File>Core/Leader/Stauffacher_Agenda.sql</File><File>Core/Leader/Rudolf_UA.sql</File><File>Core/Leader/Rudolf_Leader.sql</File><File>Core/Leader/Rudolf_Agenda.sql</File><File>Core/Leader/Alfred_UA.sql</File><File>Core/Leader/Alfred_Leader.sql</File><File>Core/Leader/Alfred_Agenda.sql</File><File>Core/Leader/KarldK_UA.sql</File><File>Core/Leader/KarldK_Leader.sql</File><File>Core/Leader/KarldK_Agenda.sql</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Eidgenossenschaft_Icons.xml</File><File>Core/Zurich_Icons.xml</File><File>Core/Habsburg_Icons.xml</File><File>Core/Burgund_Icons.xml</File></UpdateIcons><ImportFiles id="NewAction"><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.tex</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.tex</File><File>Textures/ICON_CIVILIZATION_TROS_ZURICH_256.dds</File><File>Textures/ICON_CIVILIZATION_TROS_ZURICH_256.tex</File><File>Textures/ICON_CIVILIZATION_TROS_HABSBURG_256.dds</File><File>Textures/ICON_CIVILIZATION_TROS_HABSBURG_256.tex</File><File>Textures/ICON_CIVILIZATION_TROS_BURGUND_256.dds</File><File>Textures/ICON_CIVILIZATION_TROS_BURGUND_256.tex</File></ImportFiles></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Leader/Stauffacher_Config.sql</File><File>Core/Leader/Rudolf_Config.sql</File><File>Core/Leader/Alfred_Config.sql</File><File>Core/Leader/KarldK_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization/Eigenossenschaft_Text.sql</File><File>Core/Leader/Stauffacher_Text.sql</File><File>Core/Civilization/Habsburg_Text.sql</File><File>Core/Leader/Rudolf_Text.sql</File><File>Core/Civilization/Zurich_Text.sql</File><File>Core/Leader/Alfred_Text.sql</File><File>Core/Civilization/Burgund_Text.sql</File><File>Core/Leader/KarldK_Text.sql</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Eidgenossenschaft_Icons.xml</File></UpdateIcons><ImportFiles id="NewAction"><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.dds</File><File>Textures/ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
->>>>>>> 0f952bcf734cd5ae8a37023625a0f17c142c8ff2
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/TROS_Civilizations.sql</File><File>Core/TROS_Civilizations_Traits.sql</File><File>Core/TROS_Units.sql</File><File>Core/TROS_Buildings.sql</File><File>Core/TROS_Leaders.sql</File><File>Core/TROS_Leaders_Trait.sql</File><File>Core/TROS_Leaders_Agenda.sql</File></UpdateDatabase><UpdateText id="TROS_Text"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/TROS_Text.sql</File><File>Core/TROS_Config_Text.sql</File><File>Core/TROS_Leaders_Text.sql</File></UpdateText><UpdateIcons id="NewAction"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/TROS_Civilizations_Icons.sql</File><File>Core/TROS_Leaders_Icons.sql</File><File>Core/TROS_Icons.sql</File></UpdateIcons><UpdateArt id="NewAction"><Properties><LoadOrder>100</LoadOrder></Properties><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><Properties><LoadOrder>100</LoadOrder></Properties><File>Assets/Gameplay/Resources.sql</File></UpdateDatabase><UpdateDatabase id="TROS_Scenario"><Properties><RuleSet>RULESET_SCENARIO_TROS</RuleSet><LoadOrder>1000</LoadOrder></Properties><File>Scenario/Data/TROS_Scenario_InGameSettings.sql</File><File>Scenario/Core/TROSGeneral_Civilization.sql</File><File>Scenario/Core/TROSLeader_Leader.sql</File></UpdateDatabase><AddGameplayScripts id="TROS_GameplayScripts"><Properties><RuleSet>RULESET_SCENARIO_TROS</RuleSet><LoadOrder>1000</LoadOrder></Properties><File>Scenario/TROS_Scenario.lua</File></AddGameplayScripts><UpdateText id="TROS_Text"><Properties><RuleSet>RULESET_SCENARIO_TROS</RuleSet><LoadOrder>1000</LoadOrder></Properties><File>Scenario/Core/TROSGeneral_Text.sql</File><File>Scenario/Core/TROSLeader_Text.sql</File></UpdateText><ReplaceUIScript id="BoostUnlockedPopup"><Properties><RuleSet>RULESET_SCENARIO_TROS</RuleSet><LuaContext>BoostUnlockedPopup</LuaContext><LuaReplace>Scenario/Replacements/BoostUnlockedPopup_TROS_Scenario.lua</LuaReplace></Properties></ReplaceUIScript><ReplaceUIScript id="InGame"><Properties><RuleSet>RULESET_SCENARIO_TROS</RuleSet><LuaContext>InGame</LuaContext><LuaReplace>Scenario/Replacements/InGame_TROS_Scenario.lua</LuaReplace></Properties></ReplaceUIScript><ImportFiles id="LuaFunctions"><Properties><RuleSet>RULESET_SCENARIO_TROS</RuleSet></Properties><File>Scenario/LuaFunctions/TROS_DeclareWarPopup.lua</File></ImportFiles><AddUserInterfaces id="TROS_UI_Scripts"><Properties><RuleSet>RULESET_SCENARIO_TROS</RuleSet><LoadOrder>1000</LoadOrder><Context>InGame</Context></Properties><File>Scenario/TROS_Scenario_UI.xml</File></AddUserInterfaces><UpdateColors id="NewAction"><File>Core/TROS_Colors.sql</File></UpdateColors><UpdateDatabase id="WITHOUT_RULESET_RESTRICTION"><File>Scenario/Core/TROSGeneral_Civilization.sql</File></UpdateDatabase><UpdateText id="WITHOUT_RULESET_RESTRICTION"><File>Scenario/Core/TROSGeneral_Text.sql</File></UpdateText></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/TROS_Config.sql</File></UpdateDatabase><UpdateText id="TROS_Text"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/TROS_Config_Text.sql</File><File>Core/TROS_Leaders_Text.sql</File><File>Core/TROS_Text.sql</File></UpdateText><UpdateIcons id="NewAction"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/TROS_Civilizations_Icons.sql</File><File>Core/TROS_Leaders_Icons.sql</File><File>Core/TROS_Icons.sql</File></UpdateIcons><AddMap id="StandardMaps"><Properties><Name>Switzerland_Huge</Name><Description>Map of Middle Europe</Description><Group>StandardMaps</Group><LoadOrder>100</LoadOrder></Properties><File>Maps/TROS_v_0_0_2_KEINMOD.Civ6Map</File></AddMap><AddMap id="Expansion1Maps"><Properties><Name>Switzerland_Huge</Name><Description>Map of Middle Europe</Description><Group>Maps:Expansion1Maps</Group><LoadOrder>100</LoadOrder></Properties><File>Maps/TROS_v_0_0_2_KEINMOD.Civ6Map</File></AddMap><UpdateArt id="ModArtDependencyFile"><Properties><LoadOrder>100</LoadOrder></Properties><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="TROS_Scenario"><Properties><RuleSet>RULESET_SCENARIO_TROS</RuleSet><LoadOrder>1000</LoadOrder></Properties><File>Scenario/Data/TROS_Scenario_Config.sql</File><File>Scenario/Data/TROS_Scenario_RemoveData.sql</File></UpdateDatabase><UpdateText id="TROS_Scenario_Text"><Properties><RuleSet>RULESET_SCENARIO_TROS</RuleSet><LoadOrder>1000</LoadOrder></Properties><File>Scenario/Text/TROS_Scenario_Text.sql</File><File>Scenario/Core/TROSGeneral_Text.sql</File><File>Scenario/Core/TROSLeader_Text.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/TROS_Colors.sql</File></UpdateColors><UpdateText id="WITHOUT_RULESET_RESTRICTION"><File>Scenario/Core/TROSGeneral_Text.sql</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -31,352 +30,527 @@
     <None Include="Mod.Art.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="Assets\Gameplay\" />
+    <Folder Include="Assets\UI\" />
+    <Folder Include="Assets\UI\Icons\" />
     <Folder Include="Core" />
-    <Folder Include="Core\Civilization" />
-    <Folder Include="Core\Leader" />
+    <Folder Include="ArtDefs" />
+    <Folder Include="Maps" />
+    <Folder Include="Scenario" />
+    <Folder Include="Scenario\Data\" />
+    <Folder Include="Scenario\Core" />
+    <Folder Include="Scenario\LuaFunctions" />
+    <Folder Include="Scenario\XLPs" />
+    <Folder Include="Scenario\Replacements" />
+    <Folder Include="Scenario\Text\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Gameplay\Resources.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Buildings.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Civilizations.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Civilizations_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Civilizations_Traits.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Config_Text.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Leaders.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Leaders_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Leaders_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Leaders_Text.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Leaders_Trait.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Text.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TROS_Units.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Maps\TROS_v_0_0_2_KEINMOD.Civ6Map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Core\TROSGeneral_Civilization.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Core\TROSGeneral_Text.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Core\TROSLeader_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Core\TROSLeader_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Core\TROSLeader_Text.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Data\TROS_Scenario_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Data\TROS_Scenario_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Data\TROS_Scenario_RemoveData.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Data\TROS_Scenario_InGameSettings.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\LuaFunctions\TROS_DeclareWarPopup.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Replacements\BoostUnlockedPopup_TROS_Scenario.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Replacements\InGame_TROS_Scenario.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\Text\TROS_Scenario_Text.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\TROS_Scenario.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\TROS_Scenario_UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\TROS_Scenario_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scenario\XLPs\TROS_Scenario_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_ALFRED.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_ALFRED.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_BISCHOFVS.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_BISCHOFVS.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_JAKOB.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_JAKOB.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_JENATSCH.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_JENATSCH.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_KARLDK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_KARLDK.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_RUDOLF.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_RUDOLF.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_STAUFFACHER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_STAUFFACHER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_VIKTOR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TROS_VIKTOR.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_ALFRED.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_ALFRED.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_BISCHOFVS.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_BISCHOFVS.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_JAKOB.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_JAKOB.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_JENATSCH.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_JENATSCH.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_KARLDK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_KARLDK.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_RUDOLF.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_RUDOLF.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_STAUFFACHER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_STAUFFACHER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_VIKTOR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_TROS_VIKTOR.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_ALFRED_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_ALFRED_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_ALFRED_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_ALFRED_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_BISCHOFVS_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_BISCHOFVS_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_BISCHOFVS_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_BISCHOFVS_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JAKOB_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JAKOB_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JAKOB_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JAKOB_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JENATSCH_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JENATSCH_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JENATSCH_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_JENATSCH_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_KARLDK_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_KARLDK_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_KARLDK_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_KARLDK_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_RUDOLF_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_RUDOLF_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_RUDOLF_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_RUDOLF_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_STAUFFACHER_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_STAUFFACHER_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_STAUFFACHER_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_STAUFFACHER_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_VIKTOR_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_VIKTOR_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_VIKTOR_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TROS_VIKTOR_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
 <<<<<<< HEAD
-    <Content Include="Core\Civilization\Bern_Civilization.sql">
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_128.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Bern_Text.sql">
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_128.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Bern_UA.sql">
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Bern_UU.sql">
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TROS_BUILDINGS_ICONS_80.tex">
 =======
-    <Content Include="Core\Burgund_Icons.xml">
->>>>>>> 0f952bcf734cd5ae8a37023625a0f17c142c8ff2
+    <Content Include="Textures\TROS_CITYSTATES_ICONS_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Burgund_Civilization.sql">
+    <Content Include="Textures\TROS_CITYSTATES_ICONS_256.tex">
+>>>>>>> 42aec97... Vorbereitung
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Burgund_Text.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_22.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Burgund_UA.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_22.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Burgund_UU.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Eigenossenschaft_Civilization.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Eigenossenschaft_Text.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_30.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Eigenossenschaft_UA.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_30.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Eigenossenschaft_UU.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_36.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Graubunden_Civilization.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_36.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Graubunden_Text.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_44.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Graubunden_UA.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_44.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Graubunden_UU.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_48.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Habsburg_Civilization.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_48.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Habsburg_Text.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Habsburg_UA.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Habsburg_UU.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_64.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Savoyen_Civilization.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_64.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Savoyen_Text.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Savoyen_UA.sql">
+    <Content Include="Textures\TROS_CIVILIZATIONS_ICONS_80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Savoyen_UU.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\TROSGeneral_Civilization.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\TROSGeneral_Text.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_32.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Wallis_Civilization.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Wallis_Text.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_45.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Wallis_UA.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_45.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Wallis_UU.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Zurich_Civilization.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Zurich_Text.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_55.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Zurich_UA.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_55.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Civilization\Zurich_UU.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_64.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Eidgenossenschaft_Icons.xml">
+    <Content Include="Textures\TROS_LEADERS_ICONS_64.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Habsburg_Icons.xml">
+    <Content Include="Textures\TROS_LEADERS_ICONS_80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Alfred_Agenda.sql">
+    <Content Include="Textures\TROS_LEADERS_ICONS_80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Alfred_Config.sql">
+    <Content Include="Textures\TROS_UNITS_ICONS_22.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Alfred_Leader.sql">
+    <Content Include="Textures\TROS_UNITS_ICONS_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Alfred_Text.sql">
+    <Content Include="Textures\TROS_UNITS_ICONS_256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Alfred_UA.sql">
+    <Content Include="Textures\TROS_UNITS_ICONS_32.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\BischofVS_Agenda.sql">
+    <Content Include="Textures\TROS_UNITS_ICONS_38.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\BischofVS_Config.sql">
+    <Content Include="Textures\TROS_UNITS_ICONS_50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\BischofVS_Leader.sql">
+    <Content Include="Textures\TROS_UNITS_ICONS_80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\BischofVS_Text.sql">
+    <Content Include="TROS_v_0_0_2.Art.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\BischofVS_UA.sql">
+    <Content Include="XLPs\Icons.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jakob_Agenda.sql">
+    <Content Include="XLPs\LeaderBackgrounds.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jakob_Config.sql">
+    <Content Include="XLPs\LeaderFallbacks.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jakob_Leader.sql">
+    <Content Include="XLPs\LEADER_TROS_ALFRED.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jakob_Text.sql">
+    <Content Include="XLPs\LEADER_TROS_BISCHOFVS.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jakob_UA.sql">
+    <Content Include="XLPs\LEADER_TROS_JAKOB.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jenatsch_Agenda.sql">
+    <Content Include="XLPs\LEADER_TROS_JENATSCH.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jenatsch_Config.sql">
+    <Content Include="XLPs\LEADER_TROS_KARLDK.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jenatsch_Leader.sql">
+    <Content Include="XLPs\LEADER_TROS_RUDOLF.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jenatsch_Text.sql">
+    <Content Include="XLPs\LEADER_TROS_STAUFFACHER.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\Jenatsch_UA.sql">
+    <Content Include="XLPs\LEADER_TROS_VIKTOR.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader\KarldK_Agenda.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\KarldK_Config.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\KarldK_Leader.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\KarldK_Text.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\KarldK_UA.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Rudolf_Agenda.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Rudolf_Config.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Rudolf_Leader.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Rudolf_Text.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Rudolf_UA.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Stauffacher_Agenda.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Stauffacher_Config.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Stauffacher_Leader.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Stauffacher_Text.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Stauffacher_UA.sql">
-      <SubType>Content</SubType>
-    </Content>
-<<<<<<< HEAD
-    <Content Include="Core\Leader\TROSLeader_Config.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\TROSLeader_Leader.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\TROSLeader_Text.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Viktor_Agenda.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Viktor_Config.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Viktor_Leader.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Viktor_Text.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader\Viktor_UA.sql">
-=======
-    <Content Include="Core\Zurich_Icons.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_BURGUND_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_BURGUND_256.tex">
->>>>>>> 0f952bcf734cd5ae8a37023625a0f17c142c8ff2
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_200.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_30.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_36.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_44.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_48.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_COLOR_45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_HABSBURG_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_HABSBURG_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_ZURICH_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_TROS_ZURICH_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\Icons_Burgund.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\Icons_Eidgenossenschaft.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\Icons_Habsburg.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\Icons_Zurich.xlp">
+    <Content Include="XLPs\UILeaders.xlp">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
