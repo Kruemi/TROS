@@ -10,7 +10,7 @@ INSERT INTO Types
 VALUES
 -- CIV1  - Eidgenossenschaft ------------------
 	('BUILDING_TROS_EIDGENOSSENSCHAFT_UI',				'KIND_BUILDING'	), -- (Base\Assets\Gameplay\Buildings.xml)
-	('TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UI',	'KIND_TRAIT'	), -- (Base\Assets\Gameplay\Civilizations.xml)
+	--('TRAIT_CIVILIZATION_TROS_EIDGENOSSENSCHAFT_UI',	'KIND_TRAIT'	), -- (Base\Assets\Gameplay\Civilizations.xml) DUPLICATE (in TROS_Civilization_Traits.sql)
 -- CIV2  - Frankreich -------------------------
 -- CIV3  - Burgund ----------------------------
 -- CIV4  - Savoyen ----------------------------
@@ -18,8 +18,8 @@ VALUES
 -- CIV6  - Italien ----------------------------
 -- CIV7  - Habsburg ---------------------------
 -- CIV8  - Zürich -----------------------------
-	('BUILDING_TROS_ZURICH_UI',						'KIND_BUILDING'	), -- (Base\Assets\Gameplay\Buildings.xml)
-	('TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI',	'KIND_TRAIT'	); -- (Base\Assets\Gameplay\Civilizations.xml)
+	('BUILDING_TROS_ZURICH_UI',						'KIND_BUILDING'	); -- (Base\Assets\Gameplay\Buildings.xml)
+	-- ('TRAIT_CIVILIZATION_BUILDING_TROS_ZURICH_UI',	'KIND_TRAIT'	); -- (Base\Assets\Gameplay\Civilizations.xml) DUPLICATE (in TROS_Civilization_Traits.sql)
 -- CIV9  - Bern -------------------------------
 -- CIV10 - Graubünden -------------------------
 -- CIV11 - Wallis -----------------------------
@@ -27,7 +27,8 @@ VALUES
 -----------------------------------------------
 -- Traits (Base\Assets\Gameplay\Civilizations.xml)
 -----------------------------------------------
-INSERT INTO	Traits
+-- DUPLICATE (see TROS_Civilizations_Traits.sql)
+/*INSERT INTO	Traits
 	(TraitType,											Name, Description)
 VALUES
 -- CIV1  - Eidgenossenschaft ------------------
@@ -43,10 +44,13 @@ VALUES
 -- CIV9  - Bern -------------------------------
 -- CIV10 - Graubünden -------------------------
 -- CIV11 - Wallis -----------------------------
+*/
 
 -----------------------------------------------
 -- CivilizationTraits (Base\Assets\Gameplay\Civilizations.xml)
 -----------------------------------------------
+-- DUPLICATE (see TROS_Civilizations_Traits.sql)
+/*
 INSERT INTO	CivilizationTraits
 	(CivilizationType,						TraitType)
 VALUES
@@ -63,6 +67,7 @@ VALUES
 -- CIV9  - Bern -------------------------------
 -- CIV10 - Graubünden -------------------------
 -- CIV11 - Wallis -----------------------------
+*/
 
 -----------------------------------------------
 -- BuildingReplaces (Base\Assets\Gameplay\Buildings.xml)
