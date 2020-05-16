@@ -416,9 +416,9 @@ VALUES	('TROS_Scenario_Players',			'RANDOM',							'LOC_RANDOM_LEADER',	'LOC_RAN
 INSERT INTO MapDomainOverrides
 		(Map, ParameterId, Domain)
 VALUES	(
-		'{6605538d-f9d8-419a-9713-1cf485e25e09}Maps/TROS_v_0_0_2_KEINMOD.Civ6Map',
+		'{6605538d-f9d8-419a-9713-1cf485e25e09}Maps/TROS_v_0_0_2_STADTSTAATEN.Civ6Map',
 		'MapSize',
-		'{6605538d-f9d8-419a-9713-1cf485e25e09}Maps/TROS_v_0_0_2_KEINMOD.Civ6Map');
+		'{6605538d-f9d8-419a-9713-1cf485e25e09}Maps/TROS_v_0_0_2_STADTSTAATEN.Civ6Map');
 
 -----------------------------------------------
 -- MapSizes
@@ -426,7 +426,7 @@ VALUES	(
 INSERT INTO MapSizes
 		(Domain, MapSizeType, Name, Description, MinPlayers, MaxPlayers, DefaultPlayers, MinCityStates, MaxCityStates, DefaultCityStates, SortIndex)
 VALUES	(
-		'{6605538d-f9d8-419a-9713-1cf485e25e09}Maps/TROS_v_0_0_2_KEINMOD.Civ6Map', -- Domain
+		'{6605538d-f9d8-419a-9713-1cf485e25e09}Maps/TROS_v_0_0_2_STADTSTAATEN.Civ6Map', -- Domain
 		'MAPSIZE_HUGE', -- MapSizeType
 		'LOC_MAPSIZE_HUGE_NAME', -- Name
 		'LOC_MAPSIZE_HUGE_DESCRIPTION', -- Description
@@ -466,7 +466,7 @@ VALUES	('RULESET_SCENARIO_TROS',	Null,		'PlayerLeader',	'TROS_Scenario_Players'	
 INSERT INTO RulesetSupportedValues
 		(Ruleset,					PlayerId,	Domain,						Value						)
 VALUES	('RULESET_SCENARIO_TROS',	Null,		'StandardMapSizes',			'MAPSIZE_HUGE'				),
-		('RULESET_SCENARIO_TROS',	Null,		'Maps:Expansion1Maps',		'{6605538d-f9d8-419a-9713-1cf485e25e09}Maps/TROS_v_0_0_2_KEINMOD.Civ6Map'			),
+		('RULESET_SCENARIO_TROS',	Null,		'Maps:Expansion1Maps',		'{6605538d-f9d8-419a-9713-1cf485e25e09}Maps/TROS_v_0_0_2_STADTSTAATEN.Civ6Map'			),
 		('RULESET_SCENARIO_TROS',	Null,		'StandardTurnLimits',		'TURNLIMIT_CUSTOM'			);/*, UNCOMMENT BEFORE RELEASE
 		('RULESET_SCENARIO_TROS',	'0',		'TROS_Scenario_Players',	'LEADER_TROS_STAUFFACHER'	),
 		('RULESET_SCENARIO_TROS',	'1',		'TROS_Scenario_Players',	'LEADER_TROS_JAKOB'			),
